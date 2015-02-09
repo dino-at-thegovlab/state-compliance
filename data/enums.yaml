@@ -1,38 +1,116 @@
 ---
 
-activities:
+type:
+  - All
+  - Tools
+  - Case-Studies
+  - Research Papers
+  - Funds
+scope:
+  - All
+  - International
+  - Regional
+  - Local
+sector:
+  - All
+  - Government
+  - Private
+  - Non-profit
+  - Education
+Activity:
+  - All
   - Tasks
   - Data
   - Opinions
   - Ideas
   - Funds
-sectors:
-  - Government
-  - Private
-  - Non-profit
-  - Education
-scopes:
-  - International
-  - Regional
-  - Local
-foci:
-  - Transparency-Accountability
-  - Crowdfunding
-  - Q&A Site
-  - Crisis Mapping
-  - Citizen Science
-  - Prize-backed Challenges
-  - Open Data
-incentives:
-  - Civic Reposnibility
+Cost:
+  - All
+  - Free
+  - $1 - 200 USD/year
+  - $201 - 999 USD/year
+  - $1,000 USD/year +
+  - Consultant
 
 advisor_dimensions: 
   - 
-    name: "SMS"
+    name: "Tasks"
     weight: 0.4
   - 
-    name: "Mobile"
+    name: "Data"
     weight: 0.4
   -
-    name: "Web"
+    name: "Funds"
+    weight: 0.4
+  - 
+    name: "Opinions"
+    weight: 0.4
+  - 
+    name: "Ideas"
+    weight: 0.4
+  -
+    name: "Financial Incentives"
     weight: 0.3
+  - 
+    name: "Knowledge Building and Information Sharing"
+    weight: 0.3
+  - 
+    name: "Skill Development"
+    weight: 0.3
+  -
+    name: "Community Building"
+    weight: 0.3
+  - 
+    name: "Civic Responsibility"
+    weight: 0.3
+  - 
+    name: "Competition"
+    weight: 0.3
+  -
+    name: "Altruistic incentive"
+    weight: 0.3
+  - 
+    name: "Recreational (ludic) incentive"
+    weight: 0.3
+  - 
+    name: "Network Building"
+    weight: 0.3
+  -
+    name: "Identity and Portfolio building"
+    weight: 0.3
+  - 
+    name: "Public Recognition"
+    weight: 0.3
+  - 
+    name: "Personal satisfaction"
+    weight: 0.3
+  - 
+    name: "You"
+    weight: 0.2
+  - 
+    name: "Group of Experts"
+    weight: 0.2
+  -
+    name: "Voting"
+    weight: 0.2
+  - 
+    name: "Rating"
+    weight: 0.2
+  - 
+    name: "Peer-reviewed"
+    weight: 0.2
+  -
+    name: "No Quality Control"
+    weight: 0.2
+  -
+    name: "Mobile Application"
+    weight: 0.1
+  - 
+    name: "Website"
+    weight: 0.1
+  - 
+    name: "SMS Texts"
+    weight: 0.1
+  -
+    name: "Social Media"
+    weight: 0.1
