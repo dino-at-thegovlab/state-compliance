@@ -8,10 +8,12 @@ from jinja2 import Environment, FileSystemLoader
 TEMPLATES_DIR = 'templates'
 CASE_STUDIES = yaml.load(open('data/case-studies-en.yaml'))
 ENUMS = yaml.load(open('data/enums.yaml'))
+CONTENT = yaml.load(open('data/content.yaml'))
 template_data = {
 	'title': 'Crowdsourcing Advisor - a GovLab production',
 	'case_studies': CASE_STUDIES, 
 	'enums': ENUMS,
+	'content': CONTENT,
 	'total_case_studies': len(CASE_STUDIES)
 }
 
@@ -28,6 +30,11 @@ def Main():
 	projects = {}
 	for case in CASE_STUDIES:
 		projects[case['title'].replace(" ","-").lower()] = case
+	#Delete all case study files
+	old_case_studies = glob.glob('site/ajax/*')
+	for f in old_case_studies:
+		os.remove(f)
+	#Recreate new ones
 	for key, value in projects.items():
 		template = env.get_template('project.html')
 		html = template.render(value)

@@ -1,0 +1,32 @@
+---
+team:
+  -
+    name: Beth Noveck
+    title: Advisory Board
+    twitter: https://twitter.com/bethnoveck
+    thumbnail: img/team/beth-noveck.jpg
+  -
+    name: Stefaan Verhulst
+    title: Advisory Board
+    twitter: https://twitter.com/sverhulst
+    thumbnail: img/team/stefaan-verhulst.jpg
+  -
+    name: Arnaud Sahuguet
+    title: Advisory Board
+    twitter: https://twitter.com/sahuguet
+    thumbnail: img/team/arnaud-sahuguet.jpg
+  -
+    name: Dinorah Cantú
+    title: Researcher
+    twitter: https://twitter.com/dinorah_cantu
+    thumbnail: img/team/dinorah-cantu.jpg
+  -
+    name: Irene Tello
+    title: Researcher
+    twitter: https://twitter.com/itelloarista
+    thumbnail: img/team/irene-tello.jpg
+  -
+    name: Luis Daniel
+    title: Developer
+    twitter: https://twitter.com/luisdaniel12
+    thumbnail: img/team/luis-daniel.jpg

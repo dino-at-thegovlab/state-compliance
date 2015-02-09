@@ -99,20 +99,22 @@ jQuery(document).ready(function($) {
        }
     });
 	
-	// //OWLCAROUSEL TEAM
-	// $("#team-slider").owlCarousel({
+	//OWLCAROUSEL TEAM
+	$("#team-slider").owlCarousel({
  
-	// 	slideSpeed : 300,
-	// 	paginationSpeed : 400,
-	// 	singleItem:false,
-	// 	items : 3,
-	// 	itemsDesktop : [1200,3],
-	// 	itemsDesktopSmall : [980,3],
-	// 	itemsTablet: [768,2],
-	// 	itemsMobile : [479,1],
-	// 	navigation : true, // Show next and prev buttons
-	// 	navigationText : ['<i class="pe-7s-angle-left-circle pe-3x"></i>','<i class="pe-7s-angle-right-circle pe-3x"></i>']
-	// });
+		slideSpeed : 300,
+		paginationSpeed : 400,
+        autoPlay : true,
+		singleItem:false,
+		items : 3,
+		itemsDesktop : [1200,3],
+		itemsDesktopSmall : [980,3],
+		itemsTablet: [768,2],
+		itemsMobile : [479,1],
+        pagination : true,
+		navigation : true, // Show next and prev buttons
+		navigationText : ['<i class="pe-7s-angle-left-circle pe-3x"></i>','<i class="pe-7s-angle-right-circle pe-3x"></i>'],
+	});
 	
 	
 	// //OWLCAROUSEL CLIENTS 
