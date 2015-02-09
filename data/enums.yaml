@@ -25,3 +25,14 @@ foci:
   - Open Data
 incentives:
   - Civic Reposnibility
+
+advisor_dimensions: 
+  - 
+    name: "SMS"
+    weight: 0.4
+  - 
+    name: "Mobile"
+    weight: 0.4
+  -
+    name: "Web"
+    weight: 0.3
