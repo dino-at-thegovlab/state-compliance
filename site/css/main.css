@@ -366,6 +366,11 @@ p .accordion-toggle {
 	margin-left:20px;
 }
 
+#questionnaire .why-ask {
+	font-size: 14px;
+	text-decoration: underline;
+}
+
 #questionnaire small {
 	font-size: 10px;
 	font-family: 'Montserrat';
@@ -415,6 +420,10 @@ p .accordion-toggle {
 #questionnaire .button-generate-report {
 	border-color: #333333;
 	color: #333333;
+}
+
+#questionnaire .answer-choice {
+	margin-left: 20px;
 }
 
 

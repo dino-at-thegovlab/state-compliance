@@ -151,7 +151,7 @@
                         <div id="grid-container" class="cbp-l-grid-projects ">
                             <ul>
                                 {% for case in case_studies %}
-                                    <li class="cbp-item {{case['focus'].replace(" ","-").lower() }}">
+                                    <li class="cbp-item {% if case['focus'] %}{{case['focus'].replace(" ","-").lower() }}{% endif %}">
                                         <div class="cbp-caption">
                                             <div class="cbp-caption-defaultWrap">
                                                 <img src="img/1.jpg" alt="" width="100%">
@@ -159,14 +159,14 @@
                                             <div class="cbp-caption-activeWrap">
                                                 <div class="cbp-l-caption-alignCenter">
                                                     <div class="cbp-l-caption-body">
-                                                        <a href="ajax/{{case['title'].replace(" ","-").lower()}}.html" class="cbp-singlePage cbp-l-caption-buttonLeft"><i class="pe-3x pe-7s-plus"></i></a>
+                                                        <a href="{% if case['focus'] %}ajax/{{case['title'].replace(" ","-").lower()}}.html {% endif %}" class="cbp-singlePage cbp-l-caption-buttonLeft"><i class="pe-3x pe-7s-plus"></i></a>
                                                         <a href="{{case['thumbnail_url']}}" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Dashboard<br>by Paul Flavius Nechita"><i class="pe-3x pe-7s-search"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="cbp-l-grid-projects-title">{{case['title']}}</div>
-                                        <div class="cbp-l-grid-projects-desc">{{case['focus']}}</div>
+                                        <div class="cbp-l-grid-projects-desc">{% if case['focus'] %}{{case['focus']}} {% endif %}</div>
                                     </li>
                                 {% endfor %}
                             </ul>

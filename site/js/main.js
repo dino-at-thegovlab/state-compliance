@@ -88,16 +88,16 @@ jQuery(document).ready(function($) {
         $('#report').show();
     });
 
-// var total_options = [
-//         "q1-tasks", "q1-data", "q1-funds", "q1-opinions", 
-//         "q1-ideas", "q2-finance", "q2-knowledge", "q2-skill", 
-//         "q2-community", "q2-civic", "q2-competition", "q2-altruism", 
-//         "q2-recreational", "q2-networking", "q2-identity", 
-//         "q2-public", "q2-personal", "q3-yes", "q3-no", "q4-mobile", 
-//         "q4-website", "q4-sms", "q4-social", "q4-emails", "q5-you", 
-//         "q5-group", "q5-voting", "q5-rating", "q5-peer", "q5-none"]
 
-
+    //-------------------Accordion Change Chevron--------
+    $('.accordion-heading').on('click', 'p', function() {
+       var icon = $(this).find('.fa');
+       if (icon.attr('class') == 'fa fa-chevron-circle-right') {
+            icon.attr('class', 'fa fa-chevron-circle-down');
+       } else if (icon.attr('class') == 'fa fa-chevron-circle-down') {
+            icon.attr('class', 'fa fa-chevron-circle-right');
+       }
+    });
 	
 	// //OWLCAROUSEL TEAM
 	// $("#team-slider").owlCarousel({
