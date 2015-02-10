@@ -1,5 +1,5 @@
 ---
-- title: Adopt a Hydrant
+- title: Adopt-a-Hydrant
   url: http://boston.adoptahydrant.com
   description: >
    Adopt-a-Hydrant is a web application that allows citizens to "adopt" civic
@@ -108,6 +108,257 @@
   lessons:
   validation:
   
+- title: BC-Ideas
+  url: http://www.changemakers.com/bcideas
+  description: >
+   BC Ideas is an innovation community and problem-solving marketplace that grew 
+   out of the prize-based contest Solutions for Strong Communities. The original 
+   contest accepted a wide range of submissions in a number of topic areas and 
+   provided a total of $270,000 in grants.
+  activity: Tasks
+  scope: Regional
+  sector: Government
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Financial Incentives 
+   Civic Responsibility
+  location: British-Columbia
+  interface: Website
+  quality_control: Group of experts
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   The competition was launched on the Ashoka Changemakers platform on May 16, 
+   2012 by a partnership including: ArtsBC, Ashoka Canada, Ashoka Changemakers, 
+   British Columbia Association of Aboriginal Friendship Centres, BC Social 
+   Innovation Council, BC Sport Agency, Capilano University, Columbia Basin Trust, 
+   Community Council, Community Living BC, Community Living Innovation Venture, 
+   Decoda Literacy Solutions, Enterprising Non-Profits, Federation of Community 
+   Social Services of BC, ISIS at the Sauder School of Business, The J.W. McConnell 
+   Foundation, LIFT Philanthropy Partners, Planned Lifetime Advocacy Network, 
+   Province of British Columbia, Selkirk College, The Land Conservancy of BC, 
+   United Way of the Lower Mainland, Urban Systems, Vancity and Vancouver Foundation.
+   The judges panel included: Andy Broderick, Vancity; Dan George, Four Directions 
+   Management Services Ltd.; Nicole Rycroft, Canopy; Stephen Huddart, J.W. McConnell 
+   Family Foundation and Yuri Fulmer, FDC Capital.
+  participation:
+  output:
+  impact_today: >
+   In addition to launching the BC Ideas innovation community, the Solutions for 
+   Stronger Communities competition provided $270,000 in funding for a wide variety 
+   of initiatives, including Local Peer-to-Peer Micro Lending, Keeping Vulnerable 
+   Families and Together and New Page Mental Health Literacy.
+  impact_longer_term:
+  challenges: >
+   While the BC Ideas community continues to thrive—115 innovations are 
+   currently posted in the “Marketplace,” seeking to gain collaborators 
+   and funding—the actual contests have concluded, and there is no mention of a 
+   second iteration being in the works.
+   <br/> 
+   By accepting submissions at every stage, including the idea stage, the 
+   Solutions for Stronger Communities competition lowered the barrier for engagement
+   for those with potential solutions who lacked the capital or expertise to put 
+   their solutions into action. However, this low barrier to entry could also delay 
+   the impact of contest winners, since entries could take a significant amount of 
+   time and capital to operationalize.
+  lessons:
+  validation:
+
+- title: Catchafire
+  url: https://www.catchafire.org/
+  description: >
+   Catchafire is a platform that matches professionals who want to volunteer their 
+   skills with nonprofits who need their help. These skills and tasks range from 
+   help with branding, fundraising and report writing, for organizations across the 
+   wide spectrum of nonprofit field. Catchafire allows non-profits to crowdsourcing 
+   their challenges and for professionals to donate their skills.
+  activity: Tasks
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Skill Development
+   Community Building
+   Civic Responsibility 
+  location: 
+  interface:
+  quality_control: Institution
+  size:
+  duration:
+  cost:
+  platform: Website 
+  historical_information: >
+   Founded in 2010 by former investment banker Rachel Chong, Catchafire is a 
+   New York City-based for-profit company and platform that matches nonprofits 
+   needing assistance on specific projects to skilled volunteers. The inspiration 
+   for Catchafire came when as an employee at UBS, Ms. Chong participated in a 
+   volunteer opportunity that included hauling lumber to a construction site – a 
+   task that did not make use her financial skills. She was inspired to create a 
+   service that would allow professionals to donate their time in a way that 
+   was both most useful for the “receiving” organization, and also career-enhancing 
+   for the volunteer. In 2014, Catchafire became a key partner in LinkedIn’s 
+   new Volunteer Marketplace.
+  participation:
+  output:
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  validation:
+
+- title: Challenge.gov
+  url: http://www.challenge.gov
+  description: >
+   Challenge.gov is an online challenge platform administered by the U.S. federal 
+   government, which enables the government to collaborate with citizens by 
+   posting specific challenges on the site, to which the public can post submissions 
+   to these challenges, with winning selections typically receiving a prize. It is 
+   one of the first challenge platforms launched and managed by a federal government.
+  activity: Ideas 
+  scope: National
+  sector: Government
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Financial incentives
+   Civic Responsibility
+  location: 
+  interface: Website
+  quality_control: Institution 
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   In his September 2009 Strategy for American Innovation, President Obama called 
+   on agencies to increase their ability to promote innovation by using tools 
+   such as prizes and challenges to solve tough problems. On March 2010, the 
+   Office of Management and Budget (OMB) issued a memorandum on the use of 
+   challenges/contests and prizes to improve government and encourage innovation, 
+   including a promise to make a web-based platform for prizes and challenges 
+   within 120 days.
+   <br/>
+   The OMB memo also promised that the administration would '…make available 
+   a web-based platform for prizes and challenges within 120 days'. OMB 
+   tasked General Services Administration with overseeing the launch and 
+   continued program.
+  participation:
+  output:
+  impact_today: >
+   As of 2013, the site has hosted challenges posted by 45 departments and 
+   agencies, and more than 16,000 citizen “solvers” have participated in 
+   these competitions directly on Challenge.gov, with additional entrants 
+   joining the competitions through other sources.
+  impact_longer_term:
+  challenges: >
+   In the broader field of crowdsourcing, questions remain as to whether prizes 
+   create incentive for individual effort rather than teamwork within or 
+   across institutions. Regarding Challenge.gov, it is also unclear how/if 
+   participants are vetted for qualifications and whether metrics exist as 
+   to whether different prize offerings are more effective than others.
+  lessons:
+  validation:
+
+- title: Code-for-Philly 
+  url: 
+  description: >
+   Code for Philly is an online community in the city of Philadelphia, 
+   Pennsylvania that seeks to modernize the city through use of weekly 
+   meetups and hack-a-thons.
+  activity: Ideas
+  scope: Local
+  sector: Government
+  thumbnail_url: 
+  focus: 
+  incentives: Civic-Responsibility 
+  location: Philadelphia-Pennsylvania
+  interface: Website
+  quality_control: 
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+  participation:
+  output:
+  impact_today: >
+   According to Code for America's website, "since 2011, Philadelphia 
+   has created a Mayor’s Office of New Urban Mechanics, released 175+ 
+   open datasets under OpenDataPhilly and hosted the 2013 US Mayor’s 
+   Innovation Summit. Philly is brimming with innovators both inside 
+   and outside City Hall and CfA has been pleased to partner with this 
+   city. Philadelphia has an active Code for America Brigade — a group 
+   of local volunteers who meet regularly to attend events, collaborate 
+   on new projects and stand up existing apps".
+  impact_longer_term:
+  challenges:
+  lessons:
+  validation:
+
+- title: Consumer-Financial-Protection-Bureau-Credit-Card-Complaints-Database
+  url: 
+  description: >
+   A key mission of the Consumer Financial Protection Bureau (CFPB) 
+   is to make the financial products and services available to citizens 
+   more transparent. The Consumer Complaint Database – created by the 
+   Consumer Financial Protection Bureau (CFPB), the first U.S. 21st-century 
+   consumer agency, allows consumers (and anonymous whistleblowers) to 
+   directly submit, view, download and visualize complaints.
+  activity: >
+   Data
+   Opinions
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: Civic-Responsibility 
+  location: 
+  interface:
+  quality_control: Voting 
+  size:
+  duration:
+  cost:
+  platform: Website
+  historical_information: >
+   The Consumer Complaint Database launched on June 2013, following the 
+   formation of the CFPB in July 2011, which continues to oversee site 
+   management. The CFPB was founded as a result of the Dodd–Frank Wall 
+   Street Reform and Consumer Protection Act, which passed in response 
+   to the Late-2000s recession and financial crisis. The bureau began 
+   operation on July 21, 2011. Congress established the CFPB to protect 
+   consumers by carrying out federal consumer financial laws. The CFPB 
+   seeks to ensure that consumers get the information they need to make 
+   the financial decisions they believe are best for themselves and their 
+   families, that prices are clear up front, that risks are visible and 
+   that nothing is buried in fine print. The agency has the power to write 
+   rules, supervise companies, and enforce federal consumer financial 
+   protection laws; restrict unfair, deceptive, or abusive acts or practices; 
+   take consumer complaints; promote financial education; research consumer 
+   behavior; monitor financial markets for new risks to consumers; and 
+   enforce laws that outlaw discrimination and other unfair treatment in 
+   consumer finance.
+  participation:
+  output:
+  impact_today: >
+   Initially populated with credit card complaints received by the CFPB, 
+   the database was expanded in October 2012 to include consumer credit 
+   card complaints dating back to December 1, 2011.
+   <br/>
+   In the summer of 2012, the CFPB asked for public comment on adding 
+   complaints about other consumer financial products and services under 
+   its authority to the Consumer Complaint Database and received a wide 
+   range of comments from interested stakeholders.
+   <br/>
+   As of February 2014, the agency has received over 300,000 complaints.
+  impact_longer_term:
+  challenges:
+  lessons:
+  validation:
+
 - title: I Paid a Bribe
   url: http://www.ipaidabribe.com
   description: >
