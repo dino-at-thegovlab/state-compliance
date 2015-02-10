@@ -435,23 +435,44 @@ p .accordion-toggle {
 
 #questionnaire p {
 	font-size:18px;
-	font-family:'Montserrat';
-	letter-spacing:-1px;
-	line-height:22px;
-	padding-top:10px;
+	letter-spacing: 1px;
+	line-height:36px;
 	margin-left:20px;
+	text-align: justify;
 }
+
+#questionnaire ul {
+	font-size: 18px;
+	line-height: 22px;
+	margin-left: 20px;
+}
+
+#questionnaire .questionnaire-intro {
+	padding-top: 22px;
+}
+
 
 #questionnaire .why-ask {
 	font-size: 14px;
 	text-decoration: underline;
+	padding-top: 0px;
 }
 
-#questionnaire small {
-	font-size: 10px;
-	font-family: 'Montserrat';
-	margin-left: 20px;
+#questionnaire .quote-author {
+	font-size: 16px;
+	text-align: right;
+	font-style: italic;
+	padding-top: 0px;
 }
+
+#questionnaire .quotes {
+	font-size: 70px;
+	font-family: Georgia, sans-serif;
+	position: relative;
+	top: 24px;
+	line-height: 0px;
+}
+
 
 #questionnaire h4 {
 	color:#1a1a1a;
@@ -498,8 +519,19 @@ p .accordion-toggle {
 	color: #333333;
 }
 
+#questionnaire .question-prompt {
+	margin-bottom: 0px;
+}
+
 #questionnaire .answer-choice {
-	margin-left: 20px;
+	margin-left: 50px;
+}
+
+#questionnaire .question-number {
+	margin-right: 10px;
+}
+
+#questionnaire .option-explanation {
 }
 
 
@@ -688,19 +720,19 @@ textarea {
 }
 
 label {
-	display: block;
+	display: inline-block;
     padding-left: 15px;
     text-indent: -15px;
 }
 
 input[type="checkbox"] {
-	width: 13px;
-    height: 13px;
+	width: 15px;
+    height: 15px;
     padding: 0;
     margin-right: 5px;
-    vertical-align: bottom;
+    vertical-align: middle;
     position: relative;
-    top: -1px;
+    top: -2px;
     *overflow: hidden;
 }
 
