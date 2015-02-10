@@ -367,7 +367,8 @@ h4 {
 
 /* ADVISOR */
 #advisor-title {
-	background: url(../img/sourcerer-main.jpg)
+	background-image: url(../img/main-banner.jpg);
+	background-position-y: -715px;
 }
 
 #advisor-title h1 {
