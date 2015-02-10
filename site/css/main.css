@@ -64,6 +64,12 @@
     font-style: normal;
 }
 
+@media print {
+	#questionnaire, #elevant-case-studies, footer {
+		display: none;
+	}
+}
+
 body {
 	color:#333333;
 	font-family:'Source Sans Pro';
@@ -292,7 +298,6 @@ h4 {
 	z-index: 0;
 	height:auto;
 	min-height:250px;
-	background-color:#ececee;
 }
 
 .milestone {
@@ -319,10 +324,14 @@ h4 {
 
 #process {
 	padding:70px 0;
+	background: #ececee;
 }
 
 #process .process-items {
-
+	text-align: center;
+/*	width: 100%;
+	margin-right: auto;
+	margin-left: auto;*/
 }
 
 #process .process-header {
@@ -331,8 +340,14 @@ h4 {
 }
 
 #process .process-item {
+	width: 33%;
 	display: inline-block;
-	margin: auto 1.5em;
+}
+
+#process .process-items:after {
+	content: "";
+    width: 100%;
+    display: inline-block;
 }
 
 .number {
@@ -357,6 +372,29 @@ h4 {
 
 #advisor-title h1 {
 	color: white;
+}
+
+#advisor .advisor-header {
+	padding: 0px 0px 30px 0px;
+}
+
+#advisor .advisor-about-items {
+	width: 100%;
+	margin: 40px 0px;
+}
+
+#advisor .advisor-about-item {
+	padding: 0px 40px;
+}
+#advisor .advisor-about-item.left {
+	border-right: 2px solid #ccc;
+}
+
+#advisor .advisor-about-item > p {
+	margin: 0px 0px 10px 0px;
+}
+#advisor .advisor-about-item > h1 {
+	margin: 0px 0px 30px 0px;
 }
 
 
@@ -483,13 +521,19 @@ p .accordion-toggle {
 #report i {
 	color:#1a1a1a;
 	float:left;
-	margin:0px 10px 120px 0;
+	margin:0px 10px 0px 0;
 	width:65px;
 	text-align:center;
 }
 
 #report .report-category-heading {
 	display: none;
+	border-bottom: 1px solid #000;
+	margin-bottom: 15px
+}
+
+#report ul {
+	margin: 5px 0px 10px 50px;
 }
 
 

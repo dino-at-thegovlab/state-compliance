@@ -115,18 +115,6 @@ jQuery(document).ready(function($) {
 		navigation : true, // Show next and prev buttons
 		navigationText : ['<i class="pe-7s-angle-left-circle pe-3x"></i>','<i class="pe-7s-angle-right-circle pe-3x"></i>'],
 	});
-	
-	
-	// //OWLCAROUSEL CLIENTS 
-	// $("#clients-carousel").owlCarousel({
- 
- //      autoPlay: false, 
- 
- //      items : 6,
- //      itemsDesktop : [1199,3],
- //      itemsDesktopSmall : [979,3]
- 
- //  	});
   
   
 	//LIGHTBOX GALLERY
