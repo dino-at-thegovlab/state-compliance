@@ -36,81 +36,120 @@ advisor_dimensions:
   - 
     name: "Tasks"
     weight: 0.4
+    question: 1
   - 
     name: "Data"
     weight: 0.4
+    question: 1
   -
     name: "Funds"
     weight: 0.4
+    question: 1
   - 
     name: "Opinions"
     weight: 0.4
+    question: 1
   - 
     name: "Ideas"
     weight: 0.4
+    question: 1
   -
     name: "Financial Incentives"
     weight: 0.3
+    question: 2
   - 
-    name: "Knowledge Building and Information Sharing"
+    name: "Knowledge Building/Information Sharing"
     weight: 0.3
+    question: 2
   - 
     name: "Skill Development"
     weight: 0.3
+    question: 2
   -
     name: "Community Building"
     weight: 0.3
+    question: 2
   - 
     name: "Civic Responsibility"
     weight: 0.3
+    question: 2
   - 
     name: "Competition"
     weight: 0.3
+    question: 2
   -
     name: "Altruistic incentive"
     weight: 0.3
+    question: 2
   - 
-    name: "Recreational (ludic) incentive"
+    name: "Recreational incentive"
     weight: 0.3
+    question: 2
   - 
     name: "Network Building"
     weight: 0.3
+    question: 2
   -
     name: "Identity and Portfolio building"
     weight: 0.3
+    question: 2
   - 
     name: "Public Recognition"
     weight: 0.3
+    question: 2
   - 
     name: "Personal satisfaction"
     weight: 0.3
+    question: 2
+  - 
+    name: "Limit participation to a defined community"
+    weight: 0.2
+    question: 3
+  - 
+    name: "Allow anyone willing to participate to do so"
+    weight: 0.2
+    question: 3
   - 
     name: "You"
     weight: 0.2
+    question: 4
   - 
     name: "Group of Experts"
     weight: 0.2
+    question: 4
   -
     name: "Voting"
     weight: 0.2
+    question: 4
   - 
     name: "Rating"
     weight: 0.2
+    question: 4
   - 
     name: "Peer-reviewed"
     weight: 0.2
+    question: 4
   -
     name: "No Quality Control"
     weight: 0.2
+    question: 4
   -
     name: "Mobile Application"
     weight: 0.1
+    question: 5
   - 
     name: "Website"
     weight: 0.1
+    question: 5
   - 
     name: "SMS Texts"
     weight: 0.1
+    question: 5
   -
     name: "Social Media"
     weight: 0.1
+    question: 5
+  -
+    name: "Emails"
+    weight: 0.1
+    question: 5
