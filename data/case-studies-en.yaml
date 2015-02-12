@@ -312,7 +312,7 @@
    Data
    Opinions
   scope: 
-  sector: 
+  sector: Government
   thumbnail_url: 
   focus: 
   incentives: Civic-Responsibility 
@@ -368,7 +368,7 @@
    for desktop and mobile, and a strong Twitter presence.
   activity: Data
   scope: 
-  sector: 
+  sector: Government
   thumbnail_url: 
   focus: 
   incentives: Civic-Responsibility 
@@ -577,15 +577,19 @@
    consultation and community volunteering opportunities and get directly 
    involved. Beyond simplicity and ease of use, the site promotes greater government 
    transparency by publishing the full results of completed public consultation projects.
-  activity: 
+  activity: Tasks
   scope: 
-  sector: 
+  sector: Government
   thumbnail_url: 
   focus: 
-  incentives: 
+  incentives: >
+   Knowledge Building and Information Sharing
+   Skill Development
+   Community Building 
+   Civic Responsibility
   location: 
-  interface:
-  quality_control:
+  interface: Website
+  quality_control: Rating
   size:
   duration:
   cost:
@@ -593,7 +597,11 @@
   historical_information: >
   participation:
   output:
-  impact_today:
+  impact_today: >
+   Due to the site’s newness, discerning its direct impact on British Columbia 
+   is difficult. It is, however, already acting as an inspiration for other 
+   provinces and nations, as its centralized listing of consultation and 
+   volunteer opportunities is unique.
   impact_longer_term:
   challenges: >
    Since consultation opportunities link to off-site information and sign-up 
@@ -604,6 +612,98 @@
   lessons:
   validation:
   
+- title: Grade.DC.Gov
+  url: http://grade.dc.gov/
+  description: >
+   Grade.DC.Gov is a website dedicated to opening the dialogue between the 
+   Washington D.C. municipal government and its citizens. It enables constituents 
+   to submit comments about certain District of Columbia agencies and view how 
+   District residents graded those agencies.
+  activity: Opinions
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: Civic Responsibility
+  location: 
+  interface: Website
+  quality_control:
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   Grade D.C. formally launched in June 2012. The District of Columbia paid 
+   $170,000 to a private technology firm, newBrandAnalytics, to build a rating 
+   system customized for the city and $250,000 as an annual use fee.
+  participation:
+  output:
+  impact_today: >
+   Grade D.C’s use of cutting-edge social media and data analysis in the public 
+   sector has helped city agencies make meaningful improvements.
+  impact_longer_term:
+  challenges: >
+   Like any public and open-sourced system, Grade D.C. has limitations based 
+   on who responds and why, with the tendency for dissatisfied residents to 
+   respond disproportionately. Given the reliance on social media, officials 
+   need to continuously reach out to groups such as the elderly who may not be 
+   as engaged.
+  lessons:
+  validation:
+  
+- title: GroupTalent
+  url: https://grouptalent.com/welcome/
+  description: > 
+   Headquartered in San Francisco, GroupTalent is a hiring platform that lists 
+   contract-for-hire opportunities so a developer can try out working with a 
+   company before they commit to a longer-term job.
+   <br/>
+   If you are an employer seeking a programmer, a company pays GroupTalent to 
+   list the job opportunity on the platform. Using an algorithm, GroupTalent 
+   then matches the listing description with actively-looking programmers who 
+   are registered on GroupTalent after being vetted by the platform’s staff. 
+   The employer can then invite a programmer for an interview for a 
+   contract-to-hire opportunity. At the end of the predefined period of time, 
+   the employer can extend an offer for longer-term employment.
+   <br/>
+   Now based in San Francisco, GroupTalent was developed out of TechStars 
+   Seattle and raised $1 million in funding from Version One Ventures, Menlo 
+   Ventures, and Founder’s Co-op.
+  activity: Tasks
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: Financial
+  location: 
+  interface: >
+   Mobile application
+   Website
+  quality_control: Institution
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   Founded in 2011, GroupTalent is a hiring platform that serves as an employment
+   marketplace for programmers and employers looking for technical expertise. At 
+   times referred to as a “dating website for developers,” employers can hire 
+   programmers on a trial basis, and potential employees can test the waters with a 
+   new employer before making a serious commitment.
+  participation:
+  output: >
+   As of August 2013, GroupTalent had over 6,000 developers and 200 companies on the 
+   platform. On average, companies pay between $3,000 and $7,000 a week.
+  impact_today: >
+   While there are a number of online communities centered on programming 
+   (including Stack Exchange), GroupTalent distinguishes itself with its singular 
+   focus on recruiting. While currently focused in the programming sphere, the 
+   platform might expand its marketplace to other industries.
+  impact_longer_term:
+  challenges:
+  lessons:
+  validation:
+
 - title: I Paid a Bribe
   url: http://www.ipaidabribe.com
   description: >
