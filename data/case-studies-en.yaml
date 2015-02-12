@@ -359,65 +359,447 @@
   lessons:
   validation:
 
-- title: I Paid a Bribe
-  url: http://www.ipaidabribe.com
+- title: Drivebc.ca
+  url: http://drivebc.ca/
   description: >
-   I Paid A Bribe is an online platform that uses citizen reporting 
-   to identify corrupt government services and work with local government to 
-   effect process change.
+   DriveBC is the central hub of vehicle related information, services and 
+   citizen reporting for the province. The service provides citizens with 
+   contact information to report highway issues, with optimized site versions 
+   for desktop and mobile, and a strong Twitter presence.
   activity: Data
-  scope: National
-  sector: Non-profit
-  thumbnail_url: img/1big.jpg
-  focus: Transparency-Accountability
-  incentives: Civic-Reponsibility
-  location: India
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: Civic-Responsibility 
+  location: 
   interface: >
-   Mobile Application
-   Website
+   Mobile application 
+   Website 
    Social Media
+  quality_control: Group-of-experts 
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   DriveBC was overhauled in March 2012 by its operating department, the 
+   Ministry of Transportation and Infrastructure. None of the most recent 
+   updates, however, have affected the citizen reporting aspect of the site.
+  participation:
+  output:
+  impact_today: >
+   Drive BC offers nothing in the way of metrics regarding the use and impact 
+   of the site. However, the citizen reporting option’s placement on a central 
+   Ministry of Transportation and Infrastructure web page makes it likely that 
+   citizen input will continue to increase and inform government operations. 
+   The Twitter account’s 17,600 followers demonstrate its reach and scope.
+  impact_longer_term:
+  challenges: >
+   Drive BC’s citizen reporting functionality does not feature any on-site 
+   means of citizen input. For all issues, citizens are directed to contact 
+   information, notably telephone numbers, with no option for simply typing 
+   in a description of the issue and the address directly from the Web or 
+   mobile. While this capability exists using the DriveBC Twitter account, 
+   it is questionable whether citizens would ascertain this fact from visiting 
+   the desktop or mobile Drivebc.ca site.
+   <br/>
+   Drive BC’s ability to guide citizen input regarding issues on different 
+   types of provincial roads and highways, as well as wildfires, chemical 
+   spills and downed power lines could go unnoticed by citizens because the 
+   link to report such issues is subtly presented on the site. Moreover, 
+   the link citizens need to click, on mobile or desktop, is confusingly 
+   labeled “Report a Highway Problem.” Based on this subtlety and misleading 
+   label, citizens attempting to report a wildfire or a pothole on a municipal 
+   road could easily assume that Drive BC is not the correct place to make 
+   such a report.
+  lessons:
+  validation:
+
+- title: Experiment
+  url: https://experiment.com/
+  description: >
+   Experiment.com is a crowdfunding site devoted to funding scientific research. 
+   They are a self-described "mission-driven for-profit company" that provides a 
+   platform for research scientists in the United States to crowd fund their 
+   research projects.
+  activity: Funds
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: Knowledge-building-and-information-sharing
+  location: 
+  interface: Website
+  quality_control: >
+   Institution
+   Peer-review
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   The project was launched in 2012 under the name Microryza by two University of 
+   Washington graduates, Denny Luan and Cindy Yu, seeking to understand how the 
+   Internet could be used to help fund scientific projects that are left behind by 
+   the traditional grant funding model. The site relaunched as Experiment.com 
+   in February 2014.
+   <br/>
+   Rather than provide funders with perks, a traditional part of crowdfunding, 
+   funders of projects crowdfunded through Experiment get access to discussions 
+   around the experimental process.
+  participation:
+  output:
+  impact_today: >
+   While in beta, Experiment funded over 80 projects, raising over $600,000 from 
+   over 5,000 people individual citizens.
+  impact_longer_term: >
+   The researcher's claim their true goal is to "cure cancer." 
+  challenges:
+  lessons:
+  validation:
+  
+- title: FixMyStreet
+  url: https://www.fixmystreet.com/
+  description: > 
+   FixMyStreet is a U.K.-based service allowing citizens to report problems in their 
+   area, view them on a map, discuss them with fellow citizens, monitor their 
+   development and provide or read citizen updates. The service automatically sends 
+   the citizen reports to the relevant government council upon receipt.
+  activity: >
+   Data
+   Opinions
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Community building
+   Civic responsibility
+  location: 
+  interface: >
+   Mobile application
+   Website
+  quality_control: >
+   Group of experts
+   Rating 
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   FixMyStreet was launched by mySociety in February 2007, with funding from the 
+   Department for Constitutional Affairs.
+  participation:
+  output:
+  impact_today: >
+   In the first week of May 2013, the site received over 1,600 reports. Over 
+   500,000 updates on reports had been provided in total. The success of 
+   FixMyStreet inspired the creation of many similar services, including 
+   FixMyStreet Canada, Bellavista En Ación in Chile, FixaMinGata in Sweden, 
+   FiksGataMi in Norway, FixMyStreet.ie in Ireland, FixMyStreet.org.au in 
+   Australia, Aduanku in Malaysia, and ZeroTB in India.
+  impact_longer_term:
+  challenges: >
+   FixMyStreet features little in the way of community functions, outside 
+   of the ability to provide updates on other’s reported issues. The site 
+   also lacks any ability to browse or search for issues based on any criteria 
+   other than location and relevant government council.
+  lessons:
+  validation:  
+
+- title: Foldit
+  url: http://fold.it/portal/
+  description: > 
+   Foldit is a online-based puzzle game, where participants engage in simulated 
+   protein folding in order to predict protein structure.
+   <br/>
+   Predicting the lowest energy state of a protein is a task computers are poor at, 
+   but people are good at. Foldit is an attempt to gamify the process of predicting 
+   protein structures to crowdsource the data-gathering.
+   <br/>
+   Foldit is the creation of biochemist, David Baker, and game designer, Zoran 
+   Popovic, both of whom work at the University of Washington in Seattle. The game 
+   is downloaded onto a player’s personal computer and then allow the player to 
+   manipulate protein structures.
+   <br/>
+   There are a series of levels a player moves through, with the earliest levels 
+   acting as training rounds, where players work on already-known proteins in 
+   order to learn the basics of protein folding skills. The game involves a 
+   point-system, where the highest number of points are awarded to those with proteins
+   that have been manipulated to have the lowest-energy configurations.
+   <br/>
+   As described in an article by the Scientific American website, “The Foldit 
+   exploration puzzle game attempts to predict the structure of a protein by 
+   taking advantage of our puzzle-solving intuitions and having people play 
+   competitively to fold the best proteins. Players can also design brand new 
+   proteins that could help prevent or treat important diseases.”
+  activity: >
+   Tasks
+   Data
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Community Building
+   Civic Responsibility
+   Public Recognition
+   Competition
+  location: 
+  interface: Website
+  quality_control: >
+   Group of experts
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+  participation:
+  output: >
+   As of January 2012, Foldit had 240,000 registered users, and the Foldit 
+   application was available for PC, Mac, and Linux.
+  impact_today:
+  impact_longer_term: >
+   Foldit has the potential to help advance cures for serious diseases such 
+   as AIDS. According to a September 2011 Time Magazine blogpost, “Gamers 
+   playing a protein-folding game called Foldit have helped unlock the structure 
+   of an AIDS-related enzyme that the scientific community had been unable 
+   to unlock for a decade.”
+  challenges:
+  lessons:
+  validation:
+  
+- title: GovTogetherBC
+  url: 
+  description: >
+   GovTogetherBC provides citizens with a central location to find government 
+   consultation and community volunteering opportunities and get directly 
+   involved. Beyond simplicity and ease of use, the site promotes greater government 
+   transparency by publishing the full results of completed public consultation projects.
+  activity: 
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: 
+  location: 
+  interface:
   quality_control:
   size:
   duration:
   cost:
+  platform:
   historical_information: >
-   I Paid a Bribe was launched by the co-founders and board members of 
-   Janaagraha, a non-profit that works to improve the quality of citizenship, 
-   infrastructure and services in India's cities. The site was officially
-    launched on August 15, 2010, India's Independence Day.
-   <br/>
-   The site allows Citizens to report bribes, which Janaagraha uses to push 
-   for improving governance systems and procedures, with the goal of 
-   tightening law enforcement and regulation, and thereby reducing the scope 
-   of corruption in government services. On the site, users can report on the 
-   nature, number, pattern, types, location, frequency and values of actual 
-   corrupt acts in government.
-   <br/>
-   Users can sort and view all reports, as well as report "honest officials".
-   On average, the site receives about 25 to 50 reports a day. In addition, 
-   there are about 20-50 reports and comments a day logged in on the various 
-   forums and the administrator’s blog.
   participation:
-  output: >
-    The use of crowd-reporting services has, to date, traditionally been 
-    utilized in areas of public works, like reporting potholes. I Paid A Bribe 
-    is notable for taking this type of functionality out of the utilitarian 
-    realm and applying it to combat corruption. To date, the I Paid A Bribe 
-    site has received over 4.5 million visits.
-  impact_today: >
-    I Paid a Bribe has launched, or is coming soon, to 16 other countries, and 
-    may serve as inspiration for other corruption-based crowd reporting 
-    initiatives. As of 2012, there were more than 400,000 reports to the site. 
-  impact_longer_term: >
-    TBD
-  crowd:
+  output:
+  impact_today:
+  impact_longer_term:
   challenges: >
-    The greatest challenge to the efficacy of I Paid A Bribe is that the 
-    initiative is not integrated with government in any official capacity. 
-    The platform could also benefit from an improved user-interface, including 
-    search functions and access to raw data.
+   Since consultation opportunities link to off-site information and sign-up 
+   pages on agency or department websites, there is little standardization of 
+   available projects. Moreover, since the site acts as an aggregated list, 
+   rather than a platform for consultation, there is little opportunity for 
+   citizen collaboration or community building.
   lessons:
   validation:
+  
+- title: I Paid a Bribe
+  url: http://www.ipaidabribe.com
+  description: >
+   Janaagraha is a non-profit that works for improving the quality of 
+   citizenship and infrastructure and services in India’s cities. Janaagraha 
+   runs two on-line platforms, ICHangeMyCity.com and IPaidABribe.com. 
+   IPaidABribe.com is a platform provided to citizens to crowd source bribe 
+   experiences. It is a citizen driven mechanism for tracking bribe payment 
+   activity, also instances of when people resisted bribe payments or did 
+   not have to pay bribes because of good government systems or good people 
+   within the government systems. Citizens’ reports on the nature, number, 
+   pattern, types, locations and frequency of actual corrupt acts and values 
+   of bribes will add up to a valuable knowledge bank that will contribute 
+   to a reduction in bribe payments.
+   <br/>
+   By providing a place for citizens to report, as well as by analyzing the 
+   information, ipaidabribe.com aims to
+   * Heighten citizen awareness about the nature and spread of bribe-related 
+   exchanges and promote a purposive public debate that pressurises public 
+   officials to reduce and eventually eliminate corruption.
+   * Help citizens to recognize, avoid and tackle bribe paying situations.
+   * Identify and analyse the workflows within corruption prone public services, 
+   to make suggestions on systemic reform directed at entrenching simpler and 
+   more transparent processes, more consistent standards of law enforcement 
+   and better vigilance and regulation.
+  activity: >
+   Tasks
+   Data
+  scope: >
+   International
+   National
+  sector: Non-profit
+  thumbnail_url: img/1big.jpg
+  focus: >
+   Civic innovation
+   Civic participation 
+   Governance
+   Transparency & Accountability 
+   Urban Development
+  incentives: >
+   Knowledge Building and Information Sharing 
+   Community Building 
+   Civic Responsibility
+   Altruistic Incentive
+   Network Building 
+   Public Recognition
+   Personal Satisfaction 
+  location: web-based
+  interface: >
+   Mobile Application
+   Website
+   SMS Texts
+   Social Media
+   Email
+  quality_control: >
+   Institution 
+   Group of experts
+  size: >
+   4.5 million visits, 36424 reports
+  duration: >
+   Over 4 years
+  cost: >
+   $1,000 USD/year and up
+  historical_information: >
+   The ipaidabribe.com idea has emerged and evolved over time. It commenced 
+   with a discussion between co-founders of Janaagraha, Swati and Ramesh 
+   Ramanathan and Mr. Sridar Iyengar, a board member of Janaagraha’s advisory 
+   board a couple of years back regarding the pernicious effect of corruption 
+   on destroying city life and disempowering citizens. The original idea was 
+   that the website could become a simple means of tracking the market price 
+   of corruption - a kind of market price prediction mechanism. A small 
+   experimental website was put up to test the idea. However the afterthought 
+   was that such an effort was indeed a very powerful one. Over time, we worked 
+   on the idea extensively and added a lot more features. We decided that the 
+   website has to be a multifaceted site, providing a variety of services to 
+   people. We launched the new completely redesigned website on Aug 15, 2010, 
+   India’s Independence day. 
+   <br/>
+   IPaidABribe.com (IPAB) is an initiative to tackle corruption by tapping 
+   into the collective energy of citizens, almost every one of whom is either 
+   a victim, perpetrator or beneficiary, or a combination of these. Janaagraha 
+   has a very rigorous system of aligning its institutional objectives with 
+   the performance of its programmes. Each institutional objective is further 
+   aligned with several strategic themes. Ipab aligns with Janaagraha’s goal 
+   of making a measurable difference in the quality of Citizenship in cities. 
+   It does this by adopting the strategy of empowering citizens using a 
+   net-plus- roots approach – we use a net based platform for recording the 
+   grassroots experiences of citizens. Through this approach, ipaidabribe.com 
+   aligns completely with Janaagraha’s key thrust of increasing the number of 
+   citizen change agents in the city. We believe that every citizen who reports 
+   a story on our website about paying a bribe, is angry enough to begin to 
+   resist it. Of course, it goes without saying that somebody who has resisted 
+   paying a bribe and reported the story, is already very much on the path of 
+   being a citizen change agent.
+  participation: >
+   No, I allow anyone to participate. 
+  platform: >
+   Created their own platform. 
+  output: >
+   By providing a place for citizens to report, as well as by analyzing the 
+   information, ipaidabribe.com aims to
+   * Heighten citizen awareness about the nature and spread of bribe-related 
+   exchanges and promote a purposive public debate that pressurises public 
+   officials to reduce and eventually eliminate corruption.
+   * Help citizens to recognize, avoid and tackle bribe paying situations.
+   * Identify and analyse the workflows within corruption prone public services, 
+   to make suggestions on systemic reform directed at entrenching simpler and 
+   more transparent processes, more consistent standards of law enforcement 
+   and better vigilance and regulation.
+   Summarising the above, the three fold impact strategy of the platform 
+   covers three broad strands 
+   a) Education. Through How To's and information, make citizens aware 
+   of the government procedures so that bribes are not paid through ignorance. 
+   b) Policy Reform. Use of data collected and trend analysis to plug the avenues 
+   of corruption.
+   c) Redressal. Escalate individual reports to the authorities and department 
+   heads who can initiate enquiries/ legal proceedings against the accused.
+  impact_today: >
+   A legal impact can be seen only if legal complaints increase and prosecutions 
+   happen. Right now, we are engaging in creating a groundswell against corruption, 
+   both working with the government to reduce red tape as also with citizens to 
+   build up their courage and helping them to overcome corruption. We believe that 
+   corruption has grown this big only because as citizens, we have tolerated it. 
+   If we actively oppose it and there are enough of us, the government has to 
+   buckle down and tackle the problem effectively. To do that, it is also important 
+   that we build bridges with and support the actions of honest officials within the 
+   government, who often look the other way, because they are dispirited and become 
+   cynical. 
+   <br/>
+   The Transport Commissioner in Bangalore called to communicate his embarrassment 
+   at finding his department having the highest instances of bribe taking in 
+   Bangalore. We worked with him and his senior management team to re-engineer the 
+   process flow and reduce the loopholes for rent seeking in the issuance of drivers’ 
+   licenses, so that 2 key steps that in the past had a fair amount of subjective 
+   discretion in them, were converted to automated tests. 
+   <br/>
+   As another example, the department for land registration used to have designated 
+   offices where one had to go to register the purchase and sale of land – depending 
+   on where in the city the particular land parcel was, one had to go to a specific 
+   Sub Registrar’s Office. With the ipaidabribe.com data, it was evident that there 
+   was a flourishing market for bribes in land transactions, reflecting admirably 
+   the laws of supply and demand! Those Sub Registrar offices that were on the periphery 
+   of the city, where much of the new growth occurs, were seeing thegreatest rates of 
+   bribes, whereas those Sub Registrar Offices which were in the heart of the city, 
+   where land transactions are less frequent, were seeing fewer touts and lower rates. 
+   So we made a proposal to the Department of Stamps and Registration – given that 
+   all land transactions had been converted to electronic records, why not make them 
+   ‘Anywhere Registration’? That is, one could go to any Sub Registrar office in the 
+   city to register one’s land transaction. 
+  impact_longer_term: >
+   Our intent is to change the system that breeds corruption, rather than indict the 
+   individuals within the system. Besides, even if you change the individuals, the 
+   threat of corruption still remains. But change the system and you root out 
+   corruption permanently. 
+   <br/>
+   The role that non-government bodies play is multi-fold since corruption is such 
+   a vast and hydra-headed monster - from procurement processes in public projects, 
+   to extraction of precious natural resources, to public services, and favouritism/ 
+   nepotism towards private enterprise – these are all rife with corruption as 
+   instruments for wealth and/or power. 
+  crowd: >
+   Currently with our net presence alone, we do realize that we only touch people 
+   who have access to the net. With the pace of internet penetration in India, 
+   this number is likely to grow rapidly. 
+   <br/>
+   Mobile phone usage in the country is on a surge, we have hence also developed 
+   a mobile app to enable people to report their stories via their smart phone. 
+   For those who do not have a smart phone, reports can be shared through a bribe 
+   hotline, via a call.
+   <br/>
+   With over 34000 reports on the website, many reports are received from citizens 
+   in the major cities (especially the IT hubs of Bangalore, Hyderabad and Chennai). 
+   Followed by tier 2 cities in states. 
+   <br/>
+   While we do get a lot of page views ( consuming the content on the platform) 
+   reporting of instances of bribe transactions is still in its nascent stages. 
+   <br/>
+   The biggest challenge for IPaidaBribe.com is to respond to the demands of the 
+   public, to provide support and information quickly. As this is a web based 
+   initiative, it is important that we respond to people very fast. For this purpose, 
+   one needs to collect data from the government, analyse government procedures 
+   and present the findings in a simple manner. At any given time, we are undertaking 
+   research on at least two to three important government procedures or departments.
+  challenges: >
+   The biggest challenge for IPaidaBribe.com is to respond to the demands of the public, 
+   to provide support and information quickly. As this is a web based initiative, 
+   it is important that we respond to people very fast. For this purpose, one needs 
+   to collect data from the government, analyse government procedures and present the 
+   findings in a simple manner. At any given time, we are undertaking research on at 
+   least two to three important government procedures or departments.
+  lessons: >
+   Any offline platform needs a strong offline plan . Also structured support in the 
+   form of marketing, both online and offline leads to a sustained process, 
+   rather than a one off campaign.
+  validation: >
+   Online is the best way from a reach and ease of implementation perspective.
   
 - title: Kickstarter
   url: https://www.kickstarter.com/
