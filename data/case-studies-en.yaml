@@ -108,7 +108,7 @@
   lessons:
   validation:
   
-- title: BC-Ideas
+- title: BC Ideas
   url: http://www.changemakers.com/bcideas
   description: >
    BC Ideas is an innovation community and problem-solving marketplace that grew 
@@ -263,7 +263,7 @@
   lessons:
   validation:
 
-- title: Code-for-Philly 
+- title: Code for Philly 
   url: 
   description: >
    Code for Philly is an online community in the city of Philadelphia, 
@@ -299,7 +299,7 @@
   lessons:
   validation:
 
-- title: Consumer-Financial-Protection-Bureau-Credit-Card-Complaints-Database
+- title: Consumer Financial Protection Bureau Credit Card Complaints Database
   url: 
   description: >
    A key mission of the Consumer Financial Protection Bureau (CFPB) 
@@ -495,6 +495,52 @@
   lessons:
   validation:
   
+- title: MindLab
+  url: http://mind-lab.dk/en/
+  description: >
+   MindLab is a public lab based in Denmark that works as part of three national 
+   ministries and one municipality – the Business and Growth Ministry of Employment, 
+   Ministry of Education and Odense – to engage citizens and businesses in creating 
+   new solutions to provide value to society. MindLab focuses on allowing government 
+   to “view their [own] efforts from the outside-in, to see them from a citizen’s 
+   perspective”, and applies user-centered design thinking to improve the daily 
+   lives of Danish citizens.
+  activity: >
+   Opinions
+   Ideas
+  scope: 
+  sector: Government
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Skill Development
+   Community Building
+   Civic Responsibility
+   Public Recognition
+  location: 
+  interface: Website
+  quality_control: Institution
+  size:
+  duration:
+  cost:
+  platform: 
+  historical_information: >
+   MindLab, unlike private corporate or nonprofit design consultancies, began 
+   as an in-house initiative within the Danish government. It was created in 
+   2002 for the Ministry of Economic and Business Affairs.
+   <br/>
+   In 2007, MindLab adopted a new strategy, to foster “the active involvement 
+   of both citizens and companies in developing new public-sector solutions.” 
+   Today they continue their work to try and facilitate collaboration across 
+   the public sector.
+  participation:
+  output:
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  validation:
+
 - title: Open Data 500
   url: 
   description: >
