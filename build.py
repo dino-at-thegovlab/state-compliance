@@ -35,12 +35,31 @@ def Main():
 	for f in old_case_studies:
 		os.remove(f)
 	#Recreate new ones
-	for key, value in projects.items():
-		template = env.get_template('project.html')
-		html = template.render(value)
-		with open('site/ajax/{}.html'.format(key), 'w') as f:
-			f.write(html.encode('utf8'))
-			f.close()
+	error_dimensions = dimensions_validated()
+	if not len(error_dimensions):
+		for key, value in projects.items():
+			template = env.get_template('project.html')
+			html = template.render(value)
+			with open('site/ajax/{}.html'.format(key), 'w') as f:
+				f.write(html.encode('utf8'))
+				f.close()
+	else:
+		print "Error, dimensions are not properly labeled: "
+		for dim in error_dimensions:
+			print dim
+
+def dimensions_validated():
+	categories = []
+	variables = ['activity', 'incentives', 'interface', 'participation', 'quality_control']
+	for case in template_data['case_studies']:
+	    for v in variables:
+	        if case['dimensions'][v]:
+	            for c in case['dimensions'][v]:
+	                categories.append(c)
+	categories = list(set(categories))
+	cats = [dim['name'].lower() for dim in template_data['enums']['advisor_dimensions']]
+	error_dimensions = [c for c in categories if c.lower() not in cats]
+	return error_dimensions
 
 if __name__ == '__main__':
   Main()

@@ -5,29 +5,24 @@
    Adopt-a-Hydrant is a web application that allows citizens to "adopt" civic
    infrastructure, such as fire hydrants that need to be shoveled out after it
    snows.
-  activity: 
-    - Tasks
-  scope: National
+  city: Boston
+  state: Massachusetts
+  country: USA
+  scope: 
+   - National
   sector: Nonprofit
   thumbnail_url: 
   focus:
    - Civic participation
    - Environment and weather
    - Geospatial mapping
-  incentives:
-   - Civic responsibility 
-   - Altruistic incentive
-   - Personal satisfaction
-  location: Boston-Massachusetts-USA
-  interface: Website
-  quality_control: Peer-reviewed
   size: 1200
   duration: Since-2011
   cost: $1-$200-USD/year 
+  crowd: Civic-minded Boston residents.
   historical_information: >
    The project started in 2011 when Erik Michael-Ober was a Code for America 
    Fellow, partnered with the City of Boston. 
-  participation: I-allow-anyone-to-participate
   output: >
    The City of Boston has over 13,000 fire hydrants, which are mapped.
   impact_today: >
@@ -38,10 +33,21 @@
   impact_longer_term: >
    That Adopt-a-Hydrant continues to grow and spread, as it has every year since 
    I created it. 
-  crowd:
-   - Civic-minded Boston residents.
   challenges:
   lessons:
+  dimensions:
+    activity: 
+     - Tasks
+    incentives:
+     - Civic responsibility 
+     - Altruistic incentive
+     - Personal satisfaction
+    participation: 
+     - Allow anyone willing to participate to do so
+    quality_control:
+     - Peer-reviewed
+    interface:
+     - Website
   validation:
 
 - title: agreeble
@@ -54,9 +60,9 @@
    agreeble identifies consensus-driving and polarizing opinions in gropus of
    people. When users voice their opinions, delivering the accountability of a
    survey with the unique insights found only on social networks.
-  activity:
-   - Data
-   - Opinions
+  city:
+  state:
+  country:
   scope:
    - International
    - National
@@ -67,18 +73,6 @@
    - Data-Technology
    - Finance-and-investment
    - Governance
-  incentives:
-   - Financial-incentives
-   - Knowledge-building-and-information-sharing
-   - Recreational-incentive
-  location: Web-based
-  interface:
-   - Mobile-application
-   - Website
-   - Social-media
-  quality_control:
-   - Voting
-   - Peer-reviewed
   size: 
   duration: 1 year
   cost: free
@@ -93,8 +87,6 @@
    We incorporated in January of 2014 and have since added advisors in research, ux, 
    marketing, and rhetoric. We have additionally partnered with Amazon and uSamp for
    sourcing samples.
-  participation:
-   - Users can source probability or non-probability samples.
   output:
   impact_today: >
    The impact it has varies from user to user. Some use it to impact their brand 
@@ -107,6 +99,22 @@
   crowd:
   challenges:
   lessons:
+  dimensions:
+   activity:
+    - Data
+    - Opinions
+   incentives:
+    - Financial Incentives
+    - Knowledge Building/Information Sharing
+    - Recreational Incentive
+   participation:
+   quality_control:
+    - Voting
+    - Peer-reviewed
+   interface:
+    - Mobile Application
+    - Website
+    - Social Media
   validation:
   
 - title: BC Ideas
@@ -116,21 +124,16 @@
    out of the prize-based contest Solutions for Strong Communities. The original 
    contest accepted a wide range of submissions in a number of topic areas and 
    provided a total of $270,000 in grants.
-  activity: Tasks
+  city:
+  state: British Columbia
+  country: Canada
   scope: Regional
   sector: Government
   thumbnail_url: 
   focus: 
-  incentives: >
-   Financial Incentives 
-   Civic Responsibility
-  location: British-Columbia
-  interface: Website
-  quality_control: Group of experts
   size:
   duration:
   cost:
-  platform:
   historical_information: >
    The competition was launched on the Ashoka Changemakers platform on May 16, 
    2012 by a partnership including: ArtsBC, Ashoka Canada, Ashoka Changemakers, 
@@ -145,7 +148,6 @@
    The judges panel included: Andy Broderick, Vancity; Dan George, Four Directions 
    Management Services Ltd.; Nicole Rycroft, Canopy; Stephen Huddart, J.W. McConnell 
    Family Foundation and Yuri Fulmer, FDC Capital.
-  participation:
   output:
   impact_today: >
    In addition to launching the BC Ideas innovation community, the Solutions for 
@@ -166,6 +168,17 @@
    the impact of contest winners, since entries could take a significant amount of 
    time and capital to operationalize.
   lessons:
+  dimensions:
+    activity: 
+     - Tasks
+    incentives:
+     - Financial Incentives 
+     - Civic Responsibility
+    participation: []
+    quality_control:
+     - Group of experts
+    interface:
+     - Website
   validation:
 
 - title: Catchafire
@@ -176,22 +189,16 @@
    help with branding, fundraising and report writing, for organizations across the 
    wide spectrum of nonprofit field. Catchafire allows non-profits to crowdsourcing 
    their challenges and for professionals to donate their skills.
-  activity: Tasks
+  city:
+  state:
+  country:
   scope: 
   sector: 
   thumbnail_url: 
   focus: 
-  incentives: >
-   Skill Development
-   Community Building
-   Civic Responsibility 
-  location: 
-  interface:
-  quality_control: Institution
   size:
   duration:
   cost:
-  platform: Website 
   historical_information: >
    Founded in 2010 by former investment banker Rachel Chong, Catchafire is a 
    New York City-based for-profit company and platform that matches nonprofits 
@@ -203,12 +210,23 @@
    was both most useful for the “receiving” organization, and also career-enhancing 
    for the volunteer. In 2014, Catchafire became a key partner in LinkedIn’s 
    new Volunteer Marketplace.
-  participation:
   output:
   impact_today:
   impact_longer_term:
   challenges:
   lessons:
+  dimensions:
+    activity: 
+     - Tasks
+    incentives:
+     - Skill Development
+     - Community Building
+     - Civic Responsibility 
+    participation: []
+    quality_control:
+     - You
+    interface:
+     - Website
   validation:
 
 - title: Challenge.gov
@@ -219,21 +237,16 @@
    posting specific challenges on the site, to which the public can post submissions 
    to these challenges, with winning selections typically receiving a prize. It is 
    one of the first challenge platforms launched and managed by a federal government.
-  activity: Ideas 
   scope: National
   sector: Government
   thumbnail_url: 
   focus: 
-  incentives: >
-   Financial incentives
-   Civic Responsibility
-  location: 
-  interface: Website
-  quality_control: Institution 
+  city:
+  state:
+  country: 
   size:
   duration:
   cost:
-  platform:
   historical_information: >
    In his September 2009 Strategy for American Innovation, President Obama called 
    on agencies to increase their ability to promote innovation by using tools 
@@ -247,7 +260,6 @@
    a web-based platform for prizes and challenges within 120 days'. OMB 
    tasked General Services Administration with overseeing the launch and 
    continued program.
-  participation:
   output:
   impact_today: >
    As of 2013, the site has hosted challenges posted by 45 departments and 
@@ -262,6 +274,17 @@
    participants are vetted for qualifications and whether metrics exist as 
    to whether different prize offerings are more effective than others.
   lessons:
+  dimensions:
+    activity: 
+     - Ideas
+    incentives:
+     - Financial Incentives
+     - Civic Responsibility
+    participation: []
+    quality_control:
+     - You
+    interface:
+     - Website
   validation:
 
 - title: Code for Philly 
@@ -270,21 +293,17 @@
    Code for Philly is an online community in the city of Philadelphia, 
    Pennsylvania that seeks to modernize the city through use of weekly 
    meetups and hack-a-thons.
-  activity: Ideas
   scope: Local
   sector: Government
   thumbnail_url: 
   focus: 
-  incentives: Civic-Responsibility 
-  location: Philadelphia-Pennsylvania
-  interface: Website
-  quality_control: 
+  city: Philadelphia
+  state: Pennsylvania
+  country: USA
   size:
   duration:
   cost:
-  platform:
   historical_information: >
-  participation:
   output:
   impact_today: >
    According to Code for America's website, "since 2011, Philadelphia 
@@ -298,6 +317,15 @@
   impact_longer_term:
   challenges:
   lessons:
+  dimensions:
+    activity: 
+     - Ideas
+    incentives:
+     - Civic Responsibility
+    participation: []
+    quality_control: []
+    interface:
+     - Website
   validation:
 
 - title: Consumer Financial Protection Bureau Credit Card Complaints Database
@@ -309,21 +337,17 @@
    Consumer Financial Protection Bureau (CFPB), the first U.S. 21st-century 
    consumer agency, allows consumers (and anonymous whistleblowers) to 
    directly submit, view, download and visualize complaints.
-  activity: >
-   Data
-   Opinions
   scope: 
   sector: Government
   thumbnail_url: 
   focus: 
-  incentives: Civic-Responsibility 
-  location: 
+  city:
+  state:
+  country: 
   interface:
-  quality_control: Voting 
   size:
   duration:
   cost:
-  platform: Website
   historical_information: >
    The Consumer Complaint Database launched on June 2013, following the 
    formation of the CFPB in July 2011, which continues to oversee site 
@@ -358,6 +382,17 @@
   impact_longer_term:
   challenges:
   lessons:
+  dimensions:
+    activity: 
+     - Data
+     - Opinions
+    incentives:
+     - Civic Responsibility
+    participation: []
+    quality_control:
+     - Voting
+    interface:
+     - Website
   validation:
 
 - title: Drivebc.ca
@@ -367,27 +402,20 @@
    citizen reporting for the province. The service provides citizens with 
    contact information to report highway issues, with optimized site versions 
    for desktop and mobile, and a strong Twitter presence.
-  activity: Data
   scope: 
   sector: Government
   thumbnail_url: 
   focus: 
-  incentives: Civic-Responsibility 
-  location: 
-  interface: >
-   Mobile application 
-   Website 
-   Social Media
-  quality_control: Group-of-experts 
+  city:
+  state:
+  country: 
   size:
   duration:
   cost:
-  platform:
   historical_information: >
    DriveBC was overhauled in March 2012 by its operating department, the 
    Ministry of Transportation and Infrastructure. None of the most recent 
    updates, however, have affected the citizen reporting aspect of the site.
-  participation:
   output:
   impact_today: >
    Drive BC offers nothing in the way of metrics regarding the use and impact 
@@ -415,6 +443,18 @@
    road could easily assume that Drive BC is not the correct place to make 
    such a report.
   lessons:
+  dimensions:
+    activity: 
+     - Data
+    incentives:
+     - Civic Responsibility
+    participation: []
+    quality_control:
+     - Group of Experts
+    interface:
+     - Mobile Application
+     - Website
+     - Social Media
   validation:
 
 - title: Experiment
@@ -424,21 +464,16 @@
    They are a self-described "mission-driven for-profit company" that provides a 
    platform for research scientists in the United States to crowd fund their 
    research projects.
-  activity: Funds
   scope: 
   sector: 
   thumbnail_url: 
   focus: 
-  incentives: Knowledge-building-and-information-sharing
-  location: 
-  interface: Website
-  quality_control: >
-   Institution
-   Peer-review
+  city:
+  state:
+  country: 
   size:
   duration:
   cost:
-  platform:
   historical_information: >
    The project was launched in 2012 under the name Microryza by two University of 
    Washington graduates, Denny Luan and Cindy Yu, seeking to understand how the 
@@ -458,6 +493,17 @@
    The researcher's claim their true goal is to "cure cancer." 
   challenges:
   lessons:
+  dimensions:
+    activity: 
+     - Funds
+    incentives:
+     - Knowledge Building/Information Sharing
+    participation: [] 
+    quality_control:
+     - You
+     - Peer-reviewed
+    interface:
+     - Website
   validation:
   
 - title: FixMyStreet
@@ -467,27 +513,16 @@
    area, view them on a map, discuss them with fellow citizens, monitor their 
    development and provide or read citizen updates. The service automatically sends 
    the citizen reports to the relevant government council upon receipt.
-  activity: >
-   Data
-   Opinions
   scope: 
   sector: 
   thumbnail_url: 
   focus: 
-  incentives: >
-   Community building
-   Civic responsibility
-  location: 
-  interface: >
-   Mobile application
-   Website
-  quality_control: >
-   Group of experts
-   Rating 
+  city:
+  state:
+  country: 
   size:
   duration:
   cost:
-  platform:
   historical_information: >
    FixMyStreet was launched by mySociety in February 2007, with funding from the 
    Department for Constitutional Affairs.
@@ -507,6 +542,20 @@
    also lacks any ability to browse or search for issues based on any criteria 
    other than location and relevant government council.
   lessons:
+  dimensions:
+    activity: 
+     - Data
+     - Opinions
+    incentives:
+     - Community Building
+     - Civic Responsibility
+    participation: []
+    quality_control:
+     - Group of Experts
+     - Rating
+    interface:
+     - Mobile Application
+     - Website
   validation:  
 
 - title: Foldit
@@ -535,28 +584,17 @@
    taking advantage of our puzzle-solving intuitions and having people play 
    competitively to fold the best proteins. Players can also design brand new 
    proteins that could help prevent or treat important diseases.”
-  activity: >
-   Tasks
-   Data
   scope: 
   sector: 
   thumbnail_url: 
   focus: 
-  incentives: >
-   Community Building
-   Civic Responsibility
-   Public Recognition
-   Competition
-  location: 
-  interface: Website
-  quality_control: >
-   Group of experts
+  city:
+  state:
+  country: 
   size:
   duration:
   cost:
-  platform:
   historical_information: >
-  participation:
   output: >
    As of January 2012, Foldit had 240,000 registered users, and the Foldit 
    application was available for PC, Mac, and Linux.
@@ -569,6 +607,20 @@
    to unlock for a decade.”
   challenges:
   lessons:
+  dimensions:
+    activity: 
+     - Tasks
+     - Data
+    incentives:
+     - Community Building
+     - Civic Responsibility
+     - Public Recognition
+     - Competition
+    participation: [] 
+    quality_control:
+     - Group of Experts
+    interface:
+     - Website
   validation:
   
 - title: GovTogetherBC
@@ -578,25 +630,17 @@
    consultation and community volunteering opportunities and get directly 
    involved. Beyond simplicity and ease of use, the site promotes greater government 
    transparency by publishing the full results of completed public consultation projects.
-  activity: Tasks
   scope: 
   sector: Government
   thumbnail_url: 
   focus: 
-  incentives: >
-   Knowledge Building and Information Sharing
-   Skill Development
-   Community Building 
-   Civic Responsibility
-  location: 
-  interface: Website
-  quality_control: Rating
+  city:
+  state:
+  country: 
   size:
   duration:
   cost:
-  platform:
   historical_information: >
-  participation:
   output:
   impact_today: >
    Due to the site’s newness, discerning its direct impact on British Columbia 
@@ -611,6 +655,19 @@
    rather than a platform for consultation, there is little opportunity for 
    citizen collaboration or community building.
   lessons:
+  dimensions:
+    activity: 
+     - Tasks
+    incentives:
+     - Knowledge Building/Information Sharing
+     - Skill Development
+     - Community Building
+     - Civic Responsibility
+    participation: []
+    quality_control:
+     - Rating
+    interface:
+     - Website
   validation:
   
 - title: Grade.DC.Gov
@@ -620,24 +677,20 @@
    Washington D.C. municipal government and its citizens. It enables constituents 
    to submit comments about certain District of Columbia agencies and view how 
    District residents graded those agencies.
-  activity: Opinions
   scope: 
   sector: 
   thumbnail_url: 
   focus: 
-  incentives: Civic Responsibility
-  location: 
-  interface: Website
-  quality_control:
+  city: Washington DC
+  state: DC
+  country: USA
   size:
   duration:
   cost:
-  platform:
   historical_information: >
    Grade D.C. formally launched in June 2012. The District of Columbia paid 
    $170,000 to a private technology firm, newBrandAnalytics, to build a rating 
    system customized for the city and $250,000 as an annual use fee.
-  participation:
   output:
   impact_today: >
    Grade D.C’s use of cutting-edge social media and data analysis in the public 
@@ -650,6 +703,15 @@
    need to continuously reach out to groups such as the elderly who may not be 
    as engaged.
   lessons:
+  dimensions:
+    activity: 
+     - Opinions
+    incentives:
+     - Civic Responsibility
+    participation: []
+    quality_control: []
+    interface:
+     - Website
   validation:
   
 - title: GroupTalent
@@ -670,21 +732,16 @@
    Now based in San Francisco, GroupTalent was developed out of TechStars 
    Seattle and raised $1 million in funding from Version One Ventures, Menlo 
    Ventures, and Founder’s Co-op.
-  activity: Tasks
   scope: 
   sector: 
   thumbnail_url: 
   focus: 
-  incentives: Financial
-  location: 
-  interface: >
-   Mobile application
-   Website
-  quality_control: Institution
+  city: San Francisco
+  state: CA
+  country: USA
   size:
   duration:
   cost:
-  platform:
   historical_information: >
    Founded in 2011, GroupTalent is a hiring platform that serves as an employment
    marketplace for programmers and employers looking for technical expertise. At 
@@ -703,6 +760,17 @@
   impact_longer_term:
   challenges:
   lessons:
+  dimensions:
+    activity: 
+     - Tasks
+    incentives:
+     - Financial Incentives
+    participation: [] 
+    quality_control:
+     - You
+    interface:
+     - Mobile Application
+     - Website
   validation:
 
 - title: I Paid a Bribe
@@ -730,12 +798,9 @@
    to make suggestions on systemic reform directed at entrenching simpler and 
    more transparent processes, more consistent standards of law enforcement 
    and better vigilance and regulation.
-  activity: >
-   Tasks
-   Data
-  scope: >
-   International
-   National
+  scope:
+   - International
+   - National
   sector: Non-profit
   thumbnail_url: img/1big.jpg
   focus: >
@@ -744,24 +809,9 @@
    Governance
    Transparency & Accountability 
    Urban Development
-  incentives: >
-   Knowledge Building and Information Sharing 
-   Community Building 
-   Civic Responsibility
-   Altruistic Incentive
-   Network Building 
-   Public Recognition
-   Personal Satisfaction 
-  location: web-based
-  interface: >
-   Mobile Application
-   Website
-   SMS Texts
-   Social Media
-   Email
-  quality_control: >
-   Institution 
-   Group of experts
+  city:
+  state:
+  country: India
   size: >
    4.5 million visits, 36424 reports
   duration: >
@@ -799,10 +849,6 @@
    resist it. Of course, it goes without saying that somebody who has resisted 
    paying a bribe and reported the story, is already very much on the path of 
    being a citizen change agent.
-  participation: >
-   No, I allow anyone to participate. 
-  platform: >
-   Created their own platform. 
   output: >
    By providing a place for citizens to report, as well as by analyzing the 
    information, ipaidabribe.com aims to
@@ -899,117 +945,65 @@
    Any offline platform needs a strong offline plan . Also structured support in the 
    form of marketing, both online and offline leads to a sustained process, 
    rather than a one off campaign.
+  dimensions:
+    activity: 
+     - Tasks
+     - Data
+    incentives:
+     - Knowledge Building/Information Sharing 
+     - Community Building 
+     - Civic Responsibility
+     - Altruistic Incentive
+     - Network Building 
+     - Public Recognition
+     - Personal Satisfaction 
+    participation: 
+     - Allow anyone willing to participate to do so 
+    quality_control:
+     - You
+     - Group of Experts
+    interface:
+     - Mobile Application
+     - Website
+     - SMS Texts
+     - Social Media
+     - Emails
   validation: >
    Online is the best way from a reach and ease of implementation perspective.
-
-- title: Ideas 2 Action 
-  url: 
-  description: > 
-   Ideas2Action was a crowdsourced effort undertaken by the Premier of British 
-   Columbia, Canada, Christy Clark, to help generate new ideas for building a 
-   skilled workforce in BC. Premier Christy Clark held a seven-week online 
-   consultation period to obtain ideas from the public. More than 52,000 visitors 
-   went to the BC Jobs Plan website, and approximately 500 British Columbians 
-   contributed to the discussion. 
-  activity: Ideas
-  scope: Regional 
-  sector: Government  
-  thumbnail_url: 
-  focus: 
-  incentives: >
-   Civic Responsibility
-   Competition 
-  location: British-Columbia-Canada 
-  interface:
-  quality_control:
-  size:
-  duration:
-  cost:
-  platform:
-  historical_information: >
-   The Skills for BC consultation was held from November to December 2012 and 
-   led by Premier Christy Clark. Citizen input was then reviewed and acted upon 
-   by the BC Jobs Plan Team, relevant government officials and partners like 
-   the Industry Training Authority.
-  participation:
-  output:
-  impact_today: >
-   The consultation generated 500 contributions, just over 400 comments in the 
-   official discussion forum and approximately 100 ideas sent via private email, 
-   Twitter and Facebook. The Ideas2Action website provides information on the 
-   “125 actions and counting” that were inspired by the citizen consultation 
-   period. Some actions include, the creation of a Job Trend Tracker for exploring 
-   statistics on more than 500 careers, increased outreach to schools and counselors 
-   regarding BC Job Fairs and the development of a Cost of Living Calculator for 
-   many BC towns.
-  impact_longer_term:
-  challenges: >
-   Using the title Skills for BC for the discussion portion of the project and 
-   Ideas2Action for post-consultation government response, all under the wider 
-   umbrella of the BC Jobs Plan, could create confusion. Using the same title 
-   for each stage of the initiative would make it easier for citizens to 
-   understand the nature of the consultation and to continue their interest and 
-   involvement as government continues to act on public suggestions.
-   <br/>
-   While the consultation period is over, and contact information is available 
-   on the site, the continued presence of an ideas-based discussion forum could 
-   be valuable, even if relevant government agencies are unable to review or act 
-   on any new suggestions for the foreseeable future. Providing an outlet for 
-   citizen discussion in this area could prove worthwhile on its own terms.
-  lessons:
-  validation:
   
-- title: IdeaScale
-  url: http://ideascale.com/
+- title: Kickstarter
+  url: https://www.kickstarter.com/
   description: >
-   IdeaScale is an innovation management / brainstorming platform that helps 
-   clients collect feedback and ideas with an easy-to-use online interface.
-   <br/>
-   The system enables users to create "campaigns" to solicit ideas from users 
-   on a given topic and allows individual users to vote up and down on ideas 
-   and comment. The system prioritizes ideas based on popularity, allowing an 
-   organization to winnow out the good from the bad and the popular from the 
-   less-interesting.
-  activity: >
-   Opinions
-   Ideas
   scope: 
   sector: 
-  thumbnail_url: 
+  thumbnail_url: img/1big.jpg
   focus: 
-  incentives: >
-   Knowledge Building and Information Sharing 
-   Community Building
-   Civic Responsibility
-   Public Recognition 
-  location: 
-  interface: >
-   Mobile Application 
-   Website 
-  quality_control: >
-   Institution 
-   Voting
-   Prioritizing 
+  city:
+  state:
+  country: USA
   size:
   duration:
   cost:
-  platform:
   historical_information: >
-   IdeaScale, originally created as an initiative of Survey Analytics in 2008, 
-   was designed to "improve customer and employee engagement, based on the 
-   principles of ‘crowdsourcing’."
-  participation:
-  output: >
-   In its first year, IdeaScale was adopted by 23 federal agencies, including 
-   the Executive Office of the President of the United States. Since its 
-   creation, IdeaScale has worked with over 2,000,000 members in over 13,000 
-   communities globally. This includes work with the U.S. government, Wired 
-   Magazine, and Fortune 500 companies such as Xerox.
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output:
   impact_today:
   impact_longer_term:
+  crowd:
   challenges:
   lessons:
   validation:
+  dimensions:
+    activity:
+     - Funds
+    incentives: []
+    participation: [] 
+    quality_control: []
+    interface:
+     - Website
   
 - title: Innocentive
   url: http://www.innocentive.com/
@@ -1017,34 +1011,23 @@
    InnoCentive is an open innovation company that solves research and development 
    problems by creating and connecting a global network of problem solvers,
    and giving cash awards to those solvers who provide the best solutions.
-  activity: Ideas
   scope: International 
   sector: Private
   thumbnail_url: img/1big.jpg
   focus: >
    Research and consulting
    Scientific Research 
-  incentives: >
-   Financial Incentives
-   Competition
-   Recreational Incentive
-   Network Building
-   Personal Satisfaction
-  location: 
-  interface:
-  quality_control: >
-   Organization
-   Group of experts 
+  city:
+  state:
+  country: 
   size:
   duration:
   cost:
-  platform:
   historical_information: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
    in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
    in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
    In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  participation:
   output:
   impact_today: >
    As of August 2013, InnoCentive reports that their network includes 300,000+
@@ -1056,77 +1039,21 @@
   challenges:
   lessons:
   validation:
-
-- title: Kickstarter
-  url: https://www.kickstarter.com/
-  description: >
-  activity: 
-  scope: 
-  sector: 
-  thumbnail_url: img/1big.jpg
-  focus: 
-  incentives: 
-  location: USA
-  interface:
-  quality_control:
-  size:
-  duration:
-  cost:
-  platform:
-  historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  participation:
-  output:
-  impact_today:
-  impact_longer_term:
-  crowd:
-  challenges:
-  lessons:
-  validation:
-
-- title: MashupAustralia 
-  url: http://mashupaustralia.org/
-  description: >
-   The Australian Government 2.0 Taskforce created Mashup Australia to offer a 
-   practical demonstration of the benefits that open access to Australian public 
-   sector information (PSI) can provide. By working to establish this contest, 
-   the government also provided a practical demonstration of what open access is 
-   and does, while identifying some of the barriers that exist within government 
-   to a broader adoption of open access to PSI.
-  activity: Tasks
-  scope: 
-  sector: 
-  thumbnail_url: 
-  focus: 
-  incentives: >
-   Financial
-   Civic Responsibility 
-  location: 
-  interface: Website 
-  quality_control: Institution 
-  size:
-  duration:
-  cost:
-  platform:
-  historical_information: >
-   In 2009, from October – November, the Australian government released 59 
-   government datasets from 23 local and national agencies for a “hackathon.”
-  participation:
-  output:
-  impact_today:
-  impact_longer_term:
-  challenges: >
-   The greatest impediment to the program is that Australia lacks a central hub 
-   for all challenges, but instead has one-off sites and programs. This compounds 
-   other problems, most notably those regarding resource allocation; for example, 
-   individual agencies are not empowered to launch their own challenges, and most 
-   challenges tend to be short-lived.
-  lessons:
-  validation:
-
+  dimensions:
+    activity: 
+     - Ideas
+    incentives:
+     - Financial Incentives
+     - Competition
+     - Recreational Incentive
+     - Network Building
+     - Personal Satisfaction
+    participation: 
+    quality_control:
+     - You
+     - Group of Experts
+    interface: []
+  
 - title: MindLab
   url: http://mind-lab.dk/en/
   description: >
@@ -1137,25 +1064,16 @@
    to “view their [own] efforts from the outside-in, to see them from a citizen’s 
    perspective”, and applies user-centered design thinking to improve the daily 
    lives of Danish citizens.
-  activity: >
-   Opinions
-   Ideas
   scope: 
   sector: Government
   thumbnail_url: 
   focus: 
-  incentives: >
-   Skill Development
-   Community Building
-   Civic Responsibility
-   Public Recognition
-  location: 
-  interface: Website
-  quality_control: Institution
+  city:
+  state:
+  country: 
   size:
   duration:
   cost:
-  platform: 
   historical_information: >
    MindLab, unlike private corporate or nonprofit design consultancies, began 
    as an in-house initiative within the Danish government. It was created in 
@@ -1165,131 +1083,41 @@
    of both citizens and companies in developing new public-sector solutions.” 
    Today they continue their work to try and facilitate collaboration across 
    the public sector.
-  participation:
   output:
   impact_today:
   impact_longer_term:
   challenges:
   lessons:
   validation:
+  dimensions:
+    activity:
+     - Opinions
+     - Ideas 
+    incentives:
+     - Skill Development
+     - Community Building
+     - Civic Responsibility
+     - Public Recognition
+    participation: 
+    quality_control:
+     - You
+    interface:
+     - Website
 
-- title: Neighbor.ly
-  url:  https://neighbor.ly/about
-  description: >
-   Neighbor.ly is a crowdfunding site for local governments, neighborhoods, 
-   and certain civic-natured nonprofits.
-   <br/>
-   Similar to civic crowdfunding site Brickstarter, Neighbor.ly aims to 
-   connect communities with new funding sources, companies with new earned 
-   media opportunities, and citizens with the community projects they care 
-   about.. Local governments, nonprofits, and neighborhood organizations 
-   can submit proposals to a simple review process. Once the proposal has 
-   been approved, the funding campaign can be launched. Neighbor.ly provides 
-   some simple tips for running a successful campaign, and points prospective 
-   crowdfunders towards successful campaigns for more hints.
-  activity: Funds 
-  scope: 
-  sector: 
-  thumbnail_url: 
-  focus: 
-  incentives: >
-   Community Building 
-   Civic Responsibility 
-  location: 
-  interface: >
-   Mobile Application 
-   Website
-   Social Media 
-  quality_control: Group-of-Experts
-  size:
-  duration:
-  cost:
-  platform:
-  historical_information: >
-  participation:
-  output: >
-   As of March 30, 2014, Neighbor.ly has raised $1.45 million for 30 projects 
-   in 24 communities with 2,300 contributers. The site has a stated 
-   three-year impact goal of helping 1,000 communities fund 10,000 projects by 
-   raising $1 billion+
-  impact_today:
-  impact_longer_term:
-  challenges:
-  lessons:
-  validation:
-
-- title: NYC BigApps Challenge 
-  url: 
-  description: >
-   NYC BigApps is New York City's premier open data competition. Created in 2009, 
-   NYC BigApps has helped launch nearly 300 apps that improve the lives of 
-   New York residents, visitors and businesses. The NYC BigApps competition has 
-   also opened up over 1,000 datasets to developers around the world.
-  activity: Tasks
-  scope: 
-  sector: 
-  thumbnail_url: 
-  focus: 
-  incentives: >
-   Financial 
-   Skill Development 
-   Civic Responsibility 
-   Public Recognition 
-   Competition 
-  location: New York City, New York 
-  interface: Website 
-  quality_control: Group of Experts 
-  size:
-  duration:
-  cost:
-  platform:
-  historical_information: >
-  participation:
-  output: >
-   NYC Big Apps has helped create nearly 240 applications, and has engaged more 
-   than 275,000 unique visitors to the website leading to more than 83,000 
-   people voting on specific apps.
-   <br/>
-   More than 60 City agencies, commissions and Business Improvement Districts 
-   have made more than 350 new data sets available for NYC BigApps 2013, 
-   bringing the total number of raw data sets that will be available to developers 
-   to more than 1,000.
-  impact_today: >
-   Notable Solutions
-   * WayFinder NYC, an application designed to help locate the nearest subway, 
-   bus or New Jersey PATH station.
-   * Taxihack (an application that allows users to post live comments on New 
-   York City taxis and their drivers via email), *Big Apple Ed (an education 
-   application that provides residents with a user-friendly guide to schools 
-   in the City, including school searches, top ten lists, analyses, comparison 
-   charts, and detailed school profiles)
-   * Bookzee (a library book search application that allows users to enter a 
-   book title or author to find the nearest library currently holding it).
-   * NYC Way (an iPhone application that bundles more than 30 New York City 
-   resources and provides information sorted by the user's current location).
-  impact_longer_term:
-  challenges:
-  lessons:
-  validation:
-  
 - title: Open Data 500
   url: 
   description: >
-  activity: 
   scope: 
   sector: 
   thumbnail_url: 
   focus: 
-  incentives: 
-  location: 
-  interface:
-  quality_control:
+  city: New York City
+  state: NY
+  country: USA 
   size:
   duration:
   cost:
-  platform:
   historical_information: >
-  participation:
   output:
   impact_today:
   impact_longer_term:
@@ -1297,80 +1125,17 @@
   challenges:
   lessons:
   validation:
+  dimensions:
+    activity: 
+     - Data
+    incentives:
+     - Knowledge Building/Information Sharing
+    participation: 
+    quality_control:
+     - You
+    interface:
+     - Website
   
-- title: OpenIdeo
-  url: https://openideo.com
-  description: >
-   OpenIDEO is an online platform developed by the design and innovation 
-   firm, IDEO, to cultivate creative solutions to pressing social problems.
-  activity: >
-   Tasks 
-   Ideas 
-  scope: 
-  sector: 
-  thumbnail_url: 
-  focus: 
-  incentives: >
-   Community Building 
-   Civic Responsibility 
-   Competition 
-  location: 
-  interface:
-  quality_control: >
-   Rating 
-   Peer-review 
-  size:
-  duration:
-  cost:
-  platform:
-  historical_information: >
-   Launched in August 2010, OpenIDEO is an open innovation platform that 
-   allows IDEO to gain a broader perspective and reach by relying on 
-   community participation. OpenIDEO hosts specific challenges by joining 
-   with a partner organization to pose a “big question” to the greater 
-   OpenIDEO community. The community then works together to research potential 
-   solutions to the problem, collaborate on ideas, and evaluate the solution 
-   to the problem that has been developed through this community process.
-  participation:
-  output: >
-   OpenIdeo claims their application results in a number of different types 
-   of output that aid in social change. Through feedback they have received 
-   from their community, they argue that their product results in mindset change, 
-   or an increased awareness about a topic or idea, individual action, such as 
-   registering to donate bone marrow, community action, such as the creation of 
-   a group or project from the creation of an idea, and institutional action, 
-   wherein ideas are implemented through coordinating with institutions, such 
-   as Amnesty International.
-  impact_today:
-  impact_longer_term:
-  challenges:
-  lessons:
-  validation:
-
-- title: Participatory Budgeting NYC 
-  url: 
-  description: >
-  activity: 
-  scope: 
-  sector: 
-  thumbnail_url: 
-  focus: 
-  incentives: 
-  location: 
-  interface:
-  quality_control:
-  size:
-  duration:
-  cost:
-  platform:
-  historical_information: >
-  participation:
-  output:
-  impact_today:
-  impact_longer_term:
-  challenges:
-  lessons:
-  validation:
 - title: Quora
   url: 
   description: >
@@ -1395,7 +1160,14 @@
   challenges:
   lessons:
   validation:
+  dimensions:
+    activity: 
+    incentives:
+    participation: 
+    quality_control:
+    interface:
 
+  
 - title: PulsePoint Respond
   url: http://www.pulsepoint.org/
   description: >
@@ -1411,7 +1183,6 @@
    simultaneous with the dispatch of advanced medical care. The application also 
    directs these citizen rescuers to the exact location of the closest publicly 
    accessible Automated External Defibrillator (AED).
-  activity: Tasks
   scope: International
   sector: Government
   thumbnail_url: 
@@ -1421,18 +1192,12 @@
    Data/Technology
    Geospatial/Mapping
    Healthcare
-  incentives: >
-   Community Building
-   Civic Responsibility
-  location: Web-based
-  interface: Mobile-Application
-  quality_control: >
-   Institution
-   Group of experts
+  city: 
+  state:
+  country:
   size: 500,000
   duration: 3-years
   cost: $1,000-USD/year-and-up
-  platform: They-created-their-own-platform.
   historical_information: >
    The Pulse Point mobile application was first launched by the PulsePoint 
    Foundation in April 2010. The original idea for PulsePoint came from Richard 
@@ -1452,8 +1217,6 @@
    within walking distance (usually about 0.5 miles away, depending on population 
    density) of both the location of the cardiac emergency and also the location 
    of nearby publicly accessible Automated External Defibrillator (AED).
-  participation: >
-   They limit participation to CPR-trained people.
   output:
   impact_today:
   impact_longer_term:
@@ -1465,49 +1228,19 @@
    PulsePoint.
   lessons:
   validation:
-
-- title: Smarter Sustainable Dubuque
-  url: http://cityofdubuque.org/1344/Smarter-Sustainable-Dubuque
-  description: >
-   Smarter Sustainable Dubuque is a joint venture between the City of Dubuque, 
-   Iowa and IBM, focusing on making Dubuque a "smarter" city as part of IBM 
-   Watson Research Center's Global Smarter Planet Initiative.
-  activity: Ideas
-  scope: Local
-  sector: Government
-  thumbnail_url: 
-  focus: 
-  incentives: Civic-Responsibility
-  location: 
-  interface: Website 
-  quality_control:
-  size:
-  duration:
-  cost:
-  platform:
-  historical_information: >
-   The Smarter Sustainable Dubuque initiative began in September 2009 under 
-   the Smarter Cities segment of the IBM Watson Research Center's Smarter 
-   Planet initiative.
-  participation:
-  output: >
-   Smarter Sustainable Dubuque "has grown into a collaboration that includes 
-   over two dozen industries and eight state and federal agencies."
-  impact_today: >
-   The overall goal of both Smarter Sustainable Dubuque and IBM's Smarter 
-   Cities initiative is, "the development of new “smarter” technologies coupled 
-   with community outreach and implementation strategies to create a replicable, 
-   international model of sustainability for communities of 200,000 and under, 
-   where over 40 percent of the U.S. population resides. The model will 
-   integrate community engagement and education, more energy-efficient ways of 
-   operating municipal services and buildings, decreased carbon emissions, 
-   new job creation, increased financial savings, resource conservation and a 
-   higher quality of life for the entire community. It will also document the 
-   competitive opportunities that come through “smarter” resource utilization."
-  impact_longer_term:
-  challenges:
-  lessons:
-  validation:
+  dimensions:
+    activity:
+     - Tasks 
+    incentives:
+     - Community Building
+     - Civic Responsibility
+    participation: 
+     - Limit participation to a defined community
+    quality_control:
+     - You
+     - Group of Experts
+    interface:
+     - Mobile Application
 
 - title: Tehuan 3.0
   url: http://tehuan.cic.mx
@@ -1516,9 +1249,6 @@
    the use of technology while providing a trusted medium to report issues that
    need attention, from a pothole, water leak, car accident or merely traffic to 
    issues that involve public safety.
-  activity: >
-   Data
-   Opinions
   scope: >
    Regional
    Local
@@ -1532,22 +1262,9 @@
    Lifestyle and Consumer
    Transparency and Accountability 
    Urban development
-  incentives: >
-   Civic-resonsibility
-   To feel safer
-  location: Monterrey-Mexico
-  interface: >
-   Mobile Application
-   Website
-   SMS Texts
-   Social Media
-   Email
-   Telephone
-  quality_control: >
-   Voting
-   Rating
-   Peer-reviewed
-   Social media reputation
+  city: Monterrey
+  state: Nuevo León
+  country: Mexico
   size:
   duration: 3-years
   cost: $1,000 USD/year-and-up
@@ -1560,7 +1277,6 @@
    in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
    in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
    In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  participation: I-allow-anyone-to-participate
   output:
   impact_today:
   impact_longer_term:
@@ -1572,6 +1288,24 @@
    and this can be a fantastic tool for future citizen participation. 
   validation: >
    It was the best way to deploy as many sensors as eyes in Monterrey. 
+  dimensions:
+    activity: 
+     - Data
+     - Opinions
+    incentives:
+     - Civic Responsibility
+    participation: 
+     - Allow anyone willing to participate to do so
+    quality_control:
+     - Voting
+     - Rating
+     - Peer-reviewed
+    interface:
+     - Mobile Application
+     - Website
+     - SMS Texts
+     - Social Media
+     - Emails
 
 - title: Threadless
   url: https://www.threadless.com/
@@ -1580,24 +1314,13 @@
    The Threadless community is made up of artists, customers, and fans. 
    Members can submit and vote on different designs. Winning designs are then printed 
    and sold through the website.
-  activity: >
-   Tasks
-   Opinions
   scope: 
   sector: Private
   thumbnail_url: 
   focus: Lifestyle-and-consumer
-  incentives: >
-   Financial Incentives
-   Skill Development
-   Community Building
-   Competition
-   Public Recognition 
-  location: 
-  interface: >
-   Mobile Application
-   Website
-   Social Media
+  city:
+  state:
+  country: 
   quality_control: Voting
   size:
   duration: 6-years
@@ -1608,7 +1331,6 @@
    in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
    in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
    In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  participation:
   output:
   impact_today:
   impact_longer_term:
@@ -1616,6 +1338,22 @@
   challenges:
   lessons:
   validation:
+  dimensions:
+    activity: 
+     - Tasks
+    incentives:
+     - Financial Incentives
+     - Skill Development
+     - Community Building
+     - Competition
+     - Public Recognition 
+    participation: 
+    quality_control:
+     - Voting
+    interface:
+     - Mobile Application
+     - Website
+     - Social Media
 
 - title: Ushahidi
   url: http://www.ushahidi.com/
@@ -1668,4 +1406,52 @@
    While the Community section features a map and list of deployments,
    a more central means of discovery for users could prove beneficial.
   lessons:
+  validation:
+  dimensions:
+    activity: 
+     - Data
+     - Opinions
+     - Ideas
+    incentives:
+     - Knowledge Building/Information Sharing
+     - Community Building
+     - Civic Responsibility
+    participation: 
+    quality_control:
+     - Group of Experts
+     - Peer-reviewed
+    interface:
+     - Mobile Application
+     - Website
+     - SMS Texts
+     - Social Media
+
+- title: EMPTY EXAMPLE 
+  url: 
+  description:
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus:
+   - 
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information:
+  output:
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+    incentives:
+    participation: 
+    quality_control:
+    interface:
   validation:
