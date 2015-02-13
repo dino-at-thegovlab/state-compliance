@@ -5,18 +5,19 @@
    Adopt-a-Hydrant is a web application that allows citizens to "adopt" civic
    infrastructure, such as fire hydrants that need to be shoveled out after it
    snows.
-  activity: Tasks
+  activity: 
+    - Tasks
   scope: National
   sector: Nonprofit
   thumbnail_url: 
-  focus: >
-   Civic participation
-   Environment and weather
-   Geospatial mapping
-  incentives: >
-   Civic responsibility 
-   Altruistic incentive
-   Personal satisfaction
+  focus:
+   - Civic participation
+   - Environment and weather
+   - Geospatial mapping
+  incentives:
+   - Civic responsibility 
+   - Altruistic incentive
+   - Personal satisfaction
   location: Boston-Massachusetts-USA
   interface: Website
   quality_control: Peer-reviewed
@@ -37,8 +38,8 @@
   impact_longer_term: >
    That Adopt-a-Hydrant continues to grow and spread, as it has every year since 
    I created it. 
-  crowd: >
-   Civic-minded Boston residents.
+  crowd:
+   - Civic-minded Boston residents.
   challenges:
   lessons:
   validation:
@@ -53,31 +54,31 @@
    agreeble identifies consensus-driving and polarizing opinions in gropus of
    people. When users voice their opinions, delivering the accountability of a
    survey with the unique insights found only on social networks.
-  activity: >
-   Data
-   Opinions
-  scope: >
-   International
-   National
+  activity:
+   - Data
+   - Opinions
+  scope:
+   - International
+   - National
   sector: Private
   thumbnail_url: 
-  focus: >
-   Buisiness-and-legal-services
-   Data-Technology
-   Finance-and-investment
-   Governance
-  incentives: >
-   Financial-incentives
-   Knowledge-building-and-information-sharing
-   Recreational-incentive
+  focus:
+   - Buisiness-and-legal-services
+   - Data-Technology
+   - Finance-and-investment
+   - Governance
+  incentives:
+   - Financial-incentives
+   - Knowledge-building-and-information-sharing
+   - Recreational-incentive
   location: Web-based
-  interface: >
-   Mobile-application
-   Website
-   Social-media
-  quality_control: >
-   Voting
-   Peer-reviewed
+  interface:
+   - Mobile-application
+   - Website
+   - Social-media
+  quality_control:
+   - Voting
+   - Peer-reviewed
   size: 
   duration: 1 year
   cost: free
@@ -92,8 +93,8 @@
    We incorporated in January of 2014 and have since added advisors in research, ux, 
    marketing, and rhetoric. We have additionally partnered with Amazon and uSamp for
    sourcing samples.
-  participation: >
-   Users can source probability or non-probability samples.
+  participation:
+   - Users can source probability or non-probability samples.
   output:
   impact_today: >
    The impact it has varies from user to user. Some use it to impact their brand 
