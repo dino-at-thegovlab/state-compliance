@@ -132,7 +132,7 @@
                         <div id="grid-container" class="cbp-l-grid-projects ">
                             <ul>
                                 {% for case in case_studies %}
-                                    <li class="cbp-item {% if case['focus'] %}{{case['focus'].replace(" ","-").lower() }}{% endif %}">
+                                    <li class="cbp-item {% for focus in case['focus'] %} {{ focus.replace(" ","-").lower() }} {%endfor%}">
                                         <div class="cbp-caption">
                                             <div class="cbp-caption-defaultWrap">
                                                 <img src="img/casestudies/{{case['title'].replace(".","-").replace(" ","-").lower()}}-small.png" alt="" width="100%">
