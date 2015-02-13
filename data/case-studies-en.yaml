@@ -901,17 +901,25 @@
    rather than a one off campaign.
   validation: >
    Online is the best way from a reach and ease of implementation perspective.
-  
-- title: Kickstarter
-  url: https://www.kickstarter.com/
-  description: >
-  activity: 
-  scope: 
-  sector: 
-  thumbnail_url: img/1big.jpg
+
+- title: Ideas 2 Action 
+  url: 
+  description: > 
+   Ideas2Action was a crowdsourced effort undertaken by the Premier of British 
+   Columbia, Canada, Christy Clark, to help generate new ideas for building a 
+   skilled workforce in BC. Premier Christy Clark held a seven-week online 
+   consultation period to obtain ideas from the public. More than 52,000 visitors 
+   went to the BC Jobs Plan website, and approximately 500 British Columbians 
+   contributed to the discussion. 
+  activity: Ideas
+  scope: Regional 
+  sector: Government  
+  thumbnail_url: 
   focus: 
-  incentives: 
-  location: USA
+  incentives: >
+   Civic Responsibility
+   Competition 
+  location: British-Columbia-Canada 
   interface:
   quality_control:
   size:
@@ -919,15 +927,86 @@
   cost:
   platform:
   historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+   The Skills for BC consultation was held from November to December 2012 and 
+   led by Premier Christy Clark. Citizen input was then reviewed and acted upon 
+   by the BC Jobs Plan Team, relevant government officials and partners like 
+   the Industry Training Authority.
   participation:
   output:
+  impact_today: >
+   The consultation generated 500 contributions, just over 400 comments in the 
+   official discussion forum and approximately 100 ideas sent via private email, 
+   Twitter and Facebook. The Ideas2Action website provides information on the 
+   “125 actions and counting” that were inspired by the citizen consultation 
+   period. Some actions include, the creation of a Job Trend Tracker for exploring 
+   statistics on more than 500 careers, increased outreach to schools and counselors 
+   regarding BC Job Fairs and the development of a Cost of Living Calculator for 
+   many BC towns.
+  impact_longer_term:
+  challenges: >
+   Using the title Skills for BC for the discussion portion of the project and 
+   Ideas2Action for post-consultation government response, all under the wider 
+   umbrella of the BC Jobs Plan, could create confusion. Using the same title 
+   for each stage of the initiative would make it easier for citizens to 
+   understand the nature of the consultation and to continue their interest and 
+   involvement as government continues to act on public suggestions.
+   <br/>
+   While the consultation period is over, and contact information is available 
+   on the site, the continued presence of an ideas-based discussion forum could 
+   be valuable, even if relevant government agencies are unable to review or act 
+   on any new suggestions for the foreseeable future. Providing an outlet for 
+   citizen discussion in this area could prove worthwhile on its own terms.
+  lessons:
+  validation:
+  
+- title: IdeaScale
+  url: http://ideascale.com/
+  description: >
+   IdeaScale is an innovation management / brainstorming platform that helps 
+   clients collect feedback and ideas with an easy-to-use online interface.
+   <br/>
+   The system enables users to create "campaigns" to solicit ideas from users 
+   on a given topic and allows individual users to vote up and down on ideas 
+   and comment. The system prioritizes ideas based on popularity, allowing an 
+   organization to winnow out the good from the bad and the popular from the 
+   less-interesting.
+  activity: >
+   Opinions
+   Ideas
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Knowledge Building and Information Sharing 
+   Community Building
+   Civic Responsibility
+   Public Recognition 
+  location: 
+  interface: >
+   Mobile Application 
+   Website 
+  quality_control: >
+   Institution 
+   Voting
+   Prioritizing 
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   IdeaScale, originally created as an initiative of Survey Analytics in 2008, 
+   was designed to "improve customer and employee engagement, based on the 
+   principles of ‘crowdsourcing’."
+  participation:
+  output: >
+   In its first year, IdeaScale was adopted by 23 federal agencies, including 
+   the Executive Office of the President of the United States. Since its 
+   creation, IdeaScale has worked with over 2,000,000 members in over 13,000 
+   communities globally. This includes work with the U.S. government, Wired 
+   Magazine, and Fortune 500 companies such as Xerox.
   impact_today:
   impact_longer_term:
-  crowd:
   challenges:
   lessons:
   validation:
@@ -977,7 +1056,77 @@
   challenges:
   lessons:
   validation:
-  
+
+- title: Kickstarter
+  url: https://www.kickstarter.com/
+  description: >
+  activity: 
+  scope: 
+  sector: 
+  thumbnail_url: img/1big.jpg
+  focus: 
+  incentives: 
+  location: USA
+  interface:
+  quality_control:
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  participation:
+  output:
+  impact_today:
+  impact_longer_term:
+  crowd:
+  challenges:
+  lessons:
+  validation:
+
+- title: MashupAustralia 
+  url: http://mashupaustralia.org/
+  description: >
+   The Australian Government 2.0 Taskforce created Mashup Australia to offer a 
+   practical demonstration of the benefits that open access to Australian public 
+   sector information (PSI) can provide. By working to establish this contest, 
+   the government also provided a practical demonstration of what open access is 
+   and does, while identifying some of the barriers that exist within government 
+   to a broader adoption of open access to PSI.
+  activity: Tasks
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Financial
+   Civic Responsibility 
+  location: 
+  interface: Website 
+  quality_control: Institution 
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   In 2009, from October – November, the Australian government released 59 
+   government datasets from 23 local and national agencies for a “hackathon.”
+  participation:
+  output:
+  impact_today:
+  impact_longer_term:
+  challenges: >
+   The greatest impediment to the program is that Australia lacks a central hub 
+   for all challenges, but instead has one-off sites and programs. This compounds 
+   other problems, most notably those regarding resource allocation; for example, 
+   individual agencies are not empowered to launch their own challenges, and most 
+   challenges tend to be short-lived.
+  lessons:
+  validation:
+
 - title: MindLab
   url: http://mind-lab.dk/en/
   description: >
@@ -1024,6 +1173,105 @@
   lessons:
   validation:
 
+- title: Neighbor.ly
+  url:  https://neighbor.ly/about
+  description: >
+   Neighbor.ly is a crowdfunding site for local governments, neighborhoods, 
+   and certain civic-natured nonprofits.
+   <br/>
+   Similar to civic crowdfunding site Brickstarter, Neighbor.ly aims to 
+   connect communities with new funding sources, companies with new earned 
+   media opportunities, and citizens with the community projects they care 
+   about.. Local governments, nonprofits, and neighborhood organizations 
+   can submit proposals to a simple review process. Once the proposal has 
+   been approved, the funding campaign can be launched. Neighbor.ly provides 
+   some simple tips for running a successful campaign, and points prospective 
+   crowdfunders towards successful campaigns for more hints.
+  activity: Funds 
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Community Building 
+   Civic Responsibility 
+  location: 
+  interface: >
+   Mobile Application 
+   Website
+   Social Media 
+  quality_control: Group-of-Experts
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+  participation:
+  output: >
+   As of March 30, 2014, Neighbor.ly has raised $1.45 million for 30 projects 
+   in 24 communities with 2,300 contributers. The site has a stated 
+   three-year impact goal of helping 1,000 communities fund 10,000 projects by 
+   raising $1 billion+
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  validation:
+
+- title: NYC BigApps Challenge 
+  url: 
+  description: >
+   NYC BigApps is New York City's premier open data competition. Created in 2009, 
+   NYC BigApps has helped launch nearly 300 apps that improve the lives of 
+   New York residents, visitors and businesses. The NYC BigApps competition has 
+   also opened up over 1,000 datasets to developers around the world.
+  activity: Tasks
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Financial 
+   Skill Development 
+   Civic Responsibility 
+   Public Recognition 
+   Competition 
+  location: New York City, New York 
+  interface: Website 
+  quality_control: Group of Experts 
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+  participation:
+  output: >
+   NYC Big Apps has helped create nearly 240 applications, and has engaged more 
+   than 275,000 unique visitors to the website leading to more than 83,000 
+   people voting on specific apps.
+   <br/>
+   More than 60 City agencies, commissions and Business Improvement Districts 
+   have made more than 350 new data sets available for NYC BigApps 2013, 
+   bringing the total number of raw data sets that will be available to developers 
+   to more than 1,000.
+  impact_today: >
+   Notable Solutions
+   * WayFinder NYC, an application designed to help locate the nearest subway, 
+   bus or New Jersey PATH station.
+   * Taxihack (an application that allows users to post live comments on New 
+   York City taxis and their drivers via email), *Big Apple Ed (an education 
+   application that provides residents with a user-friendly guide to schools 
+   in the City, including school searches, top ten lists, analyses, comparison 
+   charts, and detailed school profiles)
+   * Bookzee (a library book search application that allows users to enter a 
+   book title or author to find the nearest library currently holding it).
+   * NYC Way (an iPhone application that bundles more than 30 New York City 
+   resources and provides information sorted by the user's current location).
+  impact_longer_term:
+  challenges:
+  lessons:
+  validation:
+  
 - title: Open Data 500
   url: 
   description: >
@@ -1050,6 +1298,79 @@
   lessons:
   validation:
   
+- title: OpenIdeo
+  url: https://openideo.com
+  description: >
+   OpenIDEO is an online platform developed by the design and innovation 
+   firm, IDEO, to cultivate creative solutions to pressing social problems.
+  activity: >
+   Tasks 
+   Ideas 
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: >
+   Community Building 
+   Civic Responsibility 
+   Competition 
+  location: 
+  interface:
+  quality_control: >
+   Rating 
+   Peer-review 
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   Launched in August 2010, OpenIDEO is an open innovation platform that 
+   allows IDEO to gain a broader perspective and reach by relying on 
+   community participation. OpenIDEO hosts specific challenges by joining 
+   with a partner organization to pose a “big question” to the greater 
+   OpenIDEO community. The community then works together to research potential 
+   solutions to the problem, collaborate on ideas, and evaluate the solution 
+   to the problem that has been developed through this community process.
+  participation:
+  output: >
+   OpenIdeo claims their application results in a number of different types 
+   of output that aid in social change. Through feedback they have received 
+   from their community, they argue that their product results in mindset change, 
+   or an increased awareness about a topic or idea, individual action, such as 
+   registering to donate bone marrow, community action, such as the creation of 
+   a group or project from the creation of an idea, and institutional action, 
+   wherein ideas are implemented through coordinating with institutions, such 
+   as Amnesty International.
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  validation:
+
+- title: Participatory Budgeting NYC 
+  url: 
+  description: >
+  activity: 
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: 
+  location: 
+  interface:
+  quality_control:
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+  participation:
+  output:
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  validation:
 - title: Quora
   url: 
   description: >
@@ -1075,7 +1396,6 @@
   lessons:
   validation:
 
-  
 - title: PulsePoint Respond
   url: http://www.pulsepoint.org/
   description: >
@@ -1143,6 +1463,49 @@
   challenges: >
    Their biggest challenges is that each 9-1-1 system must be integrated into 
    PulsePoint.
+  lessons:
+  validation:
+
+- title: Smarter Sustainable Dubuque
+  url: http://cityofdubuque.org/1344/Smarter-Sustainable-Dubuque
+  description: >
+   Smarter Sustainable Dubuque is a joint venture between the City of Dubuque, 
+   Iowa and IBM, focusing on making Dubuque a "smarter" city as part of IBM 
+   Watson Research Center's Global Smarter Planet Initiative.
+  activity: Ideas
+  scope: Local
+  sector: Government
+  thumbnail_url: 
+  focus: 
+  incentives: Civic-Responsibility
+  location: 
+  interface: Website 
+  quality_control:
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   The Smarter Sustainable Dubuque initiative began in September 2009 under 
+   the Smarter Cities segment of the IBM Watson Research Center's Smarter 
+   Planet initiative.
+  participation:
+  output: >
+   Smarter Sustainable Dubuque "has grown into a collaboration that includes 
+   over two dozen industries and eight state and federal agencies."
+  impact_today: >
+   The overall goal of both Smarter Sustainable Dubuque and IBM's Smarter 
+   Cities initiative is, "the development of new “smarter” technologies coupled 
+   with community outreach and implementation strategies to create a replicable, 
+   international model of sustainability for communities of 200,000 and under, 
+   where over 40 percent of the U.S. population resides. The model will 
+   integrate community engagement and education, more energy-efficient ways of 
+   operating municipal services and buildings, decreased carbon emissions, 
+   new job creation, increased financial savings, resource conservation and a 
+   higher quality of life for the entire community. It will also document the 
+   competitive opportunities that come through “smarter” resource utilization."
+  impact_longer_term:
+  challenges:
   lessons:
   validation:
 
