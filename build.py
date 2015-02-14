@@ -47,6 +47,15 @@ def Main():
 		print "Error, dimensions are not properly labeled: "
 		for dim in error_dimensions:
 			print dim
+	#make the js
+	items = { "items":sort_items() } 
+	template = env.get_template('main.js')
+	js = template.render(items)
+	with open('site/js/main.js', 'w') as f:
+		f.write(js.encode('utf8'))
+		f.close()
+
+
 
 def dimensions_validated():
 	categories = []
@@ -60,6 +69,25 @@ def dimensions_validated():
 	cats = [dim['name'].lower() for dim in template_data['enums']['advisor_dimensions']]
 	error_dimensions = [c for c in categories if c.lower() not in cats]
 	return error_dimensions
+
+def sort_items():
+	items = []
+	cats = [dim['name'].lower().replace(" ", "-") for dim in template_data['enums']['advisor_dimensions']]
+	variables = ['activity', 'incentives', 'interface', 'participation', 'quality_control']
+	for case in template_data['case_studies']:
+	    categories = []
+	    for v in variables:
+	        if case['dimensions'][v]:
+	            for c in case['dimensions'][v]:
+	                categories.append(c.lower().replace(" ", "-"))
+	    cats_selected = []
+	    for c in cats:
+	        if c in categories:
+	            cats_selected.append(1)
+	        else: 
+	            cats_selected.append(0)
+	    items.append({"title":case['title'], "url":case['title'].replace(" ","-").lower(), "scores":cats_selected})
+	return items
 
 if __name__ == '__main__':
   Main()

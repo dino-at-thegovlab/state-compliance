@@ -575,7 +575,10 @@ p .accordion-toggle {
 #relevant-case-studies {
 	display: none;
 }
-   if you want any change on portfolio, please go cubeportfolio.css */
+
+#relevant-case-studies .case-study {
+	width: 200px;
+}
    
    
 /* HIGHLIGHT */
