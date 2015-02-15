@@ -715,7 +715,7 @@
   validation:
   
 - title: GroupTalent
-  url: https://grouptalent.com/welcome/
+  url: grouptalent.com/welcome/
   description: > 
    Headquartered in San Francisco, GroupTalent is a hiring platform that lists 
    contract-for-hire opportunities so a developer can try out working with a 
@@ -1005,6 +1005,7 @@
     interface:
      - Website
   
+  
 - title: Innocentive
   url: http://www.innocentive.com/
   description: >
@@ -1054,56 +1055,6 @@
      - Group of Experts
     interface: []
   
-- title: MindLab
-  url: http://mind-lab.dk/en/
-  description: >
-   MindLab is a public lab based in Denmark that works as part of three national 
-   ministries and one municipality – the Business and Growth Ministry of Employment, 
-   Ministry of Education and Odense – to engage citizens and businesses in creating 
-   new solutions to provide value to society. MindLab focuses on allowing government 
-   to “view their [own] efforts from the outside-in, to see them from a citizen’s 
-   perspective”, and applies user-centered design thinking to improve the daily 
-   lives of Danish citizens.
-  scope: 
-  sector: Government
-  thumbnail_url: 
-  focus: [] 
-  city:
-  state:
-  country: 
-  size:
-  duration:
-  cost:
-  historical_information: >
-   MindLab, unlike private corporate or nonprofit design consultancies, began 
-   as an in-house initiative within the Danish government. It was created in 
-   2002 for the Ministry of Economic and Business Affairs.
-   <br/>
-   In 2007, MindLab adopted a new strategy, to foster “the active involvement 
-   of both citizens and companies in developing new public-sector solutions.” 
-   Today they continue their work to try and facilitate collaboration across 
-   the public sector.
-  output:
-  impact_today:
-  impact_longer_term:
-  challenges:
-  lessons:
-  validation:
-  dimensions:
-    activity:
-     - Opinions
-     - Ideas 
-    incentives:
-     - Skill Development
-     - Community Building
-     - Civic Responsibility
-     - Public Recognition
-    participation: 
-    quality_control:
-     - You
-    interface:
-     - Website
-
 - title: Open Data 500
   url: 
   description: >
