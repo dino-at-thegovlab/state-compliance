@@ -1,4 +1,52 @@
 ---
+- title: 99 Designs
+  url: http://99designs.com
+  description: >
+   99designs is an online platform that connects graphic designers 
+   with potential clients by hosting design challenges.
+   <br/>
+   The company creates their products by crowdsourcing, as customers can 
+   solicit designers to submit designs for contests to create products 
+   such as websites, t-shirts, or logos. The customer then chooses the best 
+   design from the pool of submitted entries and the selected designer will 
+   win a cash payment. Customers also have the option of working with individual 
+   designers by purchasing design templates from 99designs’ Readymade logo store 
+   or by visiting Swiftly for quick graphic design fixes and steal logo's.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   The company was co-founded in 2008 by Mark Harbottle and Matt Mickiewicz in 
+   Melbourne, Australia. The company opened its U.S. office in 2010, and in 2011 
+   the company secured $35 million in Series A funding from Accel Partners and a 
+   handful of angel investors.
+  output: >
+   Graphic designs that can be used for t-shirts, websites, etc.
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks
+    incentives:
+     - Financial Incentives 
+    participation: 
+    quality_control:
+     - You
+    interface:
+     - Website
+  validation:
+
 - title: Adopt-a-Hydrant
   url: http://boston.adoptahydrant.com
   description: >
@@ -970,42 +1018,112 @@
      - Emails
   validation: >
    Online is the best way from a reach and ease of implementation perspective.
-  
-- title: Kickstarter
-  url: https://www.kickstarter.com/
+
+- title: Ideas 2 Action 
+  url: 
   description: >
+   Ideas2Action was a crowdsourced effort undertaken by the Premier of British 
+   Columbia, Canada, Christy Clark, to help generate new ideas for building a 
+   skilled workforce in BC. Premier Christy Clark held a seven-week online 
+   consultation period to obtain ideas from the public. More than 52,000 visitors 
+   went to the BC Jobs Plan website, and approximately 500 British Columbians 
+   contributed to the discussion
+  city: 
+  state: British Columbia 
+  country: Canada
   scope: 
-  sector: 
-  thumbnail_url: img/1big.jpg
+   - 
+  sector: Government 
+  thumbnail_url: 
   focus: []
-  city:
-  state:
-  country: USA
-  size:
-  duration:
+  size: 
+  duration: 
   cost:
+  crowd: 
   historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  output:
+   The Skills for BC consultation was held from November to December 2012 and led 
+   by Premier Christy Clark. Citizen input was then reviewed and acted upon by 
+   the BC Jobs Plan Team, relevant government officials and partners like the 
+   Industry Training Authority.
+  output: >
+   As part of a larger effort to engage the public in the crafting of the BC Jobs 
+   Plan, Skills for BC’s aim was to engage the public on the development of British 
+   Columbia economic development plan, since it “is everyone’s plan and there is 
+   an opportunity to collaborate to build the future of our province together.”
   impact_today:
   impact_longer_term:
-  crowd:
   challenges:
   lessons:
-  validation:
   dimensions:
-    activity:
-     - Funds
-    incentives: []
-    participation: [] 
-    quality_control: []
+    activity: 
+     - Ideas
+    incentives:
+     - Civic Responsibility 
+     - Competition 
+    participation: 
+    quality_control:
+     - You 
+     - Voting 
     interface:
-     - Website
-  
-  
+     - Website 
+  validation:
+
+- title: IdeaScale
+  url: http://ideascale.com/
+  description: >
+   Ideascale is an innovation management / brainstorming platform that helps 
+   clients collect feedback and ideas with an easy-to-use online interface.
+   <br/>
+   The system enables users to create "campaigns" to solicit ideas from users 
+   on a given topic and allows individual users to vote up and down on ideas 
+   and comment. The system prioritizes ideas based on popularity, allowing an 
+   organization to winnow out the good from the bad and the popular from the 
+   less-interesting.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Ideascale, originally created as an initiative of Survey Analytics in 2008, 
+   was designed to "improve customer and employee engagement, based on the 
+   principles of ‘crowdsourcing’."
+  output: >
+   In its first year, IdeaScale was adopted by 23 federal agencies, including the 
+   Executive Office of the President of the United States.[3] Since its creation, 
+   IdeaScale has worked with over 2,000,000 members in over 13,000 communities 
+   globally. [4] This includes work with the U.S. government, Wired Magazine, 
+   and Fortune 500 companies such as Xerox.
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Opinions
+     - Ideas
+    incentives:
+     - Knowledge Building/Information Sharing
+     - Community Building
+     - Civic Responsibility
+     - Public Recognition 
+    participation: 
+    quality_control:
+     - You 
+     - Voting
+     - Rating 
+    interface:
+     - Mobile Application 
+     - Website 
+  validation:
+
 - title: Innocentive
   url: http://www.innocentive.com/
   description: >
@@ -1053,8 +1171,258 @@
     quality_control:
      - You
      - Group of Experts
-    interface: []
+    interface: []  
+
+- title: Kickstarter
+  url: https://www.kickstarter.com/
+  description: >
+  scope: 
+  sector: 
+  thumbnail_url: img/1big.jpg
+  focus: []
+  city:
+  state:
+  country: USA
+  size:
+  duration:
+  cost:
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output:
+  impact_today:
+  impact_longer_term:
+  crowd:
+  challenges:
+  lessons:
+  validation:
+  dimensions:
+    activity:
+     - Funds
+    incentives: []
+    participation: [] 
+    quality_control: []
+    interface:
+     - Website
+
+- title: MashupAustralia
+  url: http://mashupaustralia.org/
+  description: >
+   The Australian Government 2.0 Taskforce created Mashup Australia to offer a 
+   practical demonstration of the benefits that open access to Australian public 
+   sector information (PSI) can provide. By working to establish this contest, 
+   the government also provided a practical demonstration of what open access is 
+   and does, while identifying some of the barriers that exist within government 
+   to a broader adoption of open access to PSI.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: Government
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   In 2009, from October – November, the Australian government released 59 
+   government datasets from 23 local and national agencies for a “hackathon.”
+   <br/>
+   The Government 2.0 Taskforce was established by the Australian Government 
+   in 2009 as a joint initiative between the Hon. Lindsay Tanner MP, Minister 
+   for Finance and Deregulation and Senator the Hon. Joe Ludwig, Cabinet 
+   Secretary and Special Minister of State.
+   <br/>
+   The purpose of the Taskforce is to investigate how the Australian Government 
+   can increase the openness of government and encourage greater online 
+   engagement.
+  output: >
+   The primary objective of MashupAustralia was to showcase how something as 
+   simple as, for example, the locations of government services or census data, 
+   can deliver benefits to the research, commercial and community sectors—and 
+   to citizens at large.
+   <br/>
+   The government also hoped to address some of the challenges raised by open 
+   access to PSI, and awarded bonuses to entrants that sought to transform, 
+   enrich and enhance data sets into more useful and open formats in the process 
+   of building their entries.
+   <br/>
+   Finally, the government also aimed to drive community engagement, an ongoing goal 
+   of the Government 2.0 Taskforce.
+  impact_today: >
+   Of the 82 mashups entered, two won the grand $10,000 prize:
+   * Suburban Trends: “A mashup of different types of crime and census data 
+   that allows you to compare and contrast suburbs by a range of economic, 
+   education, safety and socio-economic indicators. The judges thought the 
+   ability to compare suburbs visually combined with the selective choice of 
+   statistics was excellent especially in a field dominated by many entries 
+   using similar datasets.”
+   * Know Where You Live: “This entry bills itself as a prototype of a mashup 
+   of a range of open access government data based on postcodes so that you 
+   can truly know where you live. The judges loved the very citizen-centric 
+   “common questions” user experience of this app and the groovy, and again, 
+   selective repackaging of what could otherwise be considered (we’ll be 
+   honest here) slightly boring data.”
+  impact_longer_term:
+  challenges: >
+   The greatest impediment to the program is that Australia lacks a central 
+   hub for all challenges, but instead has one-off sites and programs. This 
+   compounds other problems, most notably those regarding resource allocation; 
+   for example, individual agencies are not empowered to launch their own 
+   challenges, and most challenges tend to be short-lived.
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks
+    incentives:
+     - Financial Incentives 
+     - Civic Responsibility 
+     - Competition 
+    participation: 
+    quality_control:
+     - You 
+    interface:
+     - Website 
+  validation:  
   
+- title: Neighbor.ly
+  url: https://neighbor.ly/
+  description: >
+   Neighbor.ly is a crowdfunding site for local governments, neighborhoods, 
+   and certain civic-natured nonprofits.
+   <br/>
+   Similar to civic crowdfunding site Brickstarter, Neighbor.ly aims to connect 
+   communities with new funding sources, companies with new earned media 
+   opportunities, and citizens with the community projects they care about. Local 
+   governments, nonprofits, and neighborhood organizations can submit proposals 
+   to a simple review process. Once the proposal has been approved, the funding 
+   campaign can be launched. Neighbor.ly provides some simple tips for running a 
+   successful campaign, and points prospective crowdfunders towards successful 
+   campaigns for more hints.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output: > 
+   As of March 30, 2014, Neighbor.ly has raised $1.45 million for 30 projects 
+   in 24 communities with 2,300 contributers.[2] The site has a stated three-year 
+   impact goal of helping 1,000 communities fund 10,000 projects by raising 
+   $1 billion+.
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Funds
+    incentives:
+     - Community Building 
+     - Civic Responsibility 
+    participation: 
+    quality_control:
+     - Group of Experts 
+    interface:
+     - Mobile Application 
+     - Website 
+  validation:  
+
+- title: NYC BigApps Challenge
+  url: http://nycbigapps.com/
+  description: >
+   NYC BigApps is New York City's premier open data competition. Created in 2009, 
+   NYC BigApps has helped launch nearly 300 apps that improve the lives of New 
+   York residents, visitors and businesses. The NYC BigApps competition has also 
+   opened up over 1,000 datasets to developers around the world.
+   <br/>
+   As part of the discussion that the crowdsourcing model can tap the possibilities 
+   for digital communication networks to mobilize citizens, foster creative input 
+   and produce plans through democratic processes, which more accurately address 
+   our lived experience within organized networks today. A few scholars studying 
+   collective intelligence in governance,including Clark and Logan cite the 
+   successes of the crowdsourcing platform Ushahidi and of the ideation initiative 
+   NYCBigApps as evidence that crowdsourcing can transform government to be more 
+   engaging, more democratic, and more effective.
+   <br/>
+   The Challenge is also a test of the concept of prize-backed challenges, that 
+   help create the incentive for insightful enthusiasts to emerge from the 
+   woodwork. The use of prizes in the public sector is growing more common, as 
+   evidenced by the New York City’s BigApps challenge, although we still do not 
+   have a strong understanding of their optimal uses.
+  city: New York City 
+  state: NY 
+  country: USA
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output: >
+   * NYC Big Apps has helped create nearly 240 applications, and has engaged more 
+   than 275,000 unique visitors to the website leading to more than 83,000 people 
+   voting on specific apps.
+   <br/>
+   * More than 60 City agencies, commissions and Business Improvement Districts 
+   have made more than 350 new data sets available for NYC BigApps 2013, bringing 
+   the total number of raw data sets that will be available to developers to more 
+   than 1,000.
+  impact_today: >
+   Notable Solutions include
+   * WayFinder NYC, an application designed to help locate the nearest subway, bus 
+   or New Jersey PATH station.
+   * Taxihack (an application that allows users to post live comments on New York 
+   City taxis and their drivers via email), *Big Apple Ed (an education application 
+   that provides residents with a user-friendly guide to schools in the City, including 
+   school searches, top ten lists, analyses, comparison charts, and detailed school 
+   profiles).
+   * Bookzee (a library book search application that allows users to enter a book 
+   title or author to find the nearest library currently holding it).
+   * NYC Way (an iPhone application that bundles more than 30 New York City resources 
+   and provides information sorted by the user's current location).
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks
+    incentives:
+     - Financial Incentives 
+     - Skill Development 
+     - Civic Responsibility 
+     - Public Recognition 
+     - Competition 
+    participation: 
+    quality_control:
+     - Group of Experts 
+    interface:
+     - Website 
+  validation:  
+
 - title: Open Data 500
   url: 
   description: >
@@ -1086,6 +1454,190 @@
      - You
     interface:
      - Website
+
+- title: OpenIDEO  
+  url: https://openideo.com/
+  description: >
+   OpenIDEO is an online platform developed by the design and innovation firm, 
+   IDEO, to cultivate creative solutions to pressing social problems. 
+   <br/>
+   OpenIDEO hosts specific challenges by joining with a partner organization 
+   to pose a “big question” to the greater OpenIDEO community. The community 
+   then works together to research potential solutions to the problem, 
+   collaborate on ideas, and evaluate the solution to the problem that has 
+   been developed through this community process.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Launched in August 2010, OpenIDEO is an open innovation platform that allows 
+   IDEO to gain a broader perspective and reach by relying on community 
+   participation. 
+  output: >
+   OpenIDEO claims their application results in a number of different types of 
+   output that aid in social change. Through feedback they have received from 
+   their community, they argue that their product results in mindset change, or 
+   an increased awareness about a topic or idea, individual action, such as 
+   registering to donate bone marrow, community action, such as the creation of a 
+   group or project from the creation of an idea, and institutional action, wherein 
+   ideas are implemented through coordinating with institutions, such as Amnesty 
+   International.
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks 
+     - Ideas 
+    incentives:
+     - Community Building 
+     - Civic Responsibility 
+     - Competition 
+    participation: 
+    quality_control:
+     - Rating 
+     - Peer-reviewed 
+    interface:
+     - Website 
+  validation:  
+
+- title: Participatory Budgeting in NYC
+  url: http://pbnyc.org
+  description: >
+   Participatory budgeting is a democratic process to engage citizens in public 
+   funding allocations. New York City is currently using participatory budgeting 
+   in ten city council districts.
+  city: New York City 
+  state: NY
+  country: USA
+  scope: 
+   - 
+  sector: Government 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output: >
+   The New York City participatory budgeting process has three main goals - inclusion, 
+   equality, and empowerment. As their website states, "We also hope that PB will have 
+   other benefits for the community: inspiring greater civic participation, building 
+   community, educating and empowering residents, increasing transparency in government, 
+   and leading to better budget decisions - spending that is more responsible and efficient, 
+   and that results in more sustainable and livable neighborhoods.
+   <br/>
+   As of March 30, 2014, New York City residents have allocated funds for 70 projects, 
+   ranging from technology upgrades to security cameras, a mobile cooking classroom, 
+   and playground improvements.
+  impact_today: > 
+   Year 2 of participatory budgeting in NYC (2012-2013) engaged almost 14,000 citizens 
+   across eight districts.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Opinions
+     - Ideas 
+    incentives:
+     - Skill Development
+     - Community Building 
+     - Civic Responsibility 
+    participation: 
+    quality_control:
+     - Voting 
+    interface:
+     - Website 
+  validation: 
+  
+- title: Patient Feedback Challenge 
+  url: http://www.institute.nhs.uk/innovation/spread_and_adoption/nhs_patient_feedback_challenge.html
+  description: >
+   The United Kingdom’s National Health Service (NHS) Institute for Innovation and 
+   Improvement created the Patient Feedback Challenge to generate and implement 
+   ideas to improve patient experiences at NHS organizations. Ideas were published 
+   on a web channel, and nine were chosen by an expert panel. Programs were piloted 
+   at nine participating NHS organizations and funded from August 2012 to March 
+   2013, when the NHS Institute was disbanded. The projects were selected following 
+   their bid for a share of the £1 million Challenge fund which was set aside to 
+   support the most promising approaches to measuring and improving patient 
+   experience.
+  city: 
+  state: 
+  country: United Kingdom 
+  scope: 
+   - 
+  sector: Government 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output: >
+   More than 2,200 individuals participated in determining the best project ideas 
+   on the Challenge’s web channel. However, the web channel proved to be a challenge 
+   for some participation projects due to technical difficulties with the actual 
+   site and a lack of familiarity with social networking.
+   <br/>
+   Nine NHS projects were ultimately chosen to share the one million pound grant.
+   These nine pilot projects impacted 75 wards, services, and divisions across NHS.
+  impact_today: >
+   Because funding was time-limited to the closure of the NHS Institute, the long 
+   term impacts of the specific NHS Challenge projects is still to be determined. 
+   However, the funding provided did enable organizations to have the flexibility 
+   to test new approaches to patient-care where they otherwise could not afford 
+   to do.
+   <br/>
+   Ultimately, as a government entity, the NHS Institute is not the final 
+   decision-maker in its own resources. In April 2013, the Institute was disbanded. 
+   The projects continue, but do not have the same access to NHS Institute resources.
+   <br/>
+   The United Kingdom’s Office of Public Management, which evaluated the Patient 
+   Feedback Challenge from June 2012 to February 2013, concluded that a web portal 
+   that allowed projects to share ideas and experiences is beneficial and welcomed 
+   by participation parties. Yet, NHS Institute’s untested web channel was fraught 
+   with initial technical issues, “leading some to lose faith in it and ultimately 
+   fail to use it to its full potential. We suggest that in future programmes, 
+   introducing a more straightforward online portal with clear guidance about how 
+   to use it and fewer technical glitches, is likely to encourage uptake and use.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Ideas
+    incentives:
+     - Financial Incentives 
+     - Civic Responsibility 
+     - Competition 
+    participation: 
+    quality_control:
+     - Group of Experts 
+    interface:
+     - Website 
+  validation:
   
 - title: Quora
   url: 
@@ -1377,6 +1929,149 @@
      - Website
      - SMS Texts
      - Social Media
+
+- title: XPRIZE
+  url: http://www.xprize.org/
+  description: >
+   XPRIZEs are massive financial awards provided by the XPRIZE Foundation and a 
+   variety of private sector sponsors for solutions to audacious problems. The 
+   prizes are used to incentivize projects that could benefit humanity. Prizes 
+   are given out following a competition, wherein individuals propose potential 
+   projects or solutions to public problems. For example, the Ansari XPRIZE for 
+   space exploration is one of the most famous examples of prize-induced contests.
+   <br/>
+   XPRIZEs are awarded in five different groups: Education, Energy and Environment,
+   Exploration, Global Development and Life Sciences. Currently active XPRIZEs 
+   include the Google Lunar XPRIZE, Archon Genomics XPRIZE presented by Express 
+   Scripts, Qualcomm Tricorder XPRIZE and the Nokia Sensing XPRIZE. Already awarded 
+   XPRIZEs include the Ansari XPRIZE, Progressive Insurance Automotive XPRIZE, Wendy 
+   Schmidt Oil Cleanup XCHALLENGE and the Northrop Grumman Lunar Lander XCHALLENGE.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Chairman and CEO Peter Diamandis first announced the Ansari XPRIZE in 1996. 
+   The $10 million prize for building and launching a spacecraft capable of 
+   carrying three people to 100 kilometers above the earth’s surface, twice 
+   within two weeks, was awarded to Scaled Composites on October 4, 2004. 
+   Following the success of the project, the XPRIZE Foundation grew and began 
+   offering prizes in a wider variety of areas.
+  output:
+  impact_today: >
+   XPRIZEs likely remain the most popularly known form of open innovation contests 
+   or challenges. The incredible success of the original Ansari XPRIZE—which 
+   spawned over $100 million in development efforts by contestants—likely played 
+   a significant role in catalyzing the wider use of price-induced contests and 
+   challenges. XPRIZEs have “facilitated an oil recovery cleanup at quadruple the 
+   standard rate. Enabled the creation of a 135 MPGe energy-efficient car. And 
+   helped launch a $1.5 billion private space industry.”
+  impact_longer_term:
+  challenges: >
+   The scope and difficulty of XPRIZE challenges traditionally lead to teams or 
+   organizations winning the prize, as was the case with the original Ansari XPRIZE. 
+   However, considering the level of complexity involved in each challenge, 
+   unaffiliated individuals could possibly provide useful input if given the 
+   opportunity to collaborate, but the website provides no on-site means of 
+   collaboration or team building.
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks
+     - Opinions 
+    incentives:
+     - Financial Incentives 
+     - Knowledge Building/Information Sharing 
+     - Skill Development
+     - Public Recognition 
+     - Competition 
+    participation: 
+    quality_control:
+     - You 
+     - Group of Experts
+    interface:
+     - Website 
+  validation:
+  
+- title: Zooniverse
+  url: https://www.zooniverse.org/
+  description: >
+   Zooniverse is a website that houses the various projects run by the Citizen 
+   Science Alliance.
+   <br/>
+   The Zooniverse website connects volunteers, or “zooites,” to a variety of 
+   Citizen Science Alliance’s projects. The original project, Galaxy Zoo, had 
+   volunteers classify galaxies by leading them through on online tutorial of 
+   visual cues to determine galaxy type, testing the participant’s newly acquired 
+   skills with a trial, and finally having the participants apply this knowledge 
+   to unclassified galaxies. While the original Galaxy Zoo project is archived, 
+   there have been several variations including two that are still in progress, 
+   Galaxy Zoo, Hubble and Moon Zoo.
+   <br/>
+   In addition to Galaxy Zoo and its spin-offs, there are many other projects 
+   that deal with astronomical categorization using the same technique of training 
+   volunteers to identify certain characteristics and then use that knowledge to 
+   classify specific celestial objects (galaxies, moons, etc.). The same model 
+   is also utilized for projects in other fields such as ecology, climate science, 
+   and marine biology. In the case of marine biology, the model was adjusted for a 
+   project entitled Whale FM so that participants learned audio instead of visual 
+   cues. There are also multiple transcription projects currently underway, 
+   including Old Weather and Ancient Lives, which rely on volunteers to transcribe 
+   documents.
+   <br/>
+   The Zooniverse/Citizen Science Alliance team determines which projects will 
+   be housed in Zooniverse by having scientists submit proposals through online 
+   questionnaires. Zooniverse works with scientists and scholars from a wide 
+   variety of fields, including astronomy, humanities, climate science, planetary 
+   science, classics, and ecology.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output: >
+   There are 22 projects which Zooniverse has run or is currently running. The 
+   original Galaxy Zoo project produced millions of classifications. Each of 
+   Zooniverse’s projects produces publications based on their findings, which 
+   are available to users through the website.
+  impact_today: >
+   As of October 17, 2013, Zooniverse has 873,105 participating in 18 active
+   projects. These contributions aide scientists in various fields with tasks 
+   such as classification and transcription.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks 
+     - Knowledge Building/Information Sharing 
+    incentives:
+    participation: 
+    quality_control:
+     - Peer-reviewed
+    interface:
+     - Website 
+  validation:
 
 - title: EMPTY EXAMPLE 
   url: 
