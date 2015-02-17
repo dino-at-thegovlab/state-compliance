@@ -74,20 +74,12 @@ jQuery(document).ready(function($) {
 	
     var items = {{items}}
     var case_study_template = '<li class="case-study">'+
-                    '<div class="">'+
-                        '<div class="">'+
+                    '<div class="case-study-tile">'+
+                        '<div class="case-study-image">'+
                             '<a href="<%= url %>.html" class="" data-title=""><img src="img/casestudies/<%= url %>-small.png" alt="" width="100%"></a>'+
                         '</div>'+
-                        '<div class="">'+
-                            '<div class="">'+
-                                '<div class="">'+
-                                    '<a href="ajax/.html" class=""><i class="pe-3x pe-7s-plus"></i></a>'+
-                                '</div>'+
-                            '</div>'+
-                        '</div>' +
                     '</div>' +
-                    '<div class=""><%= title %></div>' +
-                    '<div class=""></div>' +
+                    '<div class="case-study-title"><%= title %></div>' +
                 '</li>';
 
 

@@ -1363,33 +1363,16 @@
    wide variety of data streams to visually present location-based information.
    It was originally developed in response to post-election violence in Kenya in 
    2008 and has since been used for a wide variety of humanitarian and civic ends.
-  activity: >
-   Data
-   Opinions
-   Ideas
   scope: 
   sector: Nonprofit
   thumbnail_url: 
   focus:
    - Civic participation
    - Geospatial and Mapping
-  incentives: >
-   Knowledge Building
-   Community Building 
-   Civic Responsibility 
   location: 
-  interface: >
-   Mobile Application
-   Website
-   SMS Texts
-   Social Media
-  quality_control: >
-   Group of experts
-   Peer-reviewed
   size:
   duration:
   cost:
-  platform:
   historical_information: >
    Ushahidi, which means “testimony” in Swahili, was originally developed by an 
    ad hoc group of volunteers in 2008 to help map reports of violence following 
@@ -1455,3 +1438,6 @@
     quality_control:
     interface:
   validation:
+
+
+
