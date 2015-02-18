@@ -11,8 +11,31 @@
 
 <div class="cbp-l-project-container">
 	<div class="cbp-l-project-desc">
-	    <div class="cbp-l-project-desc-title"><span>About {{title}}</span></div>
-	    <div class="cbp-l-project-desc-text">{{historical_information}}</div>
+		{% if description %}
+		    <div class="cbp-l-project-desc-title"><span>About {{title}}</span></div>
+		    <div class="cbp-l-project-desc-text">{{description}}</div>
+		    <br>
+	    {% endif %}
+	    {% if historical_information %}
+		    <div class="cbp-l-project-desc-title"><span>Historical Information</span></div>
+		    <div class="cbp-l-project-desc-text">{{historical_information}}</div>
+		    <br>
+	    {% endif %}
+	    {% if lessons %}
+		    <div class="cbp-l-project-desc-title"><span>Lessons Learned</span></div>
+		    <div class="cbp-l-project-desc-text">{{lessons}}</div>
+		    <br>
+	    {% endif %}
+	    {% if challenges %}
+		    <div class="cbp-l-project-desc-title"><span>Challenges</span></div>
+		    <div class="cbp-l-project-desc-text">{{challenges}}</div>
+		    <br>
+	    {% endif %}
+	    {% if validation %}
+		    <div class="cbp-l-project-desc-title"><span>Validation</span></div>
+		    <div class="cbp-l-project-desc-text">{{validation}}</div>
+		    <br>
+	    {% endif %}
 	</div>
 	<div class="cbp-l-project-details">
 		<div class="cbp-l-project-details-title"><span>Project Details</span></div>

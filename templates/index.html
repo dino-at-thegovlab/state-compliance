@@ -198,7 +198,7 @@
                                             </div>
                                         </div>
                                         <div class="cbp-l-grid-projects-title">{{case['title']}}</div>
-                                        <div class="cbp-l-grid-projects-desc">{% if case['focus'] %}{{case['focus']}} {% endif %}</div>
+                                        <div class="cbp-l-grid-projects-desc">{{', '.join(case['focus'])}}</div>
                                     </li>
                                 {% endfor %}
                             </ul>
