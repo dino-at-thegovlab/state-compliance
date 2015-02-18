@@ -15,8 +15,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -175,7 +174,8 @@
   city:
   state: British Columbia
   country: Canada
-  scope: Regional
+  scope: 
+   - Regional
   sector: Government
   thumbnail_url: 
   focus: [] 
@@ -240,7 +240,7 @@
   city:
   state:
   country:
-  scope: 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: [] 
@@ -285,7 +285,8 @@
    posting specific challenges on the site, to which the public can post submissions 
    to these challenges, with winning selections typically receiving a prize. It is 
    one of the first challenge platforms launched and managed by a federal government.
-  scope: National
+  scope: 
+   - National
   sector: Government
   thumbnail_url: 
   focus: [] 
@@ -341,7 +342,8 @@
    Code for Philly is an online community in the city of Philadelphia, 
    Pennsylvania that seeks to modernize the city through use of weekly 
    meetups and hack-a-thons.
-  scope: Local
+  scope: 
+   - Local
   sector: Government
   thumbnail_url: 
   focus: [] 
@@ -385,7 +387,7 @@
    Consumer Financial Protection Bureau (CFPB), the first U.S. 21st-century 
    consumer agency, allows consumers (and anonymous whistleblowers) to 
    directly submit, view, download and visualize complaints.
-  scope: 
+  scope: []
   sector: Government
   thumbnail_url: 
   focus: [] 
@@ -450,7 +452,7 @@
    citizen reporting for the province. The service provides citizens with 
    contact information to report highway issues, with optimized site versions 
    for desktop and mobile, and a strong Twitter presence.
-  scope: 
+  scope: []
   sector: Government
   thumbnail_url: 
   focus: [] 
@@ -512,7 +514,7 @@
    They are a self-described "mission-driven for-profit company" that provides a 
    platform for research scientists in the United States to crowd fund their 
    research projects.
-  scope: 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: [] 
@@ -561,7 +563,7 @@
    area, view them on a map, discuss them with fellow citizens, monitor their 
    development and provide or read citizen updates. The service automatically sends 
    the citizen reports to the relevant government council upon receipt.
-  scope: 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: [] 
@@ -632,7 +634,7 @@
    taking advantage of our puzzle-solving intuitions and having people play 
    competitively to fold the best proteins. Players can also design brand new 
    proteins that could help prevent or treat important diseases.”
-  scope: 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: [] 
@@ -678,7 +680,7 @@
    consultation and community volunteering opportunities and get directly 
    involved. Beyond simplicity and ease of use, the site promotes greater government 
    transparency by publishing the full results of completed public consultation projects.
-  scope: 
+  scope: []
   sector: Government
   thumbnail_url: 
   focus: [] 
@@ -725,7 +727,7 @@
    Washington D.C. municipal government and its citizens. It enables constituents 
    to submit comments about certain District of Columbia agencies and view how 
    District residents graded those agencies.
-  scope: 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: [] 
@@ -780,7 +782,7 @@
    Now based in San Francisco, GroupTalent was developed out of TechStars 
    Seattle and raised $1 million in funding from Version One Ventures, Menlo 
    Ventures, and Founder’s Co-op.
-  scope: 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: [] 
@@ -1031,8 +1033,7 @@
   city: 
   state: British Columbia 
   country: Canada
-  scope: 
-   - 
+  scope: []
   sector: Government 
   thumbnail_url: 
   focus: []
@@ -1082,8 +1083,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -1130,7 +1130,8 @@
    InnoCentive is an open innovation company that solves research and development 
    problems by creating and connecting a global network of problem solvers,
    and giving cash awards to those solvers who provide the best solutions.
-  scope: International 
+  scope: 
+   - International 
   sector: Private
   thumbnail_url: img/1big.jpg
   focus:
@@ -1176,7 +1177,7 @@
 - title: Kickstarter
   url: https://www.kickstarter.com/
   description: >
-  scope: 
+  scope: []
   sector: 
   thumbnail_url: img/1big.jpg
   focus: []
@@ -1219,8 +1220,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: Government
   thumbnail_url: 
   focus: []
@@ -1306,8 +1306,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -1368,8 +1367,7 @@
   city: New York City 
   state: NY 
   country: USA
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -1426,7 +1424,7 @@
 - title: Open Data 500
   url: 
   description: >
-  scope: 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: [] 
@@ -1469,8 +1467,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -1520,8 +1517,7 @@
   city: New York City 
   state: NY
   country: USA
-  scope: 
-   - 
+  scope: []
   sector: Government 
   thumbnail_url: 
   focus: []
@@ -1581,8 +1577,7 @@
   city: 
   state: 
   country: United Kingdom 
-  scope: 
-   - 
+  scope: []
   sector: Government 
   thumbnail_url: 
   focus: []
@@ -1643,7 +1638,7 @@
   url: 
   description: >
   activity: 
-  scope: 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: [] 
@@ -1686,7 +1681,8 @@
    simultaneous with the dispatch of advanced medical care. The application also 
    directs these citizen rescuers to the exact location of the closest publicly 
    accessible Automated External Defibrillator (AED).
-  scope: International
+  scope: 
+   - International
   sector: Government
   thumbnail_url: 
   focus:
@@ -1752,9 +1748,9 @@
    the use of technology while providing a trusted medium to report issues that
    need attention, from a pothole, water leak, car accident or merely traffic to 
    issues that involve public safety.
-  scope: >
-   Regional
-   Local
+  scope:
+   - Regional
+   - Local
   sector: Nonprofit
   thumbnail_url: 
   focus:
@@ -1817,7 +1813,7 @@
    The Threadless community is made up of artists, customers, and fans. 
    Members can submit and vote on different designs. Winning designs are then printed 
    and sold through the website.
-  scope: 
+  scope: []
   sector: Private
   thumbnail_url: 
   focus: 
@@ -1866,7 +1862,7 @@
    wide variety of data streams to visually present location-based information.
    It was originally developed in response to post-election violence in Kenya in 
    2008 and has since been used for a wide variety of humanitarian and civic ends.
-  scope: 
+  scope: []
   sector: Nonprofit
   thumbnail_url: 
   focus:
@@ -1932,8 +1928,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -2018,8 +2013,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
