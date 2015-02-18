@@ -20,7 +20,7 @@ template_data = {
 def Main():
 	env = Environment(loader=FileSystemLoader(TEMPLATES_DIR),
 		extensions=['jinja2.ext.with_'])
-	pages = ["index", 'advisor']
+	pages = ["index", 'advisor', 'about']
 	for page in pages:
 		template = env.get_template('%s.html' % page)
 		html = template.render(template_data)

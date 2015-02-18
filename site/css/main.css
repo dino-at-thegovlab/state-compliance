@@ -223,6 +223,25 @@ h4 {
 	font-family:'misoregular';
 }
 
+/*SERVICES*/
+
+#services h2 {
+	margin-bottom: 30px;
+}
+
+/*WHAT IS THE ADVISOR*/
+
+#what-is-advisor {
+	background: #ececee;
+}
+
+#what-is-advisor p {
+	margin-bottom: 10px;
+}
+
+#what-is-advisor .try-advisor {
+	text-align: center;
+}
 
 /* ABOUT */
 
@@ -233,6 +252,7 @@ h4 {
 
 #about p {
 	margin-bottom:35px;
+	margin-top: 20px;
 }
 
 #about .about-header {
@@ -244,6 +264,10 @@ h4 {
 	text-align: right;
 	position: relative;
 	top: 215px;
+}
+
+#about .button {
+	margin-top: 24px;
 }
 
 .about-img {
@@ -269,7 +293,6 @@ h4 {
 	display:table-cell;
 	vertical-align:middle;
 }
-
 
 /* TEAM */
 
@@ -750,6 +773,7 @@ input[type="checkbox"] {
     position: relative;
     top: -2px;
     *overflow: hidden;
+    zoom: 1.5;
 }
 
 
