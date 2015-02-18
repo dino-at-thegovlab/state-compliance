@@ -1021,53 +1021,6 @@
   validation: >
    Online is the best way from a reach and ease of implementation perspective.
 
-- title: Ideas 2 Action 
-  url: 
-  description: >
-   Ideas2Action was a crowdsourced effort undertaken by the Premier of British 
-   Columbia, Canada, Christy Clark, to help generate new ideas for building a 
-   skilled workforce in BC. Premier Christy Clark held a seven-week online 
-   consultation period to obtain ideas from the public. More than 52,000 visitors 
-   went to the BC Jobs Plan website, and approximately 500 British Columbians 
-   contributed to the discussion
-  city: 
-  state: British Columbia 
-  country: Canada
-  scope: []
-  sector: Government 
-  thumbnail_url: 
-  focus: []
-  size: 
-  duration: 
-  cost:
-  crowd: 
-  historical_information: >
-   The Skills for BC consultation was held from November to December 2012 and led 
-   by Premier Christy Clark. Citizen input was then reviewed and acted upon by 
-   the BC Jobs Plan Team, relevant government officials and partners like the 
-   Industry Training Authority.
-  output: >
-   As part of a larger effort to engage the public in the crafting of the BC Jobs 
-   Plan, Skills for BC’s aim was to engage the public on the development of British 
-   Columbia economic development plan, since it “is everyone’s plan and there is 
-   an opportunity to collaborate to build the future of our province together.”
-  impact_today:
-  impact_longer_term:
-  challenges:
-  lessons:
-  dimensions:
-    activity: 
-     - Ideas
-    incentives:
-     - Civic Responsibility 
-     - Competition 
-    participation: 
-    quality_control:
-     - You 
-     - Voting 
-    interface:
-     - Website 
-  validation:
 
 - title: IdeaScale
   url: http://ideascale.com/
