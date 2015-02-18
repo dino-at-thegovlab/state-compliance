@@ -576,13 +576,22 @@ p .accordion-toggle {
 	display: none;
 }
 
-#relevant-case-studies .case-study {
-	width: 200px;
+/*#relevant-case-studies .case-study {
+	width: 262px;
+	height: 243px;
+	display: inline-block;
+	margin-right: 15px;
 }
+
+#relevant-case-studies .case-study p {
+	font: 22px misoregular;
+}
+
+
 
 #relevant-case-studies ul {
 	list-style-type: none;
-}
+}*/
    
    
 /* HIGHLIGHT */
