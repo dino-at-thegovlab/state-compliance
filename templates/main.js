@@ -104,10 +104,6 @@ jQuery(document).ready(function($) {
 
 
 
-// });
-
-
-// $(window).load(function() {
 
 
     // init cubeportfolio
@@ -133,7 +129,6 @@ jQuery(document).ready(function($) {
         singlePageCallback: function(url, element) {
             // to update singlePage content use the following method: this.updateSinglePage(yourContent)
             var t = this;
-            console.log(url)
             $.ajax({
                 url: url,
                 type: 'GET',
@@ -141,8 +136,6 @@ jQuery(document).ready(function($) {
                 timeout: 5000
             })
                 .done(function(result) {
-                    console.log("result");
-                    console.log(result);
                     t.updateSinglePage(result);
                 })
                 .fail(function() {
@@ -239,6 +232,7 @@ jQuery(document).ready(function($) {
                     "url": items[candidates[i]]['url'].replace(".", "-"),
                     "title": items[candidates[i]]['title']
                 }
+                console.log(data);
                 $(".relevant-case-study-list").append(new_case_study(data));
             }
         }
@@ -246,7 +240,6 @@ jQuery(document).ready(function($) {
         $('#relevant-case-studies').show();
         gridContainer.cubeportfolio('destroy');
         gridContainer.cubeportfolio(options);
-        gridContainer.cubeportfolio('showCounter', filtersContainer.find('.cbp-filter-item'));
     });
 
     //PARALLAX BACKGROUND
