@@ -107,7 +107,7 @@ jQuery(document).ready(function($) {
 
 
     // init cubeportfolio
-    var options = {
+    var options_portfolio = {
         defaultFilter: '*',
         animationType: 'flipOut',
         gapHorizontal: 45,
@@ -155,7 +155,7 @@ jQuery(document).ready(function($) {
 
     var gridContainer = $('#grid-container'),
         filtersContainer = $('#filters-container');
-    gridContainer.cubeportfolio(options);
+    gridContainer.cubeportfolio(options_portfolio);
 
     // add listener for filters click
     filtersContainer.on('click', '.cbp-filter-item', function(e) {
@@ -239,7 +239,7 @@ jQuery(document).ready(function($) {
         $('#report').show();
         $('#relevant-case-studies').show();
         gridContainer.cubeportfolio('destroy');
-        gridContainer.cubeportfolio(options);
+        gridContainer.cubeportfolio(options_portfolio);
     });
 
     //PARALLAX BACKGROUND
