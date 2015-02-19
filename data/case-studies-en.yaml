@@ -1587,37 +1587,346 @@
      - Website 
   validation:
   
-- title: Quora
-  url: 
+- title: PatientOpinion.org.uk
+  url: https://www.patientopinion.org.uk/
   description: >
-  activity: 
-  scope: []
+   Patient Opinion is a national feedback website for the UK National Health 
+   Service. Users can rate their health service experience, view other ratings, 
+   and engage directly with other patients and health providers.
+   <br/>
+   As part of the platform, consumers of health care services share stories 
+   from their experiences with service care providers. These stories are then 
+   widely accessible forms of open data that others may use to make more 
+   informed decisions about their health providers.
+   <br/>
+   In the history of the platform 88,947 stories have been told and 2,689 
+   staff are listening to these stories. In the past month (May 2013): 45% 
+   of stories received a response and 6% of responses to concerns led 
+   directly to change.
+   <br/>
+   Patient Opinion is one of the only patient healthcare feedback services 
+   for a national healthcare service.
+  city: 
+  state: 
+  country: United Kingdom 
+  scope: 
+   - 
   sector: 
   thumbnail_url: 
-  focus: [] 
-  incentives: 
-  location: 
-  interface:
-  quality_control:
-  size:
-  duration:
+  focus: 
+   - Healthcare
+  size: 
+  duration: 
   cost:
-  platform:
+  crowd: 
   historical_information: >
-  participation:
-  output:
-  impact_today:
+   Patient Opinion was founded in 2006 by Paul Hodgkin, a GP in Sheffield, who 
+   wanted to make the wisdom of patients available to the NHS. The initial phase 
+   of PatientOpinion was funded by the Department of Health and South Yorkshire 
+   Strategic Health Authority. Since 2006, Patient Opinion has been funded through 
+   subscriptions and sales to trusts, commissioners and others. Over 600 
+   organizations subscribe or are registered with Patient Opinion.
+  output: >
+   Users sign in to share and rate their health service experience, which is then 
+   sent directly to staff so that they can learn from it. Staff also provides a 
+   response to the user. Additional news, featured patient stories, and social 
+   tools are also included on the site.
+  impact_today: >
+   Over 85,000 ratings or stories have been submitted to Patient Opinion, with 
+   over 2,600 healthcare staff actively reviewing these submissions. About 95% 
+   of stories get posted, and only 15% require some form of vetting to ensure 
+   they are of high quality.
+   <br> 
+   Despite their extensive work, Patient Opinion is not integrated with government 
+   in any official capacity, diminishing its efficacy. The platform itself should 
+   look to improve its user-interface, including adding search functions and 
+   access to raw data.
   impact_longer_term:
   challenges:
   lessons:
-  validation:
   dimensions:
     activity: 
+     - Ideas 
     incentives:
+     - Financial Incentives
+     - Civic Responsibility 
+     - Competition
+    participation: 
+    quality_control:
+     - Group of Experts
+    interface:
+     - Website 
+  validation:
+  
+- title: Peer To Patent 
+  url: http://www.peertopatent.org/
+  description: >
+   The Peer-to-Patent project captured the importance of getting expertise and 
+   information into government to inform policymaking. Peer To Patent is the 
+   first social-software project directly linked to decision-making by the federal 
+   government. It is only one approach in the potential evolution toward more open 
+   and collaborative institutions.
+   <br/>
+   Peer To Patent is a historic initiative by the United States Patent and Trademark 
+   Office (USPTO) that opens the patent examination process to public participation 
+   for the first time. Peer to Patent is an online system that aims to improve the 
+   quality of issued patents by enabling the public to supply the USPTO with 
+   information relevant to assessing the claims of pending patent applications.
+  city: 
+  state: 
+  country: United States 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   In 2005, before Facebook and Twitter, New York Law School students and the 
+   chair of the Research Network, Beth Noveck, designed and later launched Peer 
+   to Patent, the first expert network in government, which connected volunteer 
+   scientists and technologists to national patent offices to better inform how 
+   they decide who gets the twenty year grant of the monopoly right called a 
+   patent. They invented the process, technology and the policy by which a closed 
+   bureaucracy could open its doors and collaborate with knowledgeable people to 
+   do its work better. Time after time, the public was able to dig up quickly the 
+   expertise the official could not find, enabling him/her to make the final 
+   determination informed by citizen participation but subject to the independent 
+   law and rules of the patent process. Despite the fact that patent practice 
+   had not changed much since Thomas Jefferson began as the first examiner in 
+   1791, under the new Patent Act, passed with near unanimity – Peer to Patent 
+   citizen engagement, once an experimental pilot undertaken only with the 
+   applying inventor's consent – is now enshrined in law.
+  output:
+  impact_today: >
+   As of November 24, 2010, there had been 557,560 page views from 114,395 unique 
+   viewers in 173 countries or territories. More than 2, 800 people signed up to 
+   be reviewers.
+   * Peer To Patent attracted more than 2,000 peer reviewers.
+   * The first 27 office actions issued during the pilot phase showed use of Peer 
+   To Patent submitted prior art in nine rejections.
+   * On average, citizen-reviewers contributed 6 hours reviewing each patent 
+   application in the pilot.
+   * Although USPTO rules permit third-party prior art submissions on pending 
+   applications (but only before the applications have been published, or before 
+   a notice of allowance is issued, whichever comes first), the average number of 
+   prior art submissions on Peer To Patent applications was 2,000 times that of 
+   standard rule-based submissions.
+   * 92% of patent examiners surveyed said they would welcome examining another 
+   application with public participation, while 73% of participating examiners 
+   want to see Peer-To-Patent implemented as a regular office practice.
+   * 21% of participating examiners stated that prior art submitted by the Peer 
+   to Patent community was "inaccessible" directly to USPTO examiners.
+   * Prior art submissions by Peer-To-Patent reviewers were four times as likely 
+   to include non-patent literature (any document that is not a patent, including 
+   Web sites, journals, textbooks, and databases) as compared to prior art 
+   submissions by applicant.
+  impact_longer_term:
+  challenges: > 
+   Criticism of the Peer to Patent project range from its goals to its likelihood 
+   of success. Other criticisms focus on the legal constraints and the implications 
+   for third party participants in the approval process.
+  lessons:
+  dimensions:
+    activity:
+     - Data 
+    incentives:
+     - Civic Responsibility 
+     - Public Recognition 
+    participation: 
+    quality_control:
+     - You 
+     - Peer-reviewed 
+    interface: 
+     - Website 
+  validation:  
+
+- title: PlaceSpeak  
+  url: https://www.placespeak.com/
+  description: >
+   PlaceSpeak is a public consultation platform, mainly for city governments, 
+   that features a user verification system that ensures everyone taking part 
+   in a consultation project has a connection with the relevant geographic area.
+   <br/>
+   PlaceSpeak features consultation opportunities split into four central topic 
+   categories: government, private sector, community and agency. So while the 
+   platform is likely best known for its use by city governments, any member 
+   can create a public consultation entry for their organization.
+   <br/>
+   PlaceSpeak “advances public consultation to a whole new level by enabling 
+   evidence-based decision-making by allowing citizens to influence the process 
+   in an open, safe, secure and transparent manner.”
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Founder and CEO Colleen Nystedt developed PlaceSpeak in 2010. The platform 
+   was the first location-based community consultation platform in existence.
+  output:
+  impact_today: >
+   Lists of case studies and testimonials describe PlaceSpeak’s successful 
+   implementation in projects like the development of the City of New 
+   Westminster’s Transportation Plan, the City of Vancouver’s Mayor’s Housing 
+   Affordability Task Force and the District of Tofino’s Tsunami Siren Test.
+  impact_longer_term:
+  challenges: >
+   As of May 2013, each of PlaceSpeak’s limited consultation opportunities are 
+   based in Canada. While the site can be used for single initiatives, as a 
+   platform, a growing network of participating organizations and governments 
+   is likely necessary for the site to be valuable.
+  lessons:
+  dimensions:
+    activity: 
+     - Opinions 
+     - Ideas 
+    incentives: 
+     - Community Building 
+     - Civic Responsibility 
+    participation: 
+    quality_control:
+     - You 
+    interface:
+    - Website 
+  validation:  
+
+- title: Propeller Health 
+  url: http://propellerhealth.com
+  description: >
+   Propeller Health is a mobile platform for respiratory health management 
+   designed to help patients and their physicians better understand and control 
+   respiratory disease to reduce preventable emergency room visits and 
+   hospitalizations.
+   <br/>
+   Patients can better manage their asthma and COPD symptoms by tracking 
+   when and where they occurred and by giving meaningful feedback based on the 
+   data it collects. In addition, Propeller has the option to share these data 
+   with physicians and family members. For example, parents can track how often 
+   their children are taking their medication and receive alerts when they use 
+   their rescue inhaler.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus:
+   - Healthcare
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Propeller Health was founded in 2010 by David Van Sickel, a former 
+   epidemiologist for the Center for Disease Control & Prevention. One of the 
+   first apps with FDA-clearance, Propeller is backed by The Social+Capital 
+   Partnership, California HealthCare Foundation and others. Propeller Health 
+   currently works with organizations like Dignity Health, Wyckoff Heights
+   Medical Center, Amerigroup Florida and the City of Louisville.
+  output: >
+   Early studies found a 50 percent reduction in the number of people with 
+   uncontrolled asthma among users of the device and app. The survey app enables 
+   providers to check in more often with their patients and may help avoid 
+   asthma-related emergency department visits or hospitalizations.
+   <br/>
+   As of July 2014, Propeller Health and Arizona Care Network, a "physician and 
+   health system collaboration," announced today that ACN would be "the first 
+   Accountable Care Organization (ACO) offering the Propeller platform to its 
+   members with chronic obstructive pulmonary disease (COPD).
+  impact_today: >
+   People with asthma and COPD are strongly recommended to keep track of their 
+   symptoms, triggers and use of medications. However, evidence shows that 
+   remembering to update this information is tough for patients and it often 
+   becomes an inaccurate and incomplete record of their respiratory health over 
+   time. Clinical trials[3] report improved asthma control and decline in 
+   day-to-day asthma symptoms associated with remote monitoring of inhale and 
+   bronchodilator frequency and location. Trials conclude[4] that such system 
+   has the potential to improve the recognition and treatment of poorly 
+   controlled asthma and it could also represent an important improvement in 
+   asthma management, epidemiological research, and public health surveillance.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Data 
+    incentives:
+     - Knowledge Building/Information Sharing 
     participation: 
     quality_control:
     interface:
+     - Mobile Application 
+  validation:  
 
+- title: Public Lab 
+  url: http://publiclab.org
+  description: >
+   The Public Lab for Open Technology and Science (Public Lab) is an organization 
+   that is focused on “civic science” through shared methods, hardware, and software 
+   for use in experiments in different communities.
+   <br/>
+   Public lab is an online community where members participate in “civic science” 
+   experiments through the creation of different scientific tools, as well as the 
+   reporting back of the scientific data collected using those tools. The tools 
+   include both hardware and software. The Public Lab organization also provides 
+   support for community members through the website.
+   <br/>
+   There are various Public Lab projects being conducted at any given time. Current 
+   tools include: indoor air quality mapping, balloon and kite mapping, home testing 
+   for endocrine disruptors, balloon telemetry, and spectrometry.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: 
+  output: >
+   In addition to the creation of both hardware and software, Public Lab allows 
+   members to submit their data collection back to Public Lab creating a source 
+   of research for scientists and scholars.
+  impact_today: >
+   Public Lab has been at the forefront of promoting the idea of civic science. 
+   They currently have four local chapters and are conducting six experiments 
+   where participants are conducting open-source research.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks
+     - Data
+     - Funds
+     - Ideas
+    incentives:
+     - Knowledge Building/Information Sharing 
+     - Skill Development 
+     - Community Building 
+     - Civic Responsibility 
+    participation: 
+    quality_control: 
+     - Group of Experts 
+    interface: 
+     - Website 
+  validation:  
   
 - title: PulsePoint Respond
   url: http://www.pulsepoint.org/
@@ -1694,6 +2003,36 @@
     interface:
      - Mobile Application
 
+- title: Quora
+  url: 
+  description: >
+  activity: 
+  scope: []
+  sector: 
+  thumbnail_url: 
+  focus: [] 
+  incentives: 
+  location: 
+  interface:
+  quality_control:
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+  participation:
+  output:
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  validation:
+  dimensions:
+    activity: 
+    incentives:
+    participation: 
+    quality_control:
+    interface:
 - title: Tehuan 3.0
   url: http://tehuan.cic.mx
   description: >
@@ -1861,6 +2200,94 @@
      - Website
      - SMS Texts
      - Social Media
+
+- title: World Bank ICT4Gov 
+  url: 
+  description: >
+   The World Bank’s ICT4Gov initiative is a knowledge base for government 
+   practitioners to share information and resources to encourage use of 
+   Information and Communication Technologies (ICT) for better governance. 
+   The World Bank Institute is facilitating such initiatives in a number of 
+   pilot participatory budgeting projects in the Dominican Republic and the 
+   Democratic Republic of Congo.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output: >
+   Mobile technology has an estimated 47% penetration in a country that has long 
+   dealt with conflict and still struggles to provide basic public services to 
+   citizens. By leveraging simple SMS systems, citizens can now express and vote 
+   on the priorities that are most pressing for their communities.
+  impact_today: >
+   In Democratic Republic of Congo, as of 2012, over 250,000 text messages have 
+   been sent throughout the different stages of this project.
+   <br/>
+   Since the beginning of the program, the provincial Kivu government reports 
+   an increasing capacity of the local government to better allocate resources, 
+   and communities involved have already seen an increase in the transfer of 
+   funds from the provincial to the local level.
+   <br/>
+   The preliminary results of an external evaluation suggest a reduction of tax 
+   evasion at the local level, with citizens more willing to pay taxes as they 
+   link government spending to improvement in the delivery of services. For the 
+   first time, communities such as Ibanda have gone from not having any investment 
+   budget to having 40% of their budget devoted to investments.
+   <br/>
+   The increase in the transfer of funds from the provincial to the local level 
+   has benefited communities, which now have more resources to deliver public 
+   services to the poor. For instance, the process has enabled the repair of 54 
+   classrooms and a bridge in Luhindja, the founding of a health center and repair 
+   of a sewage system in Bagira, and the construction of a water fountain, as well 
+   as toilets in the local markets of Ibanda.To enhance these efforts, ICT4Gov is 
+   using mobile phones for four purposes. The first is to invite citizens to the 
+   participatory budgeting assemblies through geo-targeted SMS messages. These 
+   messages, reaching all the phones receiving signal from a particular tower, 
+   announce the date, time and location of the assemblies.
+   <br/>
+   Mobile phones are also being used for voting, allowing citizens to text a number 
+   associates with a particular project to identify which of the priorities they 
+   would like to see addressed in their community. When they have reached an 
+   agreement the local government devotes a percentage of the local investment 
+   budget to the project selected by the citizens.
+  impact_longer_term:
+  challenges: >
+   Increasing mobile technology penetration in developing countries remains the 
+   greatest challenge to increasing participation levels, particularly regarding 
+   scalability to other countries. The program should also strive to open more 
+   data and publish more budgetary information on a regular basis, and to expand 
+   citizen feedback opportunities to more steps in the budgetary process and to 
+   more government processes/policy areas.
+  lessons:
+  dimensions:
+    activity: 
+     - Opinions 
+    incentives: 
+     - Knowledge Building/Information Sharing 
+     - Community Building 
+     - Civic Responsibility 
+    participation: 
+    quality_control:
+     - Group of Experts 
+     - Voting 
+    interface:
+     - Mobile Application 
+     - SMS Texts 
+     - Website 
+  validation:
 
 - title: XPRIZE
   url: http://www.xprize.org/
