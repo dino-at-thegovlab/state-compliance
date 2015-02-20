@@ -153,17 +153,19 @@ jQuery(document).ready(function($) {
         }
     }
 
-    var gridContainer = $('#grid-container'),
-        filtersContainer = $('#filters-container');
+    var gridContainer = $('#grid-container');
+    var type_filtersContainer = $('#type-filters-container');
+    var scope_filtersContainer = $('#scope-filters-container');
+    var filterContainers = $('.s-filters');
     gridContainer.cubeportfolio(options_portfolio);
 
-    // add listener for filters click
-    filtersContainer.on('click', '.cbp-filter-item', function(e) {
+    //----------------------- TYPE FILTERS CONTAINER
+    filterContainers.on('click', '.cbp-filter-item', function(e) {
         var me = $(this),
             wrap;
         // get cubeportfolio data and check if is still animating (reposition) the items.
         if (!$.data(gridContainer[0], 'cubeportfolio').isAnimating) {
-            if (filtersContainer.hasClass('cbp-l-filters-dropdown')) {
+            if (type_filtersContainer.hasClass('cbp-l-filters-dropdown')) {
                 wrap = $('.cbp-l-filters-dropdownWrap');
                 wrap.find('.cbp-filter-item').removeClass('cbp-filter-item-active');
                 wrap.find('.cbp-l-filters-dropdownHeader').text(me.text());
@@ -172,15 +174,43 @@ jQuery(document).ready(function($) {
                 me.addClass('cbp-filter-item-active').siblings().removeClass('cbp-filter-item-active');
             }
         }
-        // filter the items
-        gridContainer.cubeportfolio('filter', me.data('filter'), function() {});
+        // filter the items\
+        var filters = $('.cbp-filter-item-active').map( function() { return $(this).data('filter'); }).toArray().join('');
+        //filters = filters.replace('*.','.').replace('.*.','.').replace('.*', '').replace('**', '*');
+        if (filters == '*****') {
+            filters = '*';
+        } else {
+            filters = filters.replace(/\*{1,}/g, '');
+        }
+        console.log(filters);
+        gridContainer.cubeportfolio('filter', filters, function () {});
+        //gridContainer.cubeportfolio('filter', me.data('filter'), function() {});
     });
 
+    //----------------------- SCOPE FILTERS CONTAINER
+    // scope_filtersContainer.on('click', '.cbp-filter-item', function(e) {
+    //     var me = $(this),
+    //         wrap;
+    //     // get cubeportfolio data and check if is still animating (reposition) the items.
+    //     if (!$.data(gridContainer[0], 'cubeportfolio').isAnimating) {
+    //         if (scope_filtersContainer.hasClass('cbp-l-filters-dropdown')) {
+    //             wrap = $('.cbp-l-filters-dropdownWrap');
+    //             wrap.find('.cbp-filter-item').removeClass('cbp-filter-item-active');
+    //             wrap.find('.cbp-l-filters-dropdownHeader').text(me.text());
+    //             me.addClass('cbp-filter-item-active');
+    //         } else {
+    //             me.addClass('cbp-filter-item-active').siblings().removeClass('cbp-filter-item-active');
+    //         }
+    //     }
+    //     // filter the items
+    //     gridContainer.cubeportfolio('filter', me.data('filter'), function() {});
+    // });
+
     // activate counters
-    gridContainer.cubeportfolio('showCounter', filtersContainer.find('.cbp-filter-item'));
+    gridContainer.cubeportfolio('showCounter', type_filtersContainer.find('.cbp-filter-item'));
 
 
-    var items = [{'url': '99-designs', 'scores': [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': '99 Designs'}, {'url': 'adopt-a-hydrant', 'scores': [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0], 'title': 'Adopt-a-Hydrant'}, {'url': 'agreeble', 'scores': [0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0], 'title': 'agreeble'}, {'url': 'bc-ideas', 'scores': [1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'BC Ideas'}, {'url': 'catchafire', 'scores': [1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Catchafire'}, {'url': 'challenge.gov', 'scores': [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Challenge.gov'}, {'url': 'code-for-philly', 'scores': [0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Code for Philly'}, {'url': 'consumer-financial-protection-bureau-credit-card-complaints-database', 'scores': [0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Consumer Financial Protection Bureau Credit Card Complaints Database'}, {'url': 'drivebc.ca', 'scores': [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0], 'title': 'Drivebc.ca'}, {'url': 'experiment', 'scores': [0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0], 'title': 'Experiment'}, {'url': 'fixmystreet', 'scores': [0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0], 'title': 'FixMyStreet'}, {'url': 'foldit', 'scores': [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Foldit'}, {'url': 'govtogetherbc', 'scores': [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0], 'title': 'GovTogetherBC'}, {'url': 'grade.dc.gov', 'scores': [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Grade.DC.Gov'}, {'url': 'grouptalent', 'scores': [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0], 'title': 'GroupTalent'}, {'url': 'i-paid-a-bribe', 'scores': [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1], 'title': 'I Paid a Bribe'}, {'url': 'ideas-2-action', 'scores': [0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Ideas 2 Action'}, {'url': 'ideascale', 'scores': [0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0], 'title': 'IdeaScale'}, {'url': 'innocentive', 'scores': [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'title': 'Innocentive'}, {'url': 'kickstarter', 'scores': [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Kickstarter'}, {'url': 'mashupaustralia', 'scores': [1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'MashupAustralia'}, {'url': 'neighbor.ly', 'scores': [0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0], 'title': 'Neighbor.ly'}, {'url': 'nyc-bigapps-challenge', 'scores': [1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'NYC BigApps Challenge'}, {'url': 'open-data-500', 'scores': [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Open Data 500'}, {'url': 'openideo', 'scores': [1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0], 'title': 'OpenIDEO'}, {'url': 'participatory-budgeting-in-nyc', 'scores': [0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Participatory Budgeting in NYC'}, {'url': 'patient-feedback-challenge', 'scores': [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Patient Feedback Challenge'}, {'url': 'quora', 'scores': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'title': 'Quora'}, {'url': 'pulsepoint-respond', 'scores': [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0], 'title': 'PulsePoint Respond'}, {'url': 'tehuan-3.0', 'scores': [0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1], 'title': 'Tehuan 3.0'}, {'url': 'threadless', 'scores': [1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0], 'title': 'Threadless'}, {'url': 'ushahidi', 'scores': [0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0], 'title': 'Ushahidi'}, {'url': 'xprize', 'scores': [1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'XPRIZE'}, {'url': 'zooniverse', 'scores': [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0], 'title': 'Zooniverse'}]
+    var items = [{'url': '99-designs', 'scores': [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': '99 Designs'}, {'url': 'adopt-a-hydrant', 'scores': [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0], 'title': 'Adopt-a-Hydrant'}, {'url': 'agreeble', 'scores': [0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0], 'title': 'agreeble'}, {'url': 'bc-ideas', 'scores': [1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'BC Ideas'}, {'url': 'catchafire', 'scores': [1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Catchafire'}, {'url': 'challenge.gov', 'scores': [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Challenge.gov'}, {'url': 'code-for-philly', 'scores': [0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Code for Philly'}, {'url': 'consumer-financial-protection-bureau-credit-card-complaints-database', 'scores': [0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Consumer Financial Protection Bureau Credit Card Complaints Database'}, {'url': 'drivebc.ca', 'scores': [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0], 'title': 'Drivebc.ca'}, {'url': 'experiment', 'scores': [0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0], 'title': 'Experiment'}, {'url': 'fixmystreet', 'scores': [0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0], 'title': 'FixMyStreet'}, {'url': 'foldit', 'scores': [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Foldit'}, {'url': 'govtogetherbc', 'scores': [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0], 'title': 'GovTogetherBC'}, {'url': 'grade.dc.gov', 'scores': [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Grade.DC.Gov'}, {'url': 'grouptalent', 'scores': [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0], 'title': 'GroupTalent'}, {'url': 'i-paid-a-bribe', 'scores': [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1], 'title': 'I Paid a Bribe'}, {'url': 'ideascale', 'scores': [0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0], 'title': 'IdeaScale'}, {'url': 'innocentive', 'scores': [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'title': 'Innocentive'}, {'url': 'kickstarter', 'scores': [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Kickstarter'}, {'url': 'mashupaustralia', 'scores': [1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'MashupAustralia'}, {'url': 'neighbor.ly', 'scores': [0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0], 'title': 'Neighbor.ly'}, {'url': 'nyc-bigapps-challenge', 'scores': [1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'NYC BigApps Challenge'}, {'url': 'open-data-500', 'scores': [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Open Data 500'}, {'url': 'openideo', 'scores': [1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0], 'title': 'OpenIDEO'}, {'url': 'participatory-budgeting-in-nyc', 'scores': [0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Participatory Budgeting in NYC'}, {'url': 'patient-feedback-challenge', 'scores': [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'Patient Feedback Challenge'}, {'url': 'quora', 'scores': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'title': 'Quora'}, {'url': 'pulsepoint-respond', 'scores': [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0], 'title': 'PulsePoint Respond'}, {'url': 'tehuan-3.0', 'scores': [0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1], 'title': 'Tehuan 3.0'}, {'url': 'threadless', 'scores': [1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0], 'title': 'Threadless'}, {'url': 'ushahidi', 'scores': [0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0], 'title': 'Ushahidi'}, {'url': 'xprize', 'scores': [1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'title': 'XPRIZE'}, {'url': 'zooniverse', 'scores': [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0], 'title': 'Zooniverse'}]
     var case_study_template = '<li class="cbp-item">' +
         '<div class="cbp-caption">' +
         '<div class="cbp-caption-defaultWrap">' +

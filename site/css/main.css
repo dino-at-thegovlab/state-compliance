@@ -388,6 +388,30 @@ h4 {
 	
 }
 
+/*CASE STUDIES*/
+/*OVERRIDE CUBE PORTFOLIO FILTER STYLES*/
+
+#case-studies .filter-label {
+	display: inline-block;
+	font-size: 18px;
+	width: 80px;
+}
+.cbp-l-filters-button {
+	margin-bottom: 0px;
+}
+
+.cbp-l-filters-button .cbp-filter-item {
+	font-size: 18px;
+	line-height: 10px;
+	font-weight: 200;
+}
+
+#case-studies #grid-container {
+	margin-top: 20px;
+}
+
+
+
 /* ADVISOR */
 #advisor-title {
 	background-image: url(../img/main-banner.jpg);

@@ -1,35 +1,29 @@
 ---
 
 type:
-  - All
   - Tools
   - Case-Studies
   - Research Papers
-  - Funds
 scope:
-  - All
   - International
   - Regional
   - Local
 sector:
-  - All
   - Government
   - Private
   - Non-profit
   - Education
-Activity:
-  - All
+activity:
   - Tasks
   - Data
   - Opinions
   - Ideas
   - Funds
-Cost:
-  - All
+cost:
   - Free
   - $1 - 200 USD/year
   - $201 - 999 USD/year
-  - $1,000 USD/year +
+  - $1,000 USD/year+
   - Consultant
 
 advisor_dimensions: 

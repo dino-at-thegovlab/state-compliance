@@ -174,16 +174,49 @@
                     	<h2 class="uppercase">Case Studies</h2>
                     </div>
                 	<div class="wrapper">
-                        <div id="filters-container" class="cbp-l-filters-button text-center">
+                        <div id="type-filters-container" class="cbp-l-filters-button s-filters">
+                            <div class="filter-label">Type: </div>
                             <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
-                            {% for category in enums['foci'] %}
-                                <div data-filter=".{{category.replace(" ","-").lower() }}" class="cbp-filter-item">{{ category }}</div>
+                            {% for filter in enums['type'] %}
+                                <div data-filter=".{{filter.replace(" ","-").lower() }}" class="cbp-filter-item">{{ filter }}</div>
+                            {% endfor %}
+                        </div>
+                        <div id="scope-filters-container" class="cbp-l-filters-button s-filters">
+                            <div class="filter-label">Scope: </div>
+                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+                            {% for filter in enums['scope'] %}
+                                <div data-filter=".{{filter.replace(" ","-").lower() }}" class="cbp-filter-item">{{ filter }}</div>
+                            {% endfor %}
+                        </div>
+                        <div id="scope-filters-container" class="cbp-l-filters-button s-filters">
+                            <div class="filter-label">Sector: </div>
+                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+                            {% for filter in enums['sector'] %}
+                                <div data-filter=".{{filter.replace(" ","-").lower() }}" class="cbp-filter-item">{{ filter }}</div>
+                            {% endfor %}
+                        </div>
+                        <div id="scope-filters-container" class="cbp-l-filters-button s-filters">
+                            <div class="filter-label">Activity: </div>
+                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+                            {% for filter in enums['activity'] %}
+                                <div data-filter=".{{filter.replace(" ","-").lower() }}" class="cbp-filter-item">{{ filter }}</div>
+                            {% endfor %}
+                        </div>
+                        <div id="scope-filters-container" class="cbp-l-filters-button s-filters">
+                            <div class="filter-label">Cost: </div>
+                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+                            {% for filter in enums['cost'] %}
+                                <div data-filter=".{{filter.replace(" ","-").lower() }}" class="cbp-filter-item">{{ filter }}</div>
                             {% endfor %}
                         </div>
                         <div id="grid-container" class="cbp-l-grid-projects ">
                             <ul>
                                 {% for case in case_studies %}
-                                    <li class="cbp-item {% for focus in case['focus'] %} {{ focus.replace(" ","-").lower() }} {%endfor%}">
+                                    <li class="cbp-item {% if case['type'] %} {{ case['type'].replace(" ","-").lower() }}{% endif%}
+                                                        {% for f in case['scope'] %} {{ f.replace(" ","-").lower() }} {%endfor%}
+                                                        {% if case['sector'] %} {{ case['sector'].replace(" ","-").lower() }}{% endif%}
+                                                        {% for f in case['dimensions']['activity'] %} {{ f.replace(" ","-").lower() }} {%endfor%}
+                                                        {% if case['cost'] %} {{ case['cost'].replace(" ","-").replace(",","").replace("/","").replace("+","").lower() }}{% endif%} ">
                                         <div class="cbp-caption">
                                             <div class="cbp-caption-defaultWrap">
                                                 <img src="img/casestudies/{{case['title'].replace(".","-").replace(" ","-").lower()}}-small.png" alt="" width="100%">

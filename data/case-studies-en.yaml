@@ -12,6 +12,7 @@
    win a cash payment. Customers also have the option of working with individual 
    designers by purchasing design templates from 99designs’ Readymade logo store 
    or by visiting Swiftly for quick graphic design fixes and steal logo's.
+  type: Case-Studies
   city: 
   state: 
   country: 
@@ -107,6 +108,7 @@
    agreeble identifies consensus-driving and polarizing opinions in gropus of
    people. When users voice their opinions, delivering the accountability of a
    survey with the unique insights found only on social networks.
+  type: Case-Studies
   city:
   state:
   country:
@@ -1590,7 +1592,6 @@
 - title: Quora
   url: 
   description: >
-  activity: 
   scope: []
   sector: 
   thumbnail_url: 
@@ -1612,11 +1613,11 @@
   lessons:
   validation:
   dimensions:
-    activity: 
-    incentives:
-    participation: 
-    quality_control:
-    interface:
+    activity: [] 
+    incentives: []
+    participation: [] 
+    quality_control: []
+    interface: []
 
   
 - title: PulsePoint Respond
