@@ -1099,10 +1099,6 @@
   duration:
   cost:
   historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
   output:
   impact_today: >
    As of August 2013, InnoCentive reports that their network includes 300,000+
@@ -1143,10 +1139,6 @@
   duration:
   cost:
   historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
   output:
   impact_today:
   impact_longer_term:
@@ -1589,37 +1581,6 @@
      - Website 
   validation:
   
-- title: Quora
-  url: 
-  description: >
-  scope: []
-  sector: 
-  thumbnail_url: 
-  focus: [] 
-  incentives: 
-  location: 
-  interface:
-  quality_control:
-  size:
-  duration:
-  cost:
-  platform:
-  historical_information: >
-  participation:
-  output:
-  impact_today:
-  impact_longer_term:
-  challenges:
-  lessons:
-  validation:
-  dimensions:
-    activity: [] 
-    incentives: []
-    participation: [] 
-    quality_control: []
-    interface: []
-
-  
 - title: PulsePoint Respond
   url: http://www.pulsepoint.org/
   description: >
@@ -1695,6 +1656,595 @@
     interface:
      - Mobile Application
 
+- title: Quora
+  url: https://www.quora.com/
+  description: >
+   Quora is a user-driven question-and-answer website. Quora is a Mountain View, 
+   California based company that seeks to increase access to knowledge over the 
+   internet. Quora is often contrasted to websites like Wikipedia, in that Quora 
+   promotes the exchange of knowledge, while Wikipedia is a repository for 
+   information. Whereas Wikipedia attempts to construct neutral, objective articles, 
+   Quora allows individuals to offer their own personal perspective on any given issue. 
+   Quora’s core function is the exchange of questions and answers: users post questions 
+   to the broader Quora community, and these questions can then be answered by any 
+   other Quora user with relevant knowledge to share. These answers are then “voted up” 
+   or “voted down” by other users. This voting process allows the “best” answers to 
+   achieve the widest circulation.
+  scope: []
+  sector: 
+  thumbnail_url: 
+  focus: [] 
+  incentives: 
+  location: 
+  interface:
+  quality_control:
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   Quora was founded in June 2009 by Adam D’Angelo and Charlie Cheever, and was 
+   rolled out to the general public in June 2010. Both D’Angelo and Cheever were 
+   employed at Facebook prior to the launch of Quora. The company was initially 
+   financed by an $11 million investment from Benchmark Capital, a Venture Capital 
+   firm specializing in tech-based startups (other recipients of Benchmark 
+   investments include Instagram, Zipcar, Yelp, and Twitter). Quora currently has 
+   102 employees, and has not yet monetized its service, choosing instead to 
+   continue relying on outside investors. On 4/9/14, Quora received an additional 
+   $80 million in funding, spearheaded by private equity firm and hedge fund Tiger 
+   Global. Multiple sources have reported that Quora will likely turn to advertising 
+   to generate revenue by 2015.
+  participation:
+  output:
+  impact_today: >
+   Quora has become one of the most popular Q&A platforms and has attracted a number 
+   of notable celebrities, including Ashoton Kutcher, Mark Zuckerberg, and President 
+   Obama. It has carved out a niche among social networking sites; by focusing on a 
+   Q&A format, it continues to promote the exchange of information, and not simply 
+   encourage social interaction. Quora’s essential value proposition, making it 
+   easier for people to seek out and/or share specific human knowledge, is ultimately 
+   difficult to quantify. It is safe to say however, that Quora has enabled people 
+   to solicit the wisdom of highly specialized experts, and made it easier for people 
+   with specific knowledge to share what they know.
+  impact_longer_term:
+  challenges: >
+   From a business perspective, Quora’s most significant challenge in the near 
+   future will be monetizing its business and beginning to generate revenue. 
+   To date, the company has relied exclusively on outside investment to finance 
+   its operations. Quora will likely choose to monetize its site through advertising; 
+   transitioning to an advertising-based model while not disrupting the user 
+   experience will be a challenge for the company.
+   <br/>
+   Observers have offered a number of criticisms of Quora’s functionality 
+   and culture:
+   * Some have argued that Quora is dominated by an elite of early adopters, 
+   who punish dissenting voices by downgrading their answers and through 
+   bullying tactics.
+   * Others have argued that Quora’s core Q&A format, though fantastic as 
+   a research tool or as a way to share knowledge, is inherently less scale-able 
+   than purely social platforms like Facebook or Twitter. People habitually make 
+   use of these social networking sites, but are likely to turn to Quora only for 
+   more specific needs.
+   * Other users have criticized Quora’s policy of requiring smartphone users to 
+   view Q&A threads through their mobile app, and not allowing access through 
+   browsers.
+   * In August 2012, Ivan Kirigin criticized Quora on his blog, Giant Robot 
+   Lasers, pointing out that Quora published information on which questions users 
+   viewed. Kirigin argued that this practice constituted a major invasion of 
+   privacy, “What if the question were ‘How can I cope with newly discovered 
+   cancer?’ Or, ‘Should I come out to my parents?’ Or, ‘What is the best way 
+   to hide an affair?’” To Quora’s credit, it responded by discontinuing 
+   this practice.
+  lessons:
+  validation:
+  dimensions:
+    activity: 
+     - Opinions
+     - Ideas
+    incentives:
+     - Community Building
+     - Public Recognition 
+     - Competition 
+    participation: [] 
+    quality_control:
+     - Voting 
+    interface:
+     - Mobile Application 
+     - Website 
+     - Social Media 
+
+- title: Radiation-Watch.org 
+  url: http://www.radiation-watch.org/
+  description: >
+   "Radiation-watch.org is an open and non-profit project to develop cheap and smart 
+   radiation detector. The project is supported by volunteer scientists, engineers 
+   and designers." The goal of the non-profit project to develop cheap and smart 
+   radiation detector for everyone, especially around and in Fukushima.
+   <br/>
+   The Smart Radiation Detector plugs into the audio jack of an iPhone and uses a 
+   radiation-detecting diode instead of a Geiger-Muller tube, which is still 
+   sensitive enough to detect trace amounts of radiation, that can then be neatly 
+   visualized with an accompanying iOS app. The Smart Radiation Detector sells 
+   for US $50.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Radiation-watch.org, originally funded through Kickstarter, was founded in the 
+   wake of the Fukushima nuclear reactor disaster following the Tōhoku earthquake 
+   in Japan in March 2011. The non-profit organization is active across Japan, 
+   especially within the Fukushima prefecture, near the heart of the Fukushima 
+   Daiichi nuclear disaster. Radiation-watch Japan has a sister organization 
+   in the United Kingdom.
+  output: >
+   The organization has a factory in Ishinomaki, Japan, and to date, they have 
+   shipped over 12,000 Pocket Geigers to people across Japan.
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Data 
+    incentives:
+     - Community Building 
+     - Civic Responsibility 
+    participation: 
+    quality_control:
+     - Group of Experts 
+    interface:
+     - Mobile Application 
+  validation:
+
+- title: ReadrBoard
+  url: 
+  description: >
+   A user engagement tool that makes it easy for people to express themselves by 
+   reacting to anything online – an article, a photo, a video, even a specific 
+   snippet from a page. This tool uses an annotation plugin which allows people 
+   to give feedback in the form of comments and reactions.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Co-created by Porter Bayne, Tyler Brock and Eric Chaves, ReadrBoard aims to 
+   change the face of online conversation. After a successful beta test on news 
+   site Hypervocal and (full disclosure) Latoya Peterson’s site, Racialicious, 
+   Bayne, Brock and Chavs decided to revamp the overall design and user interface 
+   in 2012. Created around the idea that all reader engagement is preceded by some 
+   emotion or thought, the widget allows the user to express that emotion in their 
+   reaction to content on a whole page or parts of a page online, encouraging 
+   smarter use of information and participation, from shopping to public policy: 
+   for example, how do we making ratings systems more accurate and more 
+   self-descriptive (what does it mean to say a restaurant has 3 stars?).
+  output:
+  impact_today:
+  impact_longer_term:
+  challenges: >
+   The biggest challenge for ReadrBoard is distinguishing itself from all the 
+   other online user reaction tools. The developers must make the case for how 
+   ReadrBoard provides a higher quality of participation.
+  lessons:
+  dimensions:
+    activity: 
+     - Opinions 
+    incentives:
+     - Knowledge Building/Information Sharing 
+     - Civic Responsibility 
+    participation: 
+    quality_control:
+     - You 
+     - Peer-reviewed 
+    interface:
+     - Website 
+  validation:
+
+- title: Safecast 
+  url: http://blog.safecast.org/
+  description: >
+   "Safecast is a global sensor network for collecting and sharing radiation 
+   measurements to empower people with data about their environments." The 
+   organization crowdsources expertise and uses a citizen science model to 
+   collect their data. 
+   <br/>
+   Safecast deploys teams of volunteers to record nuanced data such as 
+   radiation counts per minute, raw levels of radiation, becquerels, and 
+   microsieverts, which together tell a complete story about radiation levels. 
+   Volunteers strap Safecast’s custom ‘bento box’ (referred to as such due to 
+   their resemblance to bento boxes) Geiger counters to their vehicles and 
+   collect radiation data in their communities. Volunteers also use handheld 
+   Geiger counters to collect data on foot.
+   <br/> 
+   Safecast’s fine-grained data collection methodology is particularly 
+   valuable because radiation data levels can vary widely across a single city. 
+   Safecast volunteers collect data street by street and at multiple points 
+   within a single zone, which creates a more nuanced portrait of actual 
+   radiation levels within a region. November 10, 2011. Radiation levels 
+   can even differ between neighborhoods, thus rendering city-level data 
+   only valuable in ascertaining an approximation of radiation levels 
+   city-wide. Collecting data at the neighborhood-level ensures the data 
+   is fine-grained and it provides an accurate profile of threats.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Founded in the wake of the 2011 Fukushima Daiichi meltdown, Safecast was 
+   created to provide fine-grained radiation data to regions impacted by the 
+   nuclear power plant meltdown. Two years later, the volunteer-run organization 
+   is still leveraging the power of crowdsoucing to provide post-Fukushima 
+   radiation data, but has broadened its scope to provide baseline radiation data 
+   and also measure other environmental factors like air quality. Due to the scale 
+   of the disaster in Fukushima, the majority of the organization’s efforts are 
+   still directed at providing granular radiation data so that those impacted by 
+   the meltdown can make data-driven decisions.
+   <br/>
+   In the aftermath of the 9.0 magnitude earthquake and subsequent meltdown at 
+   the Fukushima nuclear power plant, there was little publicly available data about 
+   radiation levels in Japan. This dearth of radiation data concerned friends Sean 
+   Bonner, Pieter Franken, and Joi Ito, all of whom had close ties to the region. 
+   Geiger counters that enable radiation data collection were in short supply and 
+   little official information about radiation levels was being shared with the 
+   public. Spurred by the gap in readily available radiation data and the short 
+   supply of Geiger counters, Bonner, Franken, and Ito took it upon themselves to 
+   build the hardware they needed to monitor radiation levels in Japan. In 
+   partnership with Tokyo Hackerspace, Safecast designed and built high quality 
+   Geiger counters to enable citizens to collect radiation data within their 
+   communities.
+   <br/> 
+   Constructing the hardware was one element of Safecast’s work. The other 
+   component was assembling an expert network to help monitor the situation 
+   unfolding in Japan. Within a week of the Fukushima disaster Safecast mobilized 
+   a crowdsourced team of 25 experts committed to voluntarily monitor radiation 
+   levels across Japan. This network quickly ballooned to include experts from 
+   around the world, and Safecast rapidly grew to become the largest citizen 
+   science monitoring network of its kind. This rapid growth can be attributed 
+   to a number of factors, but most notably, it was the dearth of official 
+   information on radiation levels that led to citizens creating their 
+   own crowdsourced network.
+  output:
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Data 
+    incentives:
+     - Community Building 
+    participation: 
+    quality_control:
+     - Group of Experts
+    interface:
+     - Mobilie
+  validation: 
+
+- title: SeeClickFix 
+  url: http://seeclickfix.com/
+  description: >
+   SeeClickFix is a multifaceted citizen reporting engine featuring user-generated 
+   information in a wide variety of areas. The site’s Web 2.0-like interface provides 
+   a wealth of information on a given issue, and allows for users to interact with 
+   existing problems on the site, potentially amplifying their importance for 
+   governments.
+   <br/>
+   SeeClickFix is a growing platform that allows citizens to publicly report a wide 
+   variety of civic issues and then monitor their development. The most active cities 
+   on the platform are Chicago, Illinois; Washington, DC; Malden, Massachusetts; Macon, 
+   Georgia and Winston-Salem, North Carolina.
+   <br/> 
+   The SeeClickFix website prompts users to enter their neighborhood into a form, 
+   which leads them to a site featuring a searchable collection of user-generated 
+   issues that allow for citizen comments, featuring an issue “up-voting” system. 
+   The collection of issues can be viewed in list form, on a map or as a gallery of 
+   uploaded images. Each individual issue entry can feature user-supplied images, 
+   the ability to view the issue on a map, information on when it was reported and 
+   by whom, a list of notified stakeholders, the ability for users to follow the 
+   issue and links to other nearby problems reported on the site. Each neighborhood 
+   also features an “Answers” user forum, a list of “Neighbors” using the site and a 
+   collection of mapped “Watch Areas” for user monitoring.
+   <br/>
+   SeeClickFix also offers mobile apps for IOS, Android, Windows Phone and Blackberry
+   that allow citizens to report issues, browse open problems, view a list of active
+   neighbors and send and receive messages. The company also provides links on its 
+   website for governments to request custom mobile apps for their area.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   It was founded in September 2008 by CEO Ben Berkowitz and COO Miles Lasater 
+   in New Haven Connecticut.
+  output: >
+   SeeClickFix’s sophisticated and well-designed web and mobile interface make 
+   it very easy for citizens to report and monitor problems. The ability to 
+   up-vote issues gives users an avenue for reiterating the need to address a 
+   problem, and helps demonstrate to government which issues are currently 
+   the most important to constituents.
+  impact_today: >
+   SeeClickFix was integrated with Chicago’s 311 system to become the official 
+   means of citizen reporting in the city. In 2010, at a point when the site 
+   was available in 25,000 towns and 8,000 neighborhoods, it was reported that 
+   over 45% of issues submitted on the site were resolved.
+  impact_longer_term:
+  challenges: >
+   A lack of advanced browsing and search filters for a given neighborhood could 
+   make it difficult for users to find information on a given issue, particularly 
+   if they are not aware of the exact geographic location of the issue. While the 
+   option exists for users to simply create a second entry on the issue, spreading 
+   the comments and up-votes on the issue across two or more entries could dilute 
+   influence.
+  lessons:
+  dimensions:
+    activity: 
+     - Opinions 
+    incentives:
+     - Community Building 
+     - Civic Responsibility 
+    participation: 
+    quality_control:
+     - You 
+     - Voting 
+    interface:
+     - Mobile Application
+     - Website 
+  validation:  
+
+- title: Spacehive  
+  url: https://spacehive.com/
+  description: >
+   Spacehive is the first Civic Crowdfunding platform, allowing communities to raise 
+   money for specific public use neighborhood projects. Created in December 2011, 
+   Spacehive has provided a platform for over 230 civic initiatives in the United 
+   Kingdom.
+   <br/> 
+   Spacehive is a United Kingdom-based civic crowdfunding platform that allows 
+   citizens to contribute to neighborhood improvement projects. A first of its kind, 
+   the Spacehive platform allows anyone to pitch an idea and request community support. 
+   In return, community members can pledge funding. If the project funding target is 
+   reached, the project gets the green light.
+   <br/>
+   The critical component of a project on Spacehive is that the proposal is for a 
+   public space, i.e. the community can access freely. Online proposals must include 
+   a description of the project, an explanation of how the money will be used to meet 
+   project goals, and a pitch on why the project is needed. Examples include Christmas 
+   decorations on a town bridge that were previously cut for austerity measures, 
+   launching a free WiFi zone at a local mall, and a campaign to save a community theater 
+   company.
+   <br/>
+   There are no fees to post and donate to the project. However, Spacehive charges an 
+   administrative fee if a project fits its fundraising goal. According to the 
+   Spacehive website, these administrative fees total 3.7% on the first 500,000 
+   pounds raised, 2.5% on the next 500,000 pounds, and 1.5% thereafter. Current project 
+   goals range from 90 pounds to more than 600,000 pounds.
+  city: 
+  state: 
+  country: United Kingdom 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Launched in December 2011, Spacehive was founded by former Sunday Times 
+   journalist Chris Gourlay in response to a perceived dearth of investment and 
+   creativity in public spaces.
+  output: >
+   As of December 2013, 238 civic projects are listed on the Spacehive platform. 
+   24 projects successfully reached their funding goal, while the remaining 214 
+   are in the concept (budding idea), design (plan development), verified 
+   (Spacehive approval), or fundraising phase. To date, the largest project 
+   successfully funded is the Glyncoch Community Center, which raised over 
+   792,000 pounds from nearly 3,000 contributors to build a new multi-purpose, 
+   energy efficient community center.
+  impact_today: >
+   Following Spacehive’s launch, civic crowdfunding has taken off in the United 
+   States, Finland, and Holland. Neighbor.ly, launched in the U.S., uses a 
+   similar model to Spacehive except only municipalities can submit projects and 
+   donors receive prizes. According to a January 2013 presentation from Spacehive’s 
+   founder, $1.2 billion has been raised via crowdfunding platforms.
+   <br/>
+   In November 2013, Ernst and Young announced a partnership with Spacehive to 
+   work with all 33 of London’s Councils (represents the borough councils and the 
+   City of London) to implement some of the government’s civic project idea.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Funds 
+    incentives:
+     - Community Building 
+     - Civic Responsibility 
+    participation: 
+    quality_control: 
+     - Group of Experts 
+    interface:
+     Website 
+  validation:  
+  
+- title: Stack Exchange  
+  url: http://stackexchange.com/
+  description: >
+   Stack Exchange is an information exchange platform founded by Jeff Atwood and 
+   Joel Spolsky. Users can ask questions on a given topic, and receive crowd-vetted 
+   answers.
+   <br/> 
+   Stack Exchange is a network of expert Q&A communities, each categorized by a 
+   specific professionalized field. As of July 2014, there are 125 Q&A sites within 
+   the Stack Exchange Network, with subjects as varied as programming to cooking. 
+   On each discrete topic site, any user can ask a question, to which the community 
+   submits answers. The community ranks the answers that are the best fit for the 
+   question, so the answer with the most votes becomes the most visible, and the 
+   least applicable answer is voted down. The questions and answers can also be 
+   amended by the community, wiki-style.
+   <br/>
+   The Stack Exchange community is self-governed. Governance is based on site 
+   reputation. Reputation is earned by other community members voting on that users 
+   previous activity. A user gains more rights as their reputation builds. Rights 
+   include deleting, editing, and running for moderator, an elected individual who 
+   has increased access to managing a Q&A site.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Stack Exchange evolved from Stack Overflow, a Q&A platform designed for the 
+   software programming community that was launched on September 15, 2008 by 
+   Jeff Atwood and Joel Spolsky.
+  output: >
+   As of July 2014 the Q&A sites support over 3.5 million users, 8 million 
+   questions, and 15 million answers. According to co-founder Joel Spolsky, 
+   90-95% of questions asked on the site have answers labeled as reputable.
+   <br/>
+   In addition, there are 574 unpublished sites - labeled “Area 51” sites - 
+   that have been proposed by a member of the community but have not yet proven 
+   their ability to amass experts willing to be active.
+   <br/>
+   The process to become a Stack Exchange site is extensive. If an individual 
+   or community is interested in launching a new topic for a Q&A site, they 
+   first need to provide examples of questions that would likely be proposed on 
+   that site to indicate a defined community. The topic also needs to have a 
+   community of experts committed to participating in the information exchange, 
+   which is done through signing a petition. Community managers at Stack Exchange 
+   gauge the likelihood of activity for the Area 51 site by the individuals who 
+   sign the petition. If there are a number of individuals who show a history 
+   of activity on Stack Exchange, the site will be approved. However, the site 
+   initially be open only to those individuals who signed the petition to populate 
+   the platform with enough useful questions and answers so there is already 
+   information available when the site is open to the public.
+  impact_today: >
+   The Stack Exchange Network provides responsive and high-quality answers to 
+   specific questions. While only a handful of individuals will ask and answer 
+   questions on the site, thousands will be able to view the information 
+   exchange. This is a mutual benefit, where active users participate in expanding 
+   shared knowledge base, while passive users still garner answers to their questions.
+   <br/>
+   Much of the success of Stack Exchange Q&A sites can be attributed to the 
+   professionalized fields the sites encompass. By tapping into a network of 
+   professionals and hobbyists with a shared knowledge and vested interest in 
+   exchanging information in their field, the number of quality questions asked and 
+   credible answers received increases.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Data 
+     - Opinions 
+    incentives: 
+     - Knowledge Building 
+     - Community Building 
+     - Competition 
+    participation: 
+    quality_control:
+     - Group of Experts 
+     - Voting 
+     - Peer-reviewed 
+    interface:
+     - Mobile Application 
+     - Website 
+  validation:  
+
+- title: TED Open Translation Project 
+  url: https://www.ted.com/participate/translate
+  description: >
+   The TED Open Translation Project aims to make TED's full video library accessible 
+   to the non-English speaking world, by providing access to subtitles and 
+   interactive transcripts on every single video.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Launched in 2009, the Open Translation Project was initially seeded with 300 
+   translations in 40 languages, with translators in cities across the globe. While 
+   the initial translations were completed by professionals, all future translations 
+   will be completed by volunteers. In order to ensure quality of translations, TED 
+   provides an approved, professional English transcript for every talk, upon which 
+   all volunteer translations are based. Before a translation is published, it must 
+   be reviewed by a second translator fluent in the language. Translations can be 
+   continually improved via a feedback mechanism embedded in the site.
+  output: >
+   The Open Translation Project has currently produced 62,008 translations in 105 
+   different languages, written by 17,565 translators.
+  impact_today: >
+   The Open Translation Project has helped drive a significant increase in 
+   international visitors to TED's website. Traffic to TED from outside the US 
+   has grown by 350 percent since January 2009, with 600 percent growth in Asia, 
+   and more than 1000 percent in South America. 14 percent of TED.com visitors use 
+   subtitles when watching the videos.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks 
+    incentives:
+     - Knowledge Building/Information Sharing 
+     - Community Building 
+     - Public Recognition 
+    participation: 
+    quality_control:
+     - Peer-reviewed
+    interface:
+     - Website 
+  validation: 
+  
 - title: Tehuan 3.0
   url: http://tehuan.cic.mx
   description: >
@@ -1759,6 +2309,85 @@
      - SMS Texts
      - Social Media
      - Emails
+
+- title: topcoder 
+  url: http://www.topcoder.com/
+  description: >
+   TopCoder is a digital open innovation platform that provides companies and 
+   enterprises with access to global talent instantly to develop innovative software 
+   applications within a distributive innovation system.
+   <br/>
+   TopCoder is the world’s largest platform for digital open innovation. It provides 
+   a community of hundreds of thousands of software developers, algorithmists and 
+   digital designers a way to accelerate the development of new products and services 
+   by launching a specialized competition – through a prized-based business model – where 
+   companies and enterprises get highly trained experts working in their projects.
+   <br/>
+   The solutions created by the TopCoder community of experts are delivered through 
+   highly scalable processes overseen by TopCoder and clients themselves provide 
+   guidance and feedback through the entire process of software development from 
+   concept, designs and build to delivery, enhancement and maintenance of digital 
+   offerings in support of their different products and services.
+   <br/>
+   According to Professor Karim Lakhani, the incentives for the expert community 
+   to participate in TopCoder are heterogeneous ranging from the monetary incentive, 
+   having a sense of community, the learning from the process and just for the fun 
+   of it. Having people participating with different motivations is important for 
+   the resilience of the platform.
+  city: 
+  state: 
+  country: 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output: >
+   TopCoder has a broad catalog of software development completed through 
+   crowdsourcing – from mobile apps to entire enterprise systems – with their 
+   global community of experts completing the entire project in a relatively 
+   short period of time.
+   <br/>
+   Harvard Medical School used TopCoder to host a 2 week competition to improve 
+   the processing speed of a big data biomedics program. With $6,000 in total 
+   prize money, 733 registrants and 122 members submitting working algorithms, 
+   TopCoder provided HMS with a winning solution that performed hundreds of times 
+   faster and at a higher degree of accuracy than the best-known existing solution, 
+   reducing the time to execution from 2000 seconds to just over 16 seconds.
+  impact_today: >
+   Open innovation platforms like TopCoder have shown unconventional individuals 
+   are often the ones providing the most innovative answers. The diversity within 
+   TopCoder’s community of experts provides unexpected and fresh ways of approaching 
+   and solving a problem. Lars Bo Jeppesen and Karim Lakhani found that a positive 
+   relationship exists between a solver’s chance of winning a challenge and a wide 
+   distance between the solver’s field of technical expertise and the focal field 
+   of the problem.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks 
+    incentives:
+     - Knowledge Building/Information Sharing 
+     - Skill Development
+     - Community Building 
+     - Competition 
+    participation: 
+    quality_control:
+     - Peer-reviewed
+    interface:
+     - Website 
+  validation:
 
 - title: Threadless
   url: https://www.threadless.com/
@@ -1863,6 +2492,102 @@
      - SMS Texts
      - Social Media
 
+- title: We the People 
+  url: https://petitions.whitehouse.gov/
+  description: >
+   We the People is an online forum through Whitehouse.gov that allows citizens to 
+   start an online petition, gather signatures, and send their petition to the federal 
+   government for review and an official response.
+  city: 
+  state: 
+  country: United States
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output:
+  impact_today:
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Ideas
+    incentives:
+     - Civic Responsibility 
+    participation: 
+    quality_control:
+    - Group of Experts
+    - Voting
+    interface:
+     - Website 
+  validation:
+
+- title: White House Open Government Initiative 
+  url: http://www.whitehouse.gov/open
+  description: >
+   The Open Government Initiative is an initiative through Whitehouse.gov that 
+   promotes transparency, collaboration, and participation in government. On December 
+   8, 2009, President Barack Obama issued an Open Government (OpenGov) Directive 
+   requiring all federal agencies to take immediate, specific steps to achieve 
+   key milestones in transparency, participation, and collaboration throughout 
+   his administration.
+  city: 
+  state: 
+  country: United States 
+  scope: 
+   - 
+  sector: 
+  thumbnail_url: 
+  focus: []
+  size: 
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   On December 8, 2009 President Obama, in a memorandum to the Director of the 
+   Office of Management & Budget, issued a directive for agency heads and 
+   departments to implement principles of transparency, participation, and 
+   collaboration with the public. The memorandum put forth 3 requirements that 
+   agencies had to abide by: publish government information online, improve 
+   quality of government information, create and institutionalize a culture of 
+   open government, and create an enabling policy framework for open government. 
+   Within these guidelines he included deadlines, and a framework for which each 
+   agency must adopt an open government plan.
+  output:
+  impact_today: >
+   Since President Obama put forth his directive in 2009, the administration has 
+   stayed true to its commitment to building upon and expanding OpenGov. In 2013, 
+   the administration put forth a second Open Government National Action Plan, 
+   building on an earlier initiative to make government more transparent. Both 
+   documents were published to help meet the standards of the Open Government 
+   Project, an international agreement founded by the US and seven other 
+   countries in 2011.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Ideas
+    incentives:
+     - Civic Responsibility 
+    participation: 
+    quality_control:
+     - Group of Experts
+    interface:
+     - Website 
+  validation:  
+  
 - title: XPRIZE
   url: http://www.xprize.org/
   description: >
