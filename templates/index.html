@@ -53,7 +53,7 @@
                         <div class="process-item col-xs-6 col-md-3 col-lg-3 wow fadeInLeft" data-wow-delay="0.4s">
                             <i class="fa fa-users fa-4x"></i>
                             <h3 class="uppercase">Participate</h3>
-                            <p>Join our community of leading experts on crowdsourcing. Find out how to <a href="#contribute">contribute</a>.</p>
+                            <p>Join our community of leading experts on crowdsourcing. Find out how to <a href="https://screendoor.dobt.co/the-govlab/your-crowdsourcing-experience-the-questionnaire">contribute</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -83,6 +83,8 @@
                             <p>Improving a project’s efficiency, legitimacy and diversity.</p>
                         </div>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-md-6 col-lg-6">
                         <div class="service wow pulse" data-wow-delay="0.2s">
                             <i class="fa fa-rocket fa-4x"></i>
@@ -206,7 +208,12 @@
                             <div class="filter-label">Cost: </div>
                             <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
                             {% for filter in enums['cost'] %}
-                                <div data-filter=".{{filter.replace(" ","-").lower() }}" class="cbp-filter-item">{{ filter }}</div>
+                                <div data-filter=".{{filter.replace("-","").lower()
+                                                                            .replace(" ","-")
+                                                                            .replace("$","")
+                                                                            .replace(",","")
+                                                                            .replace("/","")
+                                                                            .replace("+","") }}" class="cbp-filter-item">{{ filter }}</div>
                             {% endfor %}
                         </div>
                         <div id="grid-container" class="cbp-l-grid-projects ">
@@ -216,7 +223,7 @@
                                                         {% for f in case['scope'] %} {{ f.replace(" ","-").lower() }} {%endfor%}
                                                         {% if case['sector'] %} {{ case['sector'].replace(" ","-").lower() }}{% endif%}
                                                         {% for f in case['dimensions']['activity'] %} {{ f.replace(" ","-").lower() }} {%endfor%}
-                                                        {% if case['cost'] %} {{ case['cost'].replace(" ","-").replace(",","").replace("/","").replace("+","").lower() }}{% endif%} ">
+                                                        {% if case['cost'] %} {{ case['cost'].replace("-","").replace(" ","-").replace("$","").replace(",","").replace("/","").replace("+","").lower() }}{% endif%} ">
                                         <div class="cbp-caption">
                                             <div class="cbp-caption-defaultWrap">
                                                 <img src="img/casestudies/{{case['title'].replace(".","-").replace(" ","-").lower()}}-small.png" alt="" width="100%">
@@ -245,7 +252,7 @@
         <section id="what-is-advisor">
             <div class="container">
                 <div class="row text-center">
-                    <h1 class="wow fadeInDown advisor-header">About The Crodsourcing Design Advisor</h1>
+                    <h1 class="wow fadeInDown advisor-header">About The Crowdsourcing Design Advisor</h1>
                 </div>
                 <div class="row">
                     <p class="subhead wow fadeInDown" data-wow-delay="0.2s">We start from the proposition that there is no one way of “doing crowdsourcing” but, rather, engagement must be tailored to each needs and circumstances. Through our Advisor and Knowledge-Base, we attempt to help decision-makers in the public and private sector make an informed decision about when and how to use crowdsourcing. Find out more about the project methodology.</p>
