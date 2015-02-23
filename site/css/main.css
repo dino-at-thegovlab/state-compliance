@@ -845,7 +845,6 @@ input[type="checkbox"] {
     position: relative;
     top: -2px;
     *overflow: hidden;
-    zoom: 1.5;
 }
 
 

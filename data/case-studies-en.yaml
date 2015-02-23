@@ -396,7 +396,6 @@
   city:
   state:
   country: 
-  interface:
   size:
   duration:
   cost:
@@ -1676,7 +1675,6 @@
   focus: [] 
   incentives: 
   location: 
-  interface:
   quality_control:
   size:
   duration:
@@ -1769,8 +1767,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -1815,8 +1812,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -1885,8 +1881,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -1942,7 +1937,7 @@
     quality_control:
      - Group of Experts
     interface:
-     - Mobilie
+     - Mobile Application
   validation: 
 
 - title: SeeClickFix 
@@ -1977,8 +1972,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -2054,8 +2048,7 @@
   city: 
   state: 
   country: United Kingdom 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -2098,7 +2091,7 @@
     quality_control: 
      - Group of Experts 
     interface:
-     Website 
+     - Website 
   validation:  
   
 - title: Stack Exchange  
@@ -2125,8 +2118,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -2179,7 +2171,7 @@
      - Data 
      - Opinions 
     incentives: 
-     - Knowledge Building 
+     - Knowledge Building/Information Sharing 
      - Community Building 
      - Competition 
     participation: 
@@ -2201,8 +2193,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -2337,8 +2328,7 @@
   city: 
   state: 
   country: 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -2501,8 +2491,7 @@
   city: 
   state: 
   country: United States
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
@@ -2545,8 +2534,7 @@
   city: 
   state: 
   country: United States 
-  scope: 
-   - 
+  scope: []
   sector: 
   thumbnail_url: 
   focus: []
