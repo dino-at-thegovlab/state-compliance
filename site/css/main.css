@@ -130,7 +130,7 @@ h4 {
 
 .navbar-custom {
 	color:#ffffff;
-	background:transparent;
+	background: rgba(0,0,0,.5);
 	font-family:misolight;
 	font-size:17px;
 	font-weight:300;
@@ -173,7 +173,7 @@ h4 {
 }
 
 
-/* FULLSCREEN SLIDER */
+/* MAIN TITLE PAGE*/
 
 #slides {
 	font-family:misoregular;
@@ -184,17 +184,16 @@ h4 {
 	display:table-cell;
 	vertical-align:middle;
 	width:100%;
-	background: rgba(0,0,0, 0.3);
 }
 
 #slides h1 {
-	font-size:7em;
-	color:#ffffff;
+	color:#000;
+	letter-spacing: 18px;
+	font-size: 7em;
 }
 
 #slides .lead {
 	font-size:2em;
-	color:#ffffff;
 }
 
 #slides .photo-credit {
@@ -203,6 +202,13 @@ h4 {
 	z-index: 10;
 	color: #fff;
 	text-align: right;
+}
+
+#slides .main-title-subheading {
+	width: 84%%;
+	font-size: 20px;
+	text-align: right;
+	color: #472b74;
 }
 
 
@@ -584,6 +590,49 @@ p .accordion-toggle {
 }
 
 #questionnaire .option-explanation {
+}
+
+#questionnaire .custom-navigation-buttons {
+	text-align: center;
+}
+
+#questionnaire .custom-navigation-buttons .btn {
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #333;
+	background: #fff;
+	opacity: .9;
+	border-radius: 30px;
+	zoom: 1;
+	padding: 6px 14px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#questionnaire .custom-navigation-numbers {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+#questionnaire .custom-page {
+	display: inline-block;
+	margin: 10px 15px;
+	color: rgba(0,0,0,.5);
+	background: #ccc;
+	border-radius: 30px;
+	padding: 3px 10px;
+}
+
+#questionnaire .custom-page.active {
+	color: rgba(0,0,0,1);
+	background: #999;
+}
+
+#questionnaire .error-message {
+	display: none;
+	color: #f00;
 }
 
 

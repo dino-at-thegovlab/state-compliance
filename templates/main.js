@@ -47,30 +47,96 @@ jQuery(document).ready(function($) {
     }
 
 
-    //OWLCAROUSEL TESTIMONIAL
-    $("#quote").owlCarousel({
+    // ---------------------------ADIVOSOR CAROUSEL
+    var questionnaire = $("#questionnaire-carousel");
+    questionnaire.owlCarousel({
         autoPlay: false,
         pagination: true,
         slideSpeed: 500,
         paginationSpeed: 600,
-        paginationNumbers: true,
+        paginationNumbers: false,
         singleItem: true,
         rewindNav: false,
         scrollPerPage: true,
         mouseDrag: false,
-        navigation: true, // Show next and prev buttons
-        navigationText: ['<div class="q-buttons owl-prev" style="">Previous</div>', '<div class="q-buttons owl-next" style="">Next</div>']
+        navigation: false // Show next and prev buttons
+        // navigationText: ['<div class="q-buttons owl-prev prev-verify" style="">Previous</div>', '<div class="q-buttons owl-next next-verify" style="">Next</div>']
     });
-    // var owl = $('#quote').data('owlCarousel');
-    // var currentPage = 1;
-    // console.log(currentPage);
-    // $('#quote').on('click', '.owl-next', function() {
-    //     currentPage ++;
-    //     owl.jumpTo(1);
-    //     console.log(currentPage);
-    // });
 
+    var current_page = 1;
+    function min_selected(q_num) {
+        var result = false;
+        $.each($('input[id*="q'+(q_num-2)+'"]'), function(index, value) {
+            if (value.checked) {
+                result = true;
+                return false;
+            }
+        });
+        return result;
+    }
 
+    function go_to_page(page_num) {
+        $('.custom-page').each(function(index) {
+            $(this).removeClass('active');
+        });
+        $('.custom-page.'+page_num).addClass('active');
+        questionnaire.trigger('owl.goTo', page_num-1);
+        current_page = page_num;
+    }
+
+    $('body').on('click', '.next-verify', function() {
+        if (current_page < 7) {
+            if ([3, 4, 5, 6].indexOf(current_page) > -1 ) { //Check that at least one checkbox has been checked in slides 3, 4, 5, 6, 7
+                if (min_selected(current_page)) {
+                    go_to_page(current_page+1)
+                } else {
+                    $('.error-message').text("Please select at least one option.").show().delay(5000).fadeOut();
+                }
+            } else { //Go on to the next slide
+                go_to_page(current_page+1)
+            }
+        }
+    });
+
+    $('body').on('click', '.prev-verify', function() {
+        if (current_page > 1) {
+            go_to_page(current_page-1)
+        }
+    });
+
+    $('body').on('click', '.custom-page', function(event) {
+        var previous_page = current_page;
+        current_page = parseInt($(this).find('span').text());
+        if ([3, 4, 5, 6].indexOf(previous_page) > -1 && current_page > previous_page) { 
+            if (min_selected(previous_page)) {
+                go_to_page(current_page);
+            } else {
+                $('.error-message').text("Please select at least one option.").show().delay(5000).fadeOut();
+                current_page = previous_page;
+            }
+        } if (current_page - previous_page > 0 && current_page > previous_page) {
+            var all_questions_answered = true;
+            var missing_question = 3;
+            for (var i = 3; i < current_page; i++) {
+                if (!min_selected(i)) {
+                    all_questions_answered = false;
+                    missing_question = i;
+                    break
+                }
+            }
+            if (all_questions_answered) {
+                go_to_page(current_page);
+            } else {
+                $('.error-message').text("Please answer some missing questions first.").show().delay(5000).fadeOut();
+                go_to_page(missing_question);
+                current_page = missing_question;
+            }
+        } else {
+            go_to_page(current_page);
+        }
+    });
+
+    
 
 
     //-------------------Accordion Change Chevron--------
@@ -184,27 +250,9 @@ jQuery(document).ready(function($) {
         }
         console.log(filters);
         gridContainer.cubeportfolio('filter', filters, function () {});
-        //gridContainer.cubeportfolio('filter', me.data('filter'), function() {});
     });
 
-    //----------------------- SCOPE FILTERS CONTAINER
-    // scope_filtersContainer.on('click', '.cbp-filter-item', function(e) {
-    //     var me = $(this),
-    //         wrap;
-    //     // get cubeportfolio data and check if is still animating (reposition) the items.
-    //     if (!$.data(gridContainer[0], 'cubeportfolio').isAnimating) {
-    //         if (scope_filtersContainer.hasClass('cbp-l-filters-dropdown')) {
-    //             wrap = $('.cbp-l-filters-dropdownWrap');
-    //             wrap.find('.cbp-filter-item').removeClass('cbp-filter-item-active');
-    //             wrap.find('.cbp-l-filters-dropdownHeader').text(me.text());
-    //             me.addClass('cbp-filter-item-active');
-    //         } else {
-    //             me.addClass('cbp-filter-item-active').siblings().removeClass('cbp-filter-item-active');
-    //         }
-    //     }
-    //     // filter the items
-    //     gridContainer.cubeportfolio('filter', me.data('filter'), function() {});
-    // });
+
 
     // activate counters
     gridContainer.cubeportfolio('showCounter', type_filtersContainer.find('.cbp-filter-item'));
@@ -230,46 +278,50 @@ jQuery(document).ready(function($) {
 
     //----------------GENERATES REPORT-----------------
     $('#questionnaire').on('click', '.button-generate-report', function() {
-        var options = {};
-        $.each($('input[name="question"]'), function(index, value) {
-            options[this.id] = this.checked ? 1 : 0;
-        });
-        var point = $.map($('input[name="question"]'), function(value, index) {
-            return value.checked ? 1 : 0;
-        });
-        $('.report-category-heading').hide();
-        $('#report').hide();
-        $('.relevant-case-study-list').empty();
-        for (var key in options) {
-            if (options[key]) {
-                $('.' + key).show();
-                $('.' + key.substring(0, 2)).show();
-            } else {
-                $('.' + key).hide();
-            }
-        }
-        var points = [];
-        for (var o in items) {
-            points.push(items[o].scores);
-        }
-        var tree = createKDTree(points);
-        var candidates = tree.knn(point, 5);
-        console.log(candidates);
-        var new_case_study = _.template(case_study_template);
-        for (var i in candidates) {
-            if (items[candidates[i]]['title'] != 'EMPTY EXAMPLE') {
-                var data = {
-                    "url": items[candidates[i]]['url'].replace(".", "-"),
-                    "title": items[candidates[i]]['title']
+        if (min_selected(current_page)) {
+            var options = {};
+            $.each($('input[name="question"]'), function(index, value) {
+                options[this.id] = this.checked ? 1 : 0;
+            });
+            var point = $.map($('input[name="question"]'), function(value, index) {
+                return value.checked ? 1 : 0;
+            });
+            $('.report-category-heading').hide();
+            $('#report').hide();
+            $('.relevant-case-study-list').empty();
+            for (var key in options) {
+                if (options[key]) {
+                    $('.' + key).show();
+                    $('.' + key.substring(0, 2)).show();
+                } else {
+                    $('.' + key).hide();
                 }
-                console.log(data);
-                $(".relevant-case-study-list").append(new_case_study(data));
             }
+            var points = [];
+            for (var o in items) {
+                points.push(items[o].scores);
+            }
+            var tree = createKDTree(points);
+            var candidates = tree.knn(point, 5);
+            console.log(candidates);
+            var new_case_study = _.template(case_study_template);
+            for (var i in candidates) {
+                if (items[candidates[i]]['title'] != 'EMPTY EXAMPLE') {
+                    var data = {
+                        "url": items[candidates[i]]['url'].replace(".", "-"),
+                        "title": items[candidates[i]]['title']
+                    }
+                    console.log(data);
+                    $(".relevant-case-study-list").append(new_case_study(data));
+                }
+            }
+            $('#report').show();
+            $('#relevant-case-studies').show();
+            gridContainer.cubeportfolio('destroy');
+            gridContainer.cubeportfolio(options_portfolio);
+        } else {
+            $('.error-message').text("Please select at least one option.").show().delay(5000).fadeOut();
         }
-        $('#report').show();
-        $('#relevant-case-studies').show();
-        gridContainer.cubeportfolio('destroy');
-        gridContainer.cubeportfolio(options_portfolio);
     });
 
     //PARALLAX BACKGROUND
