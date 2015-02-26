@@ -13,24 +13,61 @@
    designers by purchasing design templates from 99designs’ Readymade logo store 
    or by visiting Swiftly for quick graphic design fixes and steal logo's.
   type: Case-Studies
-  city: 
+  city: Web-based
   state: 
   country: 
-  scope: []
+  scope: 
+   - International 
   sector: 
+   - Private
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Lifestyle & Consumer
   size: 
-  duration: 
+  duration: 7 years 
   cost:
   crowd: 
   historical_information: >
-   The company was co-founded in 2008 by Mark Harbottle and Matt Mickiewicz in 
-   Melbourne, Australia. The company opened its U.S. office in 2010, and in 2011 
-   the company secured $35 million in Series A funding from Accel Partners and a 
-   handful of angel investors.
+   "Back in 2008, 99designs’ Founder Mark Harbottle locked colleagues Lachlan 
+   Donald and Paul Annesley in an office in Melbourne to pioneer a new kind 
+   of marketplace for graphic design.
+   <br/>
+   Mark and Matt Mickiewicz, already co-founders of successful online media 
+   and publishing company SitePoint, along with Internet pioneer and entrepreneur 
+   Leni Mayo and Melbourne IT Non-Executive Director and ex-CEO of Hitwise, 
+   Andrew Walsh, became founding investors in the startup.
+   <br/>
+   Upon launch, 99designs quickly caught the eye of small business owners around 
+   the world looking for a fast, affordable alternative to the traditional 
+   design process. The service was off to a flying start.
+   <br/>
+   By 2010, the business had opened offices in San Francisco and won the 
+   prestigious Webby People's Voice Award for Best Web Service and 
+   Application.
+   <br/>
+   In April 2011, 99designs announced a $35 million Series A investment 
+   to assist with its global expansion. This investment round was led by 
+   Accel Partners, with participation from angel investors Michael Dearing 
+   (eBay, Harrision Metal), Dave Goldberg (Survey Monkey), Stewart Butterfield
+   (Flickr, Tiny Speck) and Anthony Casalena (Squarespace).
+   <br/>
+   In August 2012, 99designs made its first acquisition, purchasing European 
+   creative services marketplace 12designer to help fuel its global growth. 
+   Following the acquisition and establishment of its European headquarters 
+   in Berlin, 99designs launched localized versions of its services in German, 
+   French, Spanish, Dutch and Italian.
+   <br/>
+   This global expansion continued with the acquisition of LogoChef - one 
+   of Brazil's leading design marketplaces - in August 2013.
+   <br/>
+   That same month, 99designs introduced an entirely different way for 
+   businesses to get small design tasks done quickly: Swiftly. The 
+   first-of-its-kind service is part of 99designs' broader plan to change 
+   the paradigm for how businesses worldwide get graphic design work done 
+   and how designers earn money."
   output: >
-   Graphic designs that can be used for t-shirts, websites, etc.
+   Graphic designs that can be used for t-shirts, websites, etc. Up to this day 
+   they have launched 377,394 contests and have awarded $94,821,802 in prizes. 
   impact_today:
   impact_longer_term:
   challenges:
@@ -53,6 +90,7 @@
    Adopt-a-Hydrant is a web application that allows citizens to "adopt" civic
    infrastructure, such as fire hydrants that need to be shoveled out after it
    snows.
+  type: Case-Studies
   city: Boston
   state: Massachusetts
   country: USA
@@ -173,6 +211,7 @@
    out of the prize-based contest Solutions for Strong Communities. The original 
    contest accepted a wide range of submissions in a number of topic areas and 
    provided a total of $270,000 in grants.
+  type: Case-Studies
   city:
   state: British Columbia
   country: Canada
@@ -180,7 +219,8 @@
    - Regional
   sector: Government
   thumbnail_url: 
-  focus: [] 
+  focus: 
+   - Civic Participation 
   size:
   duration:
   cost:
@@ -239,18 +279,22 @@
    help with branding, fundraising and report writing, for organizations across the 
    wide spectrum of nonprofit field. Catchafire allows non-profits to crowdsourcing 
    their challenges and for professionals to donate their skills.
-  city:
-  state:
-  country:
-  scope: []
+  type: Case-Studies
+  city: New York City 
+  state: NY
+  country: USA
+  scope: 
+   - National 
   sector: 
+   - Private
   thumbnail_url: 
-  focus: [] 
+  focus: 
+   - Volunteering 
   size:
-  duration:
+  duration: 5 years 
   cost:
   historical_information: >
-   Founded in 2010 by former investment banker Rachel Chong, Catchafire is a 
+   Founded in 2010 by former investment banker Rachael Chong, Catchafire is a 
    New York City-based for-profit company and platform that matches nonprofits 
    needing assistance on specific projects to skilled volunteers. The inspiration 
    for Catchafire came when as an employee at UBS, Ms. Chong participated in a 
@@ -287,14 +331,18 @@
    posting specific challenges on the site, to which the public can post submissions 
    to these challenges, with winning selections typically receiving a prize. It is 
    one of the first challenge platforms launched and managed by a federal government.
+  type: Case-Studies
   scope: 
    - National
-  sector: Government
+  sector: 
+   - Government
   thumbnail_url: 
-  focus: [] 
+  focus:
+   - Civic Participation 
+   - Governance 
   city:
   state:
-  country: 
+  country: USA
   size:
   duration:
   cost:
