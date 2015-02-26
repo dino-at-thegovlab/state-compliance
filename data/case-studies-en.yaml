@@ -1802,10 +1802,10 @@
      - Mobile Application 
   validation:
 
-- title: ReadrBoard
-  url: 
+- title: Antenna
+  url: http://www.readrboard.com/
   description: >
-   A user engagement tool that makes it easy for people to express themselves by 
+   A web annotation tool that makes it easy for people to express themselves by 
    reacting to anything online – an article, a photo, a video, even a specific 
    snippet from a page. This tool uses an annotation plugin which allows people 
    to give feedback in the form of comments and reactions.
@@ -1835,7 +1835,7 @@
   impact_today:
   impact_longer_term:
   challenges: >
-   The biggest challenge for ReadrBoard is distinguishing itself from all the 
+   The biggest challenge for Antenna (before called ReadrBoard) is distinguishing itself from all the 
    other online user reaction tools. The developers must make the case for how 
    ReadrBoard provides a higher quality of participation.
   lessons:
