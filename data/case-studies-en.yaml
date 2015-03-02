@@ -561,17 +561,21 @@
   description: >
    Experiment.com is a crowdfunding site devoted to funding scientific research. 
    They are a self-described "mission-driven for-profit company" that provides a 
-   platform for research scientists in the United States to crowd fund their 
+   platform for research scientists in the United States to crowdfund their 
    research projects.
-  scope: []
-  sector: 
+  scope: 
+   - Regional 
+  sector:
+   - Private
   thumbnail_url: 
-  focus: [] 
-  city:
-  state:
-  country: 
+  focus:
+   - Scientific Research 
+  city: San Francisco 
+  state: CA
+  country: USA
   size:
-  duration:
+  duration: >
+   Since April, 2012.
   cost:
   historical_information: >
    The project was launched in 2012 under the name Microryza by two University of 
@@ -580,6 +584,11 @@
    the traditional grant funding model. The site relaunched as Experiment.com 
    in February 2014.
    <br/>
+   Researchers submit their projects via the platform to be reviewed by the 
+   Experiment team. After being approved, the project is uploaded in the 
+   webpage. The researchers then share their projects to gain awareness and 
+   crowdfund it. If the project reaches its funding goal, in the established 
+   deadline, the money is transferred from the crowdfunders to the researchers. 
    Rather than provide funders with perks, a traditional part of crowdfunding, 
    funders of projects crowdfunded through Experiment get access to discussions 
    around the experimental process.
@@ -589,7 +598,8 @@
    While in beta, Experiment funded over 80 projects, raising over $600,000 from 
    over 5,000 people individual citizens.
   impact_longer_term: >
-   The researcher's claim their true goal is to "cure cancer." 
+   The researcher's claim their true goal is to "fund a cure for cancer, a new 
+   form of energy for the future, and a manned mission to Mars". 
   challenges:
   lessons:
   dimensions:
@@ -597,10 +607,12 @@
      - Funds
     incentives:
      - Knowledge Building/Information Sharing
-    participation: [] 
+    participation: >
+     Experiment only accepts projects by researchers within the USA but they accept
+     financial contributions from anywhere in the world as long as they have a debit
+     or credit card. 
     quality_control:
      - You
-     - Peer-reviewed
     interface:
      - Website
   validation:
