@@ -18,8 +18,7 @@
   country: 
   scope: 
    - International 
-  sector: 
-   - Private
+  sector: Private
   thumbnail_url: 
   focus: 
    - Lifestyle & Consumer
@@ -77,7 +76,7 @@
      - Tasks
     incentives:
      - Financial Incentives 
-    participation: 
+    participation: []
     quality_control:
      - You
     interface:
@@ -194,7 +193,7 @@
     - Financial Incentives
     - Knowledge Building/Information Sharing
     - Recreational Incentive
-   participation:
+   participation: []
    quality_control:
     - Voting
     - Peer-reviewed
@@ -224,6 +223,7 @@
   size:
   duration:
   cost:
+  crowd:
   historical_information: >
    The competition was launched on the Ashoka Changemakers platform on May 16, 
    2012 by a partnership including: ArtsBC, Ashoka Canada, Ashoka Changemakers, 
@@ -283,10 +283,10 @@
   city: New York City 
   state: NY
   country: USA
+  crowd:
   scope: 
    - National 
-  sector: 
-   - Private
+  sector: Private
   thumbnail_url: 
   focus: 
    - Volunteering 
@@ -332,10 +332,10 @@
    to these challenges, with winning selections typically receiving a prize. It is 
    one of the first challenge platforms launched and managed by a federal government.
   type: Case-Studies
+  crowd:
   scope: 
    - National
-  sector: 
-   - Government
+  sector: Government
   thumbnail_url: 
   focus:
    - Civic Participation 
@@ -396,6 +396,8 @@
    - Local
   sector: Government
   thumbnail_url: 
+  crowd:
+  type:
   focus: [] 
   city: Philadelphia
   state: Pennsylvania
@@ -439,6 +441,8 @@
    directly submit, view, download and visualize complaints.
   scope: []
   sector: Government
+  crowd:
+  type:
   thumbnail_url: 
   focus: [] 
   city:
@@ -508,6 +512,8 @@
   city:
   state:
   country: 
+  type:
+  crowd:
   size:
   duration:
   cost:
@@ -565,9 +571,10 @@
    research projects.
   scope: 
    - International 
-  sector:
-   - Private
+  sector: Private
   thumbnail_url: 
+  crowd:
+  type:
   focus:
    - Scientific Research 
   city: San Francisco 
@@ -607,10 +614,8 @@
      - Funds
     incentives:
      - Knowledge Building/Information Sharing
-    participation: >
-     Experiment only accepts projects by researchers within the USA but they accept
-     financial contributions from anywhere in the world as long as they have a debit
-     or credit card. 
+    participation:
+     -  Limit participation to a defined community
     quality_control:
      - You
     interface:
@@ -625,12 +630,14 @@
    development and provide or read citizen updates. The service automatically sends 
    the citizen reports to the relevant government council upon receipt.
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: [] 
   city:
   state:
   country: 
+  crowd:
+  type:
   size:
   duration:
   cost:
@@ -696,12 +703,14 @@
    competitively to fold the best proteins. Players can also design brand new 
    proteins that could help prevent or treat important diseases.”
   scope: []
-  sector: 
+  sector:
+  crowd:
   thumbnail_url: 
   focus: [] 
   city:
   state:
   country: 
+  type:
   size:
   duration:
   cost:
@@ -744,11 +753,13 @@
   scope: []
   sector: Government
   thumbnail_url: 
+  crowd:
   focus: [] 
   city:
   state:
   country: 
   size:
+  type:
   duration:
   cost:
   historical_information: >
@@ -789,7 +800,8 @@
    to submit comments about certain District of Columbia agencies and view how 
    District residents graded those agencies.
   scope: []
-  sector: 
+  sector:
+  crowd:
   thumbnail_url: 
   focus: [] 
   city: Washington DC
@@ -797,6 +809,7 @@
   country: USA
   size:
   duration:
+  type:
   cost:
   historical_information: >
    Grade D.C. formally launched in June 2012. The District of Columbia paid 
@@ -844,7 +857,8 @@
    Seattle and raised $1 million in funding from Version One Ventures, Menlo 
    Ventures, and Founder’s Co-op.
   scope: []
-  sector: 
+  sector:
+  crowd:
   thumbnail_url: 
   focus: [] 
   city: San Francisco
@@ -852,6 +866,7 @@
   country: USA
   size:
   duration:
+  type:
   cost:
   historical_information: >
    Founded in 2011, GroupTalent is a hiring platform that serves as an employment
@@ -1056,6 +1071,7 @@
    Any offline platform needs a strong offline plan . Also structured support in the 
    form of marketing, both online and offline leads to a sustained process, 
    rather than a one off campaign.
+  type:
   dimensions:
     activity: 
      - Tasks
@@ -1098,7 +1114,8 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
+  type:
   thumbnail_url: 
   focus: []
   size: 
@@ -1128,7 +1145,7 @@
      - Community Building
      - Civic Responsibility
      - Public Recognition 
-    participation: 
+    participation: []
     quality_control:
      - You 
      - Voting
@@ -1156,6 +1173,7 @@
   country: 
   size:
   duration:
+  type:
   cost:
   historical_information: >
   output:
@@ -1178,7 +1196,7 @@
      - Recreational Incentive
      - Network Building
      - Personal Satisfaction
-    participation: 
+    participation: []
     quality_control:
      - You
      - Group of Experts
@@ -1188,7 +1206,7 @@
   url: https://www.kickstarter.com/
   description: >
   scope: []
-  sector: 
+  sector:
   thumbnail_url: img/1big.jpg
   focus: []
   city:
@@ -1200,6 +1218,7 @@
   historical_information: >
   output:
   impact_today:
+  type:
   impact_longer_term:
   crowd:
   challenges:
@@ -1232,6 +1251,7 @@
   focus: []
   size: 
   duration: 
+  type:
   cost:
   crowd: 
   historical_information: >
@@ -1288,7 +1308,7 @@
      - Financial Incentives 
      - Civic Responsibility 
      - Competition 
-    participation: 
+    participation: []
     quality_control:
      - You 
     interface:
@@ -1313,11 +1333,12 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
   duration: 
+  type:
   cost:
   crowd: 
   historical_information: >
@@ -1340,7 +1361,7 @@
     incentives:
      - Community Building 
      - Civic Responsibility 
-    participation: 
+    participation: []
     quality_control:
      - Group of Experts 
     interface:
@@ -1374,10 +1395,11 @@
   state: NY 
   country: USA
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
+  type:
   duration: 
   cost:
   crowd: 
@@ -1420,7 +1442,7 @@
      - Civic Responsibility 
      - Public Recognition 
      - Competition 
-    participation: 
+    participation: []
     quality_control:
      - Group of Experts 
     interface:
@@ -1431,7 +1453,7 @@
   url: 
   description: >
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: [] 
   city: New York City
@@ -1445,6 +1467,7 @@
   impact_today:
   impact_longer_term:
   crowd:
+  type:
   challenges:
   lessons:
   validation:
@@ -1453,7 +1476,7 @@
      - Data
     incentives:
      - Knowledge Building/Information Sharing
-    participation: 
+    participation: []
     quality_control:
      - You
     interface:
@@ -1474,11 +1497,12 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
   duration: 
+  type:
   cost:
   crowd: 
   historical_information: >
@@ -1506,7 +1530,7 @@
      - Community Building 
      - Civic Responsibility 
      - Competition 
-    participation: 
+    participation: []
     quality_control:
      - Rating 
      - Peer-reviewed 
@@ -1528,6 +1552,7 @@
   thumbnail_url: 
   focus: []
   size: 
+  type:
   duration: 
   cost:
   crowd: 
@@ -1561,7 +1586,7 @@
      - Skill Development
      - Community Building 
      - Civic Responsibility 
-    participation: 
+    participation: []
     quality_control:
      - Voting 
     interface:
@@ -1588,6 +1613,7 @@
   thumbnail_url: 
   focus: []
   size: 
+  type:
   duration: 
   cost:
   crowd: 
@@ -1633,7 +1659,7 @@
      - Financial Incentives 
      - Civic Responsibility 
      - Competition 
-    participation: 
+    participation: []
     quality_control:
      - Group of Experts 
     interface:
@@ -1692,6 +1718,7 @@
    of nearby publicly accessible Automated External Defibrillator (AED).
   output:
   impact_today:
+  type:
   impact_longer_term:
   crowd: >
    CPR-trained citizens and off-duty professionals such as firefighters, police
@@ -1730,11 +1757,15 @@
    or “voted down” by other users. This voting process allows the “best” answers to 
    achieve the widest circulation.
   scope: []
-  sector: 
+  sector:
+  crowd:
+  type:
   thumbnail_url: 
   focus: [] 
   incentives: 
-  location: 
+  city:
+  state:
+  country: 
   quality_control:
   size:
   duration:
@@ -1826,9 +1857,10 @@
    for US $50.
   city: 
   state: 
-  country: 
+  country:
+  type: 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
@@ -1855,7 +1887,7 @@
     incentives:
      - Community Building 
      - Civic Responsibility 
-    participation: 
+    participation: []
     quality_control:
      - Group of Experts 
     interface:
@@ -1873,7 +1905,8 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
+  type:
   thumbnail_url: 
   focus: []
   size: 
@@ -1905,7 +1938,7 @@
     incentives:
      - Knowledge Building/Information Sharing 
      - Civic Responsibility 
-    participation: 
+    participation: []
     quality_control:
      - You 
      - Peer-reviewed 
@@ -1942,11 +1975,12 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
   duration: 
+  type:
   cost:
   crowd: 
   historical_information: >
@@ -1993,7 +2027,7 @@
      - Data 
     incentives:
      - Community Building 
-    participation: 
+    participation: []
     quality_control:
      - Group of Experts
     interface:
@@ -2033,10 +2067,11 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
+  type:
   duration: 
   cost:
   crowd: 
@@ -2069,7 +2104,7 @@
     incentives:
      - Community Building 
      - Civic Responsibility 
-    participation: 
+    participation: []
     quality_control:
      - You 
      - Voting 
@@ -2109,10 +2144,11 @@
   state: 
   country: United Kingdom 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
+  type:
   duration: 
   cost:
   crowd: 
@@ -2147,7 +2183,7 @@
     incentives:
      - Community Building 
      - Civic Responsibility 
-    participation: 
+    participation: []
     quality_control: 
      - Group of Experts 
     interface:
@@ -2179,10 +2215,11 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
+  type:
   duration: 
   cost:
   crowd: 
@@ -2234,7 +2271,7 @@
      - Knowledge Building/Information Sharing 
      - Community Building 
      - Competition 
-    participation: 
+    participation: []
     quality_control:
      - Group of Experts 
      - Voting 
@@ -2254,12 +2291,13 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
   duration: 
   cost:
+  type:
   crowd: 
   historical_information: >
    Launched in 2009, the Open Translation Project was initially seeded with 300 
@@ -2289,7 +2327,7 @@
      - Knowledge Building/Information Sharing 
      - Community Building 
      - Public Recognition 
-    participation: 
+    participation: []
     quality_control:
      - Peer-reviewed
     interface:
@@ -2308,6 +2346,7 @@
    - Local
   sector: Nonprofit
   thumbnail_url: 
+  type:
   focus:
    - Civic innovation
    - Civic participation
@@ -2389,10 +2428,11 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
+  type:
   duration: 
   cost:
   crowd: 
@@ -2432,7 +2472,7 @@
      - Skill Development
      - Community Building 
      - Competition 
-    participation: 
+    participation: []
     quality_control:
      - Peer-reviewed
     interface:
@@ -2454,7 +2494,7 @@
   city:
   state:
   country: 
-  quality_control: Voting
+  type:
   size:
   duration: 6-years
   cost:
@@ -2480,7 +2520,7 @@
      - Community Building
      - Competition
      - Public Recognition 
-    participation: 
+    participation: []
     quality_control:
      - Voting
     interface:
@@ -2501,7 +2541,10 @@
   focus:
    - Civic participation
    - Geospatial and Mapping
-  location: 
+  city:
+  state:
+  country: 
+  type:
   size:
   duration:
   cost:
@@ -2532,7 +2575,7 @@
      - Knowledge Building/Information Sharing
      - Community Building
      - Civic Responsibility
-    participation: 
+    participation: []
     quality_control:
      - Group of Experts
      - Peer-reviewed
@@ -2552,12 +2595,13 @@
   state: 
   country: United States
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
   duration: 
   cost:
+  type:
   crowd: 
   historical_information: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
@@ -2574,7 +2618,7 @@
      - Ideas
     incentives:
      - Civic Responsibility 
-    participation: 
+    participation: []
     quality_control:
     - Group of Experts
     - Voting
@@ -2595,8 +2639,9 @@
   state: 
   country: United States 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
+  type:
   focus: []
   size: 
   duration: 
@@ -2629,7 +2674,7 @@
      - Ideas
     incentives:
      - Civic Responsibility 
-    participation: 
+    participation: []
     quality_control:
      - Group of Experts
     interface:
@@ -2656,11 +2701,12 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
   duration: 
+  type:
   cost:
   crowd: 
   historical_information: >
@@ -2698,7 +2744,7 @@
      - Skill Development
      - Public Recognition 
      - Competition 
-    participation: 
+    participation: []
     quality_control:
      - You 
      - Group of Experts
@@ -2741,12 +2787,13 @@
   state: 
   country: 
   scope: []
-  sector: 
+  sector:
   thumbnail_url: 
   focus: []
   size: 
   duration: 
   cost:
+  type:
   crowd: 
   historical_information: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
@@ -2769,8 +2816,8 @@
     activity: 
      - Tasks 
      - Knowledge Building/Information Sharing 
-    incentives:
-    participation: 
+    incentives: []
+    participation: []
     quality_control:
      - Peer-reviewed
     interface:

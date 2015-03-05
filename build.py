@@ -1,6 +1,7 @@
 import glob
 import os
 import yaml
+import csv
 
 from jinja2 import Environment, FileSystemLoader
 
@@ -54,6 +55,7 @@ def Main():
 	with open('site/js/main.js', 'w') as f:
 		f.write(js.encode('utf8'))
 		f.close()
+	create_csv()
 
 
 
@@ -88,6 +90,50 @@ def sort_items():
 	            cats_selected.append(0)
 	    items.append({"title":case['title'], "url":case['title'].replace(" ","-").lower(), "scores":cats_selected})
 	return items
+
+
+def create_csv():
+	csvwriter = csv.writer(open('site/case_studies.csv', 'w'))
+	csvwriter.writerow([
+		'title', 'url', 'sector', 'description', 'crowd', 'focus', 'challenges', 'cost', 
+		'output', 'duration', 'size', 'lessons', 'city', 'activity', 'incentives', 
+		'participation', 'quality_control', 'interface', 'country', 'impact_today', 
+		'state', 'thumbnail_url', 'impact_longer_term', 'scope', 'validation', 'type', 
+		'historical_information'])
+	for case in template_data['case_studies']:
+		new_row = [
+			case['title'], 
+			case['url'], 
+			case['sector'], 
+			case['description'], 
+			case['crowd'], 
+			', '.join(case['focus']), 
+			case['challenges'], 
+			case['cost'], 
+			case['output'], 
+			case['duration'], 
+			case['size'], 
+			case['lessons'], 
+			case['city'], 
+			', '.join(case['dimensions']['activity']), 
+			', '.join(case['dimensions']['incentives']), 
+			', '.join(case['dimensions']['participation']), 
+			', '.join(case['dimensions']['quality_control']), 
+			', '.join(case['dimensions']['interface']),
+			case['country'], 
+			case['impact_today'], 
+			case['state'], 
+			case['thumbnail_url'],
+			case['impact_longer_term'], 
+			', '.join(case['scope']), 
+			case['validation'], 
+			case['type'], 
+			case['historical_information']
+		]
+		for i in range(len(new_row)):  # For every value in our newrow
+			if hasattr(new_row[i], 'encode'):
+				new_row[i] = new_row[i].encode('utf8')
+		csvwriter.writerow(new_row)
 
 if __name__ == '__main__':
   Main()

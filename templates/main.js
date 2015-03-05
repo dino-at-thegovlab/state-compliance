@@ -319,6 +319,10 @@ jQuery(document).ready(function($) {
             $('#relevant-case-studies').show();
             gridContainer.cubeportfolio('destroy');
             gridContainer.cubeportfolio(options_portfolio);
+            //Scroll to report part of page
+            $('html, body').animate({
+                scrollTop: $("#report").offset().top - 40
+            }, 1000);
         } else {
             $('.error-message').text("Please select at least one option.").show().delay(5000).fadeOut();
         }
