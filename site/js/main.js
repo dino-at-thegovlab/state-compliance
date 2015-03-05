@@ -64,9 +64,10 @@ jQuery(document).ready(function($) {
     });
 
     var current_page = 1;
+
     function min_selected(q_num) {
         var result = false;
-        $.each($('input[id*="q'+(q_num-2)+'"]'), function(index, value) {
+        $.each($('input[id*="q' + (q_num - 2) + '"]'), function(index, value) {
             if (value.checked) {
                 result = true;
                 return false;
@@ -79,42 +80,43 @@ jQuery(document).ready(function($) {
         $('.custom-page').each(function(index) {
             $(this).removeClass('active');
         });
-        $('.custom-page.'+page_num).addClass('active');
-        questionnaire.trigger('owl.goTo', page_num-1);
+        $('.custom-page.' + page_num).addClass('active');
+        questionnaire.trigger('owl.goTo', page_num - 1);
         current_page = page_num;
     }
 
     $('body').on('click', '.next-verify', function() {
         if (current_page < 7) {
-            if ([3, 4, 5, 6].indexOf(current_page) > -1 ) { //Check that at least one checkbox has been checked in slides 3, 4, 5, 6, 7
+            if ([3, 4, 5, 6].indexOf(current_page) > -1) { //Check that at least one checkbox has been checked in slides 3, 4, 5, 6, 7
                 if (min_selected(current_page)) {
-                    go_to_page(current_page+1)
+                    go_to_page(current_page + 1)
                 } else {
                     $('.error-message').text("Please select at least one option.").show().delay(5000).fadeOut();
                 }
             } else { //Go on to the next slide
-                go_to_page(current_page+1)
+                go_to_page(current_page + 1)
             }
         }
     });
 
     $('body').on('click', '.prev-verify', function() {
         if (current_page > 1) {
-            go_to_page(current_page-1)
+            go_to_page(current_page - 1)
         }
     });
 
     $('body').on('click', '.custom-page', function(event) {
         var previous_page = current_page;
         current_page = parseInt($(this).find('span').text());
-        if ([3, 4, 5, 6].indexOf(previous_page) > -1 && current_page > previous_page) { 
+        if ([3, 4, 5, 6].indexOf(previous_page) > -1 && current_page > previous_page) {
             if (min_selected(previous_page)) {
                 go_to_page(current_page);
             } else {
                 $('.error-message').text("Please select at least one option.").show().delay(5000).fadeOut();
                 current_page = previous_page;
             }
-        } if (current_page - previous_page > 0 && current_page > previous_page) {
+        }
+        if (current_page - previous_page > 0 && current_page > previous_page) {
             var all_questions_answered = true;
             var missing_question = 3;
             for (var i = 3; i < current_page; i++) {
@@ -136,7 +138,7 @@ jQuery(document).ready(function($) {
         }
     });
 
-    
+
 
 
     //-------------------Accordion Change Chevron--------
@@ -241,7 +243,9 @@ jQuery(document).ready(function($) {
             }
         }
         // filter the items\
-        var filters = $('.cbp-filter-item-active').map( function() { return $(this).data('filter'); }).toArray().join('');
+        var filters = $('.cbp-filter-item-active').map(function() {
+            return $(this).data('filter');
+        }).toArray().join('');
         //filters = filters.replace('*.','.').replace('.*.','.').replace('.*', '').replace('**', '*');
         if (filters == '*****') {
             filters = '*';
@@ -249,7 +253,7 @@ jQuery(document).ready(function($) {
             filters = filters.replace(/\*{1,}/g, '');
         }
         console.log(filters);
-        gridContainer.cubeportfolio('filter', filters, function () {});
+        gridContainer.cubeportfolio('filter', filters, function() {});
     });
 
 
@@ -326,6 +330,53 @@ jQuery(document).ready(function($) {
         } else {
             $('.error-message').text("Please select at least one option.").show().delay(5000).fadeOut();
         }
+    });
+
+
+    // ---------------------------------------------------------------add listener for load more click
+    $('.cbp-l-loadMore-button-link').on('click', function(e) {
+        e.preventDefault();
+        var clicks, me = $(this),
+            oMsg;
+        if (me.hasClass('cbp-l-loadMore-button-stop')) return;
+        // get the number of times the loadMore link has been clicked
+        clicks = $.data(this, 'numberOfClicks');
+        clicks = (clicks) ? ++clicks : 1;
+        $.data(this, 'numberOfClicks', clicks);
+
+        // set loading status
+        oMsg = me.text();
+        me.text('LOADING...');
+
+        // perform ajax request
+        $.ajax({
+            url: me.attr('href'),
+            type: 'GET',
+            dataType: 'HTML'
+        })
+            .done(function(result) {
+                var items, itemsNext;
+                // find current container
+                items = $(result).filter(function() {
+                    return $(this).is('div' + '.cbp-loadMore-block' + clicks);
+                });
+                gridContainer.cubeportfolio('appendItems', items.html(),
+                    function() {
+                        // put the original message back
+                        me.text(oMsg);
+                        // check if we have more works
+                        itemsNext = $(result).filter(function() {
+                            return $(this).is('div' + '.cbp-loadMore-block' + (clicks + 1));
+                        });
+                        if (itemsNext.length === 0) {
+                            me.text('NO MORE WORKS');
+                            me.addClass('cbp-l-loadMore-button-stop');
+                        }
+                    });
+            })
+            .fail(function() {
+                // error
+            });
     });
 
     //PARALLAX BACKGROUND
