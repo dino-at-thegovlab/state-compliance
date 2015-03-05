@@ -229,7 +229,7 @@
                         </div>
                         <div id="grid-container" class="cbp-l-grid-projects ">
                             <ul>
-                                {% for case in case_studies %}
+                                {% for case in case_studies[0:12] %}
                                     <li class="cbp-item {% if case['type'] %} {{ case['type'].replace(" ","-").lower() }}{% endif%}
                                                         {% for f in case['scope'] %} {{ f.replace(" ","-").lower() }} {%endfor%}
                                                         {% if case['sector'] %} {{ case['sector'].replace(" ","-").lower() }}{% endif%}
