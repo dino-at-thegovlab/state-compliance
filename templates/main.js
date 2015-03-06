@@ -140,6 +140,18 @@ jQuery(document).ready(function($) {
 
 
 
+    //---------------------------SCREENDOOR FORM
+    new FormRenderer({
+        "project_id": 683,
+        "afterSubmit": {
+          "method": "page",
+          "html": "<p>Thanks for submitting our form!</p>"
+        }
+      });
+
+
+
+
 
     //-------------------Accordion Change Chevron--------
     $('.accordion-heading').on('click', 'p', function() {
@@ -321,6 +333,7 @@ jQuery(document).ready(function($) {
             }
             $('#report').show();
             $('#relevant-case-studies').show();
+            $('#academy-info').show();
             gridContainer.cubeportfolio('destroy');
             gridContainer.cubeportfolio(options_portfolio);
             //Scroll to report part of page

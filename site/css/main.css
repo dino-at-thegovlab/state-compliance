@@ -682,6 +682,18 @@ p .accordion-toggle {
 	display: none;
 }
 
+
+/* LEARN MORE */
+
+#academy-info {
+	display: none;
+}
+
+#academy-info p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
 /*#relevant-case-studies .case-study {
 	width: 262px;
 	height: 243px;
@@ -711,6 +723,12 @@ p .accordion-toggle {
 	margin-top: 30px;
 }
 
+
+/* SCREENDOOR FORM */
+
+#screendoor-form h1 {
+	margin-bottom: 50px;
+}
 
 
 

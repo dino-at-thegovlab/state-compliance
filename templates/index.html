@@ -62,7 +62,7 @@
                         <div class="process-item col-xs-6 col-md-3 col-lg-3 wow fadeInLeft" data-wow-delay="0.4s">
                             <i class="fa fa-users fa-4x"></i>
                             <h3 class="uppercase">Participate</h3>
-                            <p>Join our community of leading experts on crowdsourcing.</p>
+                            <p>Join our community of crowdsourcing practitioners and leading experts.</p>
                             <a class="button button-big button-border-dark" href="https://screendoor.dobt.co/the-govlab/your-crowdsourcing-experience-the-questionnaire">Contribute</a>
                         </div>
                     </div>
@@ -229,6 +229,12 @@
                         </div>
                         <div id="grid-container" class="cbp-l-grid-projects ">
                             <ul>
+                                <!--TEEEEST !-->
+<!--                                 <li class="contribute-item">
+                                    <a href="https://screendoor.dobt.co/the-govlab/your-crowdsourcing-experience-the-questionnaire" class="cbp-singlePage cbp-l-caption-buttonLeft"><img src="img/casestudies/99-designs-small.png" alt="" width="100%"></a>
+                                    <div class="cbp-l-grid-projects-title">Contribute Your Story</div>
+                                    <div class="cbp-l-grid-projects-desc"></div>
+                                </li> -->
                                 {% for case in case_studies[0:12] %}
                                     <li class="cbp-item {% if case['type'] %} {{ case['type'].replace(" ","-").lower() }}{% endif%}
                                                         {% for f in case['scope'] %} {{ f.replace(" ","-").lower() }} {%endfor%}
