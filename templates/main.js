@@ -39,12 +39,12 @@ jQuery(document).ready(function($) {
     });
     wow.init();
 
-    function reloadStylesheets() {
-        var queryString = '?reload=' + new Date().getTime();
-        $('link[rel="stylesheet"]').each(function() {
-            this.href = this.href.replace(/\?.*|$/, queryString);
-        });
-    }
+    // function reloadStylesheets() {
+    //     var queryString = '?reload=' + new Date().getTime();
+    //     $('link[rel="stylesheet"]').each(function() {
+    //         this.href = this.href.replace(/\?.*|$/, queryString);
+    //     });
+    // }
 
 
     // ---------------------------ADIVOSOR CAROUSEL
