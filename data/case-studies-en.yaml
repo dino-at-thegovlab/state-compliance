@@ -397,7 +397,7 @@
   sector: Government
   thumbnail_url: 
   crowd:
-  type:
+  type: Case-Studies
   focus: [] 
   city: Philadelphia
   state: Pennsylvania
@@ -441,7 +441,7 @@
    directly submit, view, download and visualize complaints.
   scope: []
   sector: Government
-  crowd:
+  crowd: Case-Studies 
   type:
   thumbnail_url: 
   focus: [] 
@@ -512,7 +512,7 @@
   city:
   state:
   country: 
-  type:
+  type: Case-Studies 
   crowd:
   size:
   duration:
@@ -574,7 +574,7 @@
   sector: Private
   thumbnail_url: 
   crowd:
-  type:
+  type: Case-Studies 
   focus:
    - Scientific Research 
   city: San Francisco 
@@ -629,22 +629,25 @@
    area, view them on a map, discuss them with fellow citizens, monitor their 
    development and provide or read citizen updates. The service automatically sends 
    the citizen reports to the relevant government council upon receipt.
-  scope: []
+  scope:
+   - National 
   sector:
+   - Non-profit
   thumbnail_url: 
-  focus: [] 
+  focus: 
+   - Civic Participation
+   - Geospatial/Mapping
   city:
   state:
-  country: 
+  country: UK
   crowd:
-  type:
+  type: Case-Studies 
   size:
   duration:
   cost:
   historical_information: >
    FixMyStreet was launched by mySociety in February 2007, with funding from the 
    Department for Constitutional Affairs.
-  participation:
   output:
   impact_today: >
    In the first week of May 2013, the site received over 1,600 reports. Over 
@@ -667,7 +670,8 @@
     incentives:
      - Community Building
      - Civic Responsibility
-    participation: []
+    participation: 
+     - Limit participation to a defined community 
     quality_control:
      - Group of Experts
      - Rating
@@ -702,17 +706,20 @@
    taking advantage of our puzzle-solving intuitions and having people play 
    competitively to fold the best proteins. Players can also design brand new 
    proteins that could help prevent or treat important diseases.”
-  scope: []
+  scope:
+   - International
   sector:
+   - Education 
   crowd:
   thumbnail_url: 
-  focus: [] 
-  city:
+  focus: 
+   - Scientific Research 
+  city: Web-based
   state:
   country: 
-  type:
+  type: Case-Studies
   size:
-  duration:
+  duration: Since 2008. 
   cost:
   historical_information: >
   output: >
@@ -733,10 +740,10 @@
      - Data
     incentives:
      - Community Building
-     - Civic Responsibility
-     - Public Recognition
      - Competition
-    participation: [] 
+     - Recreational incentive
+    participation:
+     - Allow anyone willing to participate to do so
     quality_control:
      - Group of Experts
     interface:
@@ -759,7 +766,7 @@
   state:
   country: 
   size:
-  type:
+  type: Case-Studies 
   duration:
   cost:
   historical_information: >
@@ -809,7 +816,7 @@
   country: USA
   size:
   duration:
-  type:
+  type: Case-Studies 
   cost:
   historical_information: >
    Grade D.C. formally launched in June 2012. The District of Columbia paid 
@@ -856,25 +863,29 @@
    Now based in San Francisco, GroupTalent was developed out of TechStars 
    Seattle and raised $1 million in funding from Version One Ventures, Menlo 
    Ventures, and Founder’s Co-op.
-  scope: []
+  scope:
+   - National 
   sector:
+   - Private
   crowd:
   thumbnail_url: 
-  focus: [] 
+  focus: 
+   - Business & Legal Services
   city: San Francisco
   state: CA
   country: USA
   size:
   duration:
-  type:
+  type: Case-Studies 
   cost:
   historical_information: >
    Founded in 2011, GroupTalent is a hiring platform that serves as an employment
-   marketplace for programmers and employers looking for technical expertise. At 
+   marketplace for programmers, designers and employers looking for technical expertise. At 
    times referred to as a “dating website for developers,” employers can hire 
-   programmers on a trial basis, and potential employees can test the waters with a 
+   programmers or designers on a trial basis, and potential employees can test the waters with a 
    new employer before making a serious commitment.
   participation:
+   - Limit participation to a defined community 
   output: >
    As of August 2013, GroupTalent had over 6,000 developers and 200 companies on the 
    platform. On average, companies pay between $3,000 and $7,000 a week.
@@ -1071,7 +1082,7 @@
    Any offline platform needs a strong offline plan . Also structured support in the 
    form of marketing, both online and offline leads to a sustained process, 
    rather than a one off campaign.
-  type:
+  type: Tools
   dimensions:
     activity: 
      - Tasks
@@ -1098,7 +1109,6 @@
   validation: >
    Online is the best way from a reach and ease of implementation perspective.
 
-
 - title: IdeaScale
   url: http://ideascale.com/
   description: >
@@ -1113,13 +1123,16 @@
   city: 
   state: 
   country: 
-  scope: []
+  scope:
+   - International 
   sector:
-  type:
+   - Private 
+  type: Case-Studies 
   thumbnail_url: 
-  focus: []
+  focus:
+   - Civic Participation
   size: 
-  duration: 
+  duration: Since 2009.
   cost:
   crowd: 
   historical_information: >
@@ -1144,6 +1157,7 @@
      - Knowledge Building/Information Sharing
      - Community Building
      - Civic Responsibility
+     - Network Building 
      - Public Recognition 
     participation: []
     quality_control:
@@ -1163,25 +1177,42 @@
    and giving cash awards to those solvers who provide the best solutions.
   scope: 
    - International 
-  sector: Private
+  sector: 
+   - Private
   thumbnail_url: img/1big.jpg
   focus:
    - Research and consulting
    - Scientific Research 
-  city:
+  city: Web-based 
   state:
   country: 
   size:
   duration:
-  type:
+  type: Case-Studies 
   cost:
   historical_information: >
-  output:
-  impact_today: >
-   As of August 2013, InnoCentive reports that their network includes 300,000+
-   solvers from nearly 200 countries. More than 1,650 external challenges have 
+   The original idea for this crowdsourcing project came from Alph Bingham and 
+   Aaron Schacht, coworkers in the pharmaceutical Eli Lilly and Company. Coming 
+   from the pharmaceutical industry, Bingham and Schacht had a first hand perspective 
+   on the challenge that R&D budgets represent to companies. In the pharmaceutical 
+   industry one of their perennial efforts is to improve the cycle time for drug 
+   discovery and development. This effort comes with the challenge of reducing the 
+   enormous costs that failures in the R&D departments of the pharmaceutical industry 
+   represent in monetary terms. 
+   <br/>
+   Having in mind the particular problems that the pharmaceutical industry faces in
+   creating value from their expensive R&D, Bingham and Schach created a prototype of
+   the platform in 1998 after collaboratively thinking of ways in which to incorporate 
+   Internet into business strategies. In 2001 InnoCentive was launched by Jill Panetta, 
+   Jeff Hensley, Darren Carroll, and Alph Bingham. One of the motives behind the creation 
+   of this platform for communal work was to enable what the Internet provides: a global 
+   marketplace of qualified individuals that can produce faster and cheaper innovation.
+  output: >
+   As of 2015, InnoCentive reports that their network includes 355,000+
+   solvers from nearly 200 countries. More than 2,000 external challenges have 
    been posted, receiving over 40,000 solution submissions, and awards have 
    been distributed to over 1,500 individuals for a total value of $40+ million.
+  impact_today: 
   impact_longer_term:
   crowd:
   challenges:
@@ -1196,24 +1227,29 @@
      - Recreational Incentive
      - Network Building
      - Personal Satisfaction
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - You
      - Group of Experts
-    interface: []  
+    interface: 
+     - Website 
 
 - title: Kickstarter
   url: https://www.kickstarter.com/
   description: >
-  scope: []
+  scope: 
+   - International 
   sector:
+   - Private
   thumbnail_url: img/1big.jpg
-  focus: []
-  city:
-  state:
+  focus: 
+   - Finance & Investment
+  city: Brooklyn
+  state: NY
   country: USA
   size:
-  duration:
+  duration: Since April 28, 2009
   cost:
   historical_information: >
   output:
@@ -1227,9 +1263,13 @@
   dimensions:
     activity:
      - Funds
-    incentives: []
-    participation: [] 
-    quality_control: []
+    incentives: 
+     - Altruistic incentive
+     - Personal satisfaction
+    participation: 
+     - Allow anyone willing to participate to do so
+    quality_control: 
+     - No Quality Control 
     interface:
      - Website
 
@@ -1329,30 +1369,40 @@
    campaign can be launched. Neighbor.ly provides some simple tips for running a 
    successful campaign, and points prospective crowdfunders towards successful 
    campaigns for more hints.
-  city: 
-  state: 
-  country: 
-  scope: []
+  city: Kansas City 
+  state: MO
+  country: USA
+  scope:
+   - National 
   sector:
+   - Private
   thumbnail_url: 
-  focus: []
+  focus:
+   - Civic Participation
+   - Finance & Investment
   size: 
-  duration: 
-  type:
+  duration: Since July 2013
+  type: Case-Studies
   cost:
   crowd: 
   historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+   Neighbor.ly is the fundraising toolkit for community projects of Luminopolis. 
+   The idea came to Jase Wilson from a series of fortunate circumstances: hearing a talk of Rob 
+   Goodspeed about civic crowdsourcing, attending a public meeting to discuss the funding of a 
+   streetcar, watching a video game break a record for funding at Kickstarter and a breakfast he had 
+   with Patrick Hosty one of the advisors of the site. At this breakfast, Wilson 
+   and Hosty where discussing a bond deal when a person overheard their conversation
+   and started discussing with them. This person decided not to vote for that particular bond deal
+   because it lumped sewer repairs with paying for other civic amenities, like buying new animals
+   for the zoo. Hosty and this person got into a heated discussion which gave Wilson the idea
+   for the site. The site was thought to fund civic projects one really cared about. 
   output: > 
    As of March 30, 2014, Neighbor.ly has raised $1.45 million for 30 projects 
-   in 24 communities with 2,300 contributers.[2] The site has a stated three-year 
-   impact goal of helping 1,000 communities fund 10,000 projects by raising 
-   $1 billion+.
+   in 24 communities with 2,300 contributers. 
   impact_today:
-  impact_longer_term:
+  impact_longer_term: >
+   The site has a stated three-year impact goal of helping 1,000 communities 
+   fund 10,000 projects by raising $1 billion+.
   challenges:
   lessons:
   dimensions:
@@ -1394,12 +1444,16 @@
   city: New York City 
   state: NY 
   country: USA
-  scope: []
+  scope: 
+   - Local 
   sector:
+   - Government 
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Civic Innovation
+   - Data/Technology
   size: 
-  type:
+  type: Case-Studies
   duration: 
   cost:
   crowd: 
@@ -1450,12 +1504,17 @@
   validation:  
 
 - title: Open Data 500
-  url: 
+  url: http://www.opendata500.com
   description: >
-  scope: []
+  type: Case-Studies
+  scope: 
+   - National 
   sector:
+   Private
   thumbnail_url: 
-  focus: [] 
+  focus:
+   - Business & Legal Services
+   - Economic Development
   city: New York City
   state: NY
   country: USA 
@@ -1476,9 +1535,11 @@
      - Data
     incentives:
      - Knowledge Building/Information Sharing
-    participation: []
+    participation:
+     - Limit participation to a defined community 
     quality_control:
      - You
+     - Group of Experts
     interface:
      - Website
 
@@ -1496,13 +1557,20 @@
   city: 
   state: 
   country: 
-  scope: []
-  sector:
+  scope:
+   - International 
+  sector: 
+   - Private 
   thumbnail_url: 
-  focus: []
-  size: 
-  duration: 
-  type:
+  focus:
+   - Knowledge Building/Information Sharing
+   - Community Building 
+   - Civic responsibility 
+   - Altruistic incentive
+   - Personal satisfaction
+  size: 80,000 community members 
+  duration: Since August 2010
+  type: Case-Studies 
   cost:
   crowd: 
   historical_information: >
@@ -1510,6 +1578,7 @@
    IDEO to gain a broader perspective and reach by relying on community 
    participation. 
   output: >
+   OpenIDEO claims their website has proud
    OpenIDEO claims their application results in a number of different types of 
    output that aid in social change. Through feedback they have received from 
    their community, they argue that their product results in mindset change, or 
@@ -1530,7 +1599,8 @@
      - Community Building 
      - Civic Responsibility 
      - Competition 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - Rating 
      - Peer-reviewed 
@@ -1607,13 +1677,15 @@
    experience.
   city: 
   state: 
-  country: United Kingdom 
-  scope: []
+  country: UK 
+  scope: 
+   - National 
   sector: Government 
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Healthcare
   size: 
-  type:
+  type: Case-Studies 
   duration: 
   cost:
   crowd: 
@@ -1718,7 +1790,7 @@
    of nearby publicly accessible Automated External Defibrillator (AED).
   output:
   impact_today:
-  type:
+  type: Case-Studies 
   impact_longer_term:
   crowd: >
    CPR-trained citizens and off-duty professionals such as firefighters, police
