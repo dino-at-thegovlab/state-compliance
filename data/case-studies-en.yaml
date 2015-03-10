@@ -631,8 +631,7 @@
    the citizen reports to the relevant government council upon receipt.
   scope:
    - National 
-  sector:
-   - Non-profit
+  sector: Non-profit
   thumbnail_url: 
   focus: 
    - Civic Participation
@@ -708,8 +707,7 @@
    proteins that could help prevent or treat important diseases.”
   scope:
    - International
-  sector:
-   - Education 
+  sector: Education 
   crowd:
   thumbnail_url: 
   focus: 
@@ -865,8 +863,7 @@
    Ventures, and Founder’s Co-op.
   scope:
    - National 
-  sector:
-   - Private
+  sector: Private
   crowd:
   thumbnail_url: 
   focus: 
@@ -1125,8 +1122,7 @@
   country: 
   scope:
    - International 
-  sector:
-   - Private 
+  sector: Private 
   type: Case-Studies 
   thumbnail_url: 
   focus:
@@ -1177,8 +1173,7 @@
    and giving cash awards to those solvers who provide the best solutions.
   scope: 
    - International 
-  sector: 
-   - Private
+  sector: Private
   thumbnail_url: img/1big.jpg
   focus:
    - Research and consulting
@@ -1240,8 +1235,7 @@
   description: >
   scope: 
    - International 
-  sector:
-   - Private
+  sector: Private
   thumbnail_url: img/1big.jpg
   focus: 
    - Finance & Investment
@@ -1374,8 +1368,7 @@
   country: USA
   scope:
    - National 
-  sector:
-   - Private
+  sector: Private
   thumbnail_url: 
   focus:
    - Civic Participation
@@ -1446,8 +1439,7 @@
   country: USA
   scope: 
    - Local 
-  sector:
-   - Government 
+  sector: Government 
   thumbnail_url: 
   focus: 
    - Civic Innovation
@@ -1509,8 +1501,7 @@
   type: Case-Studies
   scope: 
    - National 
-  sector:
-   Private
+  sector: Private
   thumbnail_url: 
   focus:
    - Business & Legal Services
@@ -1559,8 +1550,7 @@
   country: 
   scope:
    - International 
-  sector: 
-   - Private 
+  sector: Private 
   thumbnail_url: 
   focus:
    - Knowledge Building/Information Sharing

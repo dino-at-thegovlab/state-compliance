@@ -65,8 +65,8 @@
 }
 
 @media print {
-	#questionnaire, #elevant-case-studies, footer {
-		display: none;
+	#questionnaire, #relevant-case-studies, #academy-info, footer { 
+		display: none !important;
 	}
 }
 
