@@ -65,7 +65,7 @@
 }
 
 @media print {
-	#questionnaire, #relevant-case-studies, #academy-info, footer { 
+	#questionnaire, #relevant-case-studies, footer { 
 		display: none !important;
 	}
 }
@@ -228,16 +228,17 @@ h4 {
 	text-align: right;
 }
 
-#slides .main-title-subheading {
+/*#slides .main-title-subheading {
 	width: 84%%;
 	font-size: 20px;
 	text-align: right;
 	color: #472b74;
-}
+}*/
 
 #slides .main-title-tagline {
 	font-size: 43px;
 	letter-spacing: 3.8px;
+	margin-bottom: 35px;
 }
 
 
@@ -741,6 +742,7 @@ p .accordion-toggle {
 #methodology p, #methodology li {
 	font-size: 18px;
 	line-height: 22px;
+	color: #000;
 }
 
 #methodology h2 {
@@ -753,6 +755,30 @@ p .accordion-toggle {
 #screendoor-form h1 {
 	margin-bottom: 50px;
 }
+
+.fr_response_field {
+	max-width: 800px;
+}
+
+.fr_response_field .fr_option {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.fr_page {
+	padding: 30px;
+	background-color: white;
+	border:	1px solid rgba(0, 0, 0, .2);
+	font-size: 18px;
+	line-height: 22px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+#screendoor-form input[type="text"], #screendoor-form input[type="email"], #screendoor-form textarea {
+	font-family: verdana;
+	text-transform: none;
+}
+
 
 
 
