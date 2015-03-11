@@ -241,6 +241,23 @@ h4 {
 	margin-bottom: 35px;
 }
 
+.share-button {
+	width: 80px;
+	height: 24px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	background-color: #ccc;
+	font-weight: bold;
+}
+
+.share-button a {
+	color: #fff;
+}
+
+.share-button a:hover {
+	text-decoration: none;
+}
 
 
 /* WELCOME */
@@ -682,13 +699,13 @@ p .accordion-toggle {
 	margin-top:0;
 }
 
-#report i {
+/*#report i {
 	color:#1a1a1a;
 	float:left;
 	margin:0px 10px 0px 0;
 	width:65px;
 	text-align:center;
-}
+}*/
 
 #report .report-category-heading {
 	display: none;
@@ -698,6 +715,20 @@ p .accordion-toggle {
 
 #report ul {
 	margin: 5px 0px 10px 50px;
+}
+
+#report .print-report {
+	color: #000;
+}
+
+#report .report-buttons a:hover {
+	text-decoration: none;
+}
+
+#report .report-buttons a {
+	color: #fff;
+	position: relative;
+	top: -7px;
 }
 
 
