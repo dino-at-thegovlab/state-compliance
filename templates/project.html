@@ -41,8 +41,12 @@
 		<div class="cbp-l-project-details-title"><span>Project Details</span></div>
 
 		<ul class="cbp-l-project-details-list">
-			<li><strong>Location</strong>{{city}}, {{state}}</li>
-			<li><strong>Country</strong>{{country}}</li>
+			{% if city == 'Internet' %}
+				<li><strong>Location</strong>Internet</li>
+			{% else %}
+				<li><strong>Location</strong>{{city}}, {{state}}</li>
+				<li><strong>Country</strong>{{country}}</li>
+			{% endif %}
 			<li><strong>Categories</strong>{{', '.join(focus)}}</li>
 			<li><strong>Scope</strong>{{', '.join(scope)}}</li>
 			<li><strong>Sector</strong>{{sector}}</li>

@@ -13,6 +13,9 @@
    designers by purchasing design templates from 99designs’ Readymade logo store 
    or by visiting Swiftly for quick graphic design fixes and steal logo's.
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   city: Web-based
   state: 
   country: 
@@ -90,6 +93,9 @@
    infrastructure, such as fire hydrants that need to be shoveled out after it
    snows.
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   city: Boston
   state: Massachusetts
   country: USA
@@ -146,6 +152,9 @@
    people. When users voice their opinions, delivering the accountability of a
    survey with the unique insights found only on social networks.
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   city:
   state:
   country:
@@ -211,6 +220,9 @@
    contest accepted a wide range of submissions in a number of topic areas and 
    provided a total of $270,000 in grants.
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   city:
   state: British Columbia
   country: Canada
@@ -280,6 +292,9 @@
    wide spectrum of nonprofit field. Catchafire allows non-profits to crowdsourcing 
    their challenges and for professionals to donate their skills.
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   city: New York City 
   state: NY
   country: USA
@@ -332,6 +347,9 @@
    to these challenges, with winning selections typically receiving a prize. It is 
    one of the first challenge platforms launched and managed by a federal government.
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   crowd:
   scope: 
    - National
@@ -398,6 +416,9 @@
   thumbnail_url: 
   crowd:
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   focus: [] 
   city: Philadelphia
   state: Pennsylvania
@@ -441,8 +462,11 @@
    directly submit, view, download and visualize complaints.
   scope: []
   sector: Government
-  crowd: Case-Studies 
-  type:
+  crowd: 
+  type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   thumbnail_url: 
   focus: [] 
   city:
@@ -512,6 +536,9 @@
   state:
   country: 
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   crowd:
   size:
   duration:
@@ -574,6 +601,9 @@
   thumbnail_url: 
   crowd:
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   focus:
    - Scientific Research 
   city: San Francisco 
@@ -639,6 +669,9 @@
   country: UK
   crowd:
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   size:
   duration:
   cost:
@@ -714,6 +747,9 @@
   state:
   country: 
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   size:
   duration: Since 2008. 
   cost:
@@ -763,6 +799,9 @@
   country: 
   size:
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   duration:
   cost:
   historical_information: >
@@ -813,6 +852,9 @@
   size:
   duration:
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   cost:
   historical_information: >
    Grade D.C. formally launched in June 2012. The District of Columbia paid 
@@ -872,6 +914,9 @@
   size:
   duration:
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   cost:
   historical_information: >
    Founded in 2011, GroupTalent is a hiring platform that serves as an employment
@@ -1078,6 +1123,9 @@
    form of marketing, both online and offline leads to a sustained process, 
    rather than a one off campaign.
   type: Tools
+  authors: []
+  highlights: []
+  learnings: []
   dimensions:
     activity: 
      - Tasks
@@ -1122,6 +1170,9 @@
    - International 
   sector: Private 
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   thumbnail_url: 
   focus:
    - Civic Participation
@@ -1182,6 +1233,9 @@
   size:
   duration:
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   cost:
   historical_information: >
    The original idea for this crowdsourcing project came from Alph Bingham and 
@@ -1247,6 +1301,9 @@
   output:
   impact_today:
   type:
+  authors: []
+  highlights: []
+  learnings: []
   impact_longer_term:
   crowd:
   challenges:
@@ -1284,6 +1341,9 @@
   size: 
   duration: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   cost:
   crowd: 
   historical_information: >
@@ -1374,6 +1434,9 @@
   size: 
   duration: Since July 2013
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   cost:
   crowd: 
   historical_information: >
@@ -1444,6 +1507,9 @@
    - Data/Technology
   size: 
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   duration: 
   cost:
   crowd: 
@@ -1497,6 +1563,9 @@
   url: http://www.opendata500.com
   description: >
   type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
   scope: 
    - National 
   sector: Private
@@ -1516,6 +1585,9 @@
   impact_longer_term:
   crowd:
   type:
+  authors: []
+  highlights: []
+  learnings: []
   challenges:
   lessons:
   validation:
@@ -1559,6 +1631,9 @@
   size: 80,000 community members 
   duration: Since August 2010
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   cost:
   crowd: 
   historical_information: >
@@ -1611,6 +1686,9 @@
   focus: []
   size: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   duration: 
   cost:
   crowd: 
@@ -1674,6 +1752,9 @@
    - Healthcare
   size: 
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   duration: 
   cost:
   crowd: 
@@ -1779,6 +1860,9 @@
   output:
   impact_today:
   type: Case-Studies 
+  authors: []
+  highlights: []
+  learnings: []
   impact_longer_term:
   crowd: >
    CPR-trained citizens and off-duty professionals such as firefighters, police
@@ -1820,6 +1904,9 @@
   sector:
   crowd:
   type:
+  authors: []
+  highlights: []
+  learnings: []
   thumbnail_url: 
   focus: [] 
   incentives: 
@@ -1918,7 +2005,10 @@
   city: 
   state: 
   country:
-  type: 
+  type:
+  authors: []
+  highlights: []
+  learnings: [] 
   scope: []
   sector:
   thumbnail_url: 
@@ -1967,6 +2057,9 @@
   scope: []
   sector:
   type:
+  authors: []
+  highlights: []
+  learnings: []
   thumbnail_url: 
   focus: []
   size: 
@@ -2041,6 +2134,9 @@
   size: 
   duration: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   cost:
   crowd: 
   historical_information: >
@@ -2132,6 +2228,9 @@
   focus: []
   size: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   duration: 
   cost:
   crowd: 
@@ -2209,6 +2308,9 @@
   focus: []
   size: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   duration: 
   cost:
   crowd: 
@@ -2280,6 +2382,9 @@
   focus: []
   size: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   duration: 
   cost:
   crowd: 
@@ -2358,6 +2463,9 @@
   duration: 
   cost:
   type:
+  authors: []
+  highlights: []
+  learnings: []
   crowd: 
   historical_information: >
    Launched in 2009, the Open Translation Project was initially seeded with 300 
@@ -2407,6 +2515,9 @@
   sector: Nonprofit
   thumbnail_url: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   focus:
    - Civic innovation
    - Civic participation
@@ -2493,6 +2604,9 @@
   focus: []
   size: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   duration: 
   cost:
   crowd: 
@@ -2555,6 +2669,9 @@
   state:
   country: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   size:
   duration: 6-years
   cost:
@@ -2605,6 +2722,9 @@
   state:
   country: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   size:
   duration:
   cost:
@@ -2662,6 +2782,9 @@
   duration: 
   cost:
   type:
+  authors: []
+  highlights: []
+  learnings: []
   crowd: 
   historical_information: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
@@ -2702,6 +2825,9 @@
   sector:
   thumbnail_url: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   focus: []
   size: 
   duration: 
@@ -2767,6 +2893,9 @@
   size: 
   duration: 
   type:
+  authors: []
+  highlights: []
+  learnings: []
   cost:
   crowd: 
   historical_information: >
@@ -2854,6 +2983,9 @@
   duration: 
   cost:
   type:
+  authors: []
+  highlights: []
+  learnings: []
   crowd: 
   historical_information: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
