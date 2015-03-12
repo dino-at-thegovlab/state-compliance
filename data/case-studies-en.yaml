@@ -79,7 +79,8 @@
      - Tasks
     incentives:
      - Financial Incentives 
-    participation: []
+    participation: 
+     - Limit participation to a defined community 
     quality_control:
      - You
     interface:
@@ -202,7 +203,8 @@
     - Financial Incentives
     - Knowledge Building/Information Sharing
     - Recreational Incentive
-   participation: []
+   participation: 
+    - Limit participation to a defined community 
    quality_control:
     - Voting
     - Peer-reviewed
@@ -331,7 +333,8 @@
      - Skill Development
      - Community Building
      - Civic Responsibility 
-    participation: []
+    participation: 
+     - Limit participation to a defined community 
     quality_control:
      - You
     interface:
@@ -2660,28 +2663,37 @@
    The Threadless community is made up of artists, customers, and fans. 
    Members can submit and vote on different designs. Winning designs are then printed 
    and sold through the website.
-  scope: []
+  scope: 
+   - International 
   sector: Private
   thumbnail_url: 
   focus: 
    - Lifestyle-and-consumer
-  city:
-  state:
-  country: 
+  city: Chicago
+  state: IL
+  country: USA
   type:
   authors: []
   highlights: []
   learnings: []
   size:
-  duration: 6-years
+  duration: Since 2000
   cost:
   platform:
   historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  output:
+   Threadless was created in 2000 by two dropout students from Chicago, Jake Nickel and Jacob DeHart.
+   After winning a design contest for the New Media Underground festival, Jake Nickel, 
+   CEO of the company, partnered with a friend to create a design contest where people 
+   could submit their original creations to be printed on a t-shirt . Nickel and his 
+   Threadless co-founder, Jacob DeHart, used to be assiduous community members of 
+   dreamless.org, an online discussion forum where designers and programmers interacted 
+   with each other creating an online community where their members participated in
+   collective tasks and discussed a series of communal topics. The idea of Threadless.com 
+   was to create an activity to engage their peers in the process of creating “original” T-shirts as a fun hobby, 
+   not to create a business. 
+  output: >
+   According to their page up to this day 343,855 designs have been submitted
+   and 6,321 designs have been printed. 
   impact_today:
   impact_longer_term:
   crowd:
@@ -2697,7 +2709,8 @@
      - Community Building
      - Competition
      - Public Recognition 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - Voting
     interface:
