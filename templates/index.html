@@ -259,7 +259,7 @@
                                         </div>
                                         <div class="cbp-l-grid-projects-title">Share Your Crowdsourcing Story</div>
                                     </li>
-                                {% for case in case_studies[0:12] %}
+                                {% for case in case_studies[0:11] %}
                                     <li class="cbp-item {% if case['type'] %} {{ case['type'].replace(" ","-").lower() }}{% endif%}
                                                         {% for f in case['scope'] %} {{ f.replace(" ","-").lower() }} {%endfor%}
                                                         {% if case['sector'] %} {{ case['sector'].replace(" ","-").lower() }}{% endif%}
