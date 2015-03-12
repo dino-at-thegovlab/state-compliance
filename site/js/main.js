@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
     });
 
     var current_page = 1;
-
+    $('.prev-verify').css('visibility', 'hidden');
     function min_selected(q_num) {
         var result = false;
         $.each($('input[id*="q' + (q_num - 2) + '"]'), function(index, value) {
@@ -83,6 +83,8 @@ jQuery(document).ready(function($) {
         $('.custom-page.' + page_num).addClass('active');
         questionnaire.trigger('owl.goTo', page_num - 1);
         current_page = page_num;
+        $('.prev-verify').css('visibility', current_page == 1 ? 'hidden':'visible');
+        $('.next-verify').css('visibility', current_page == 7 ? 'hidden':'visible');
     }
 
     $('body').on('click', '.next-verify', function() {
