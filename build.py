@@ -11,7 +11,7 @@ CASE_STUDIES = yaml.load(open('data/case-studies-en.yaml'))
 ENUMS = yaml.load(open('data/enums.yaml'))
 CONTENT = yaml.load(open('data/content.yaml'))
 template_data = {
-	'title': 'Crowdsourcing Advisor - a GovLab production',
+	'title': 'Crowdsourcing Advisor - a GovLab project',
 	'case_studies': CASE_STUDIES, 
 	'enums': ENUMS,
 	'content': CONTENT,
