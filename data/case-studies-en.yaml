@@ -455,7 +455,7 @@
   validation:
 
 - title: Consumer Financial Protection Bureau Credit Card Complaints Database
-  url: 
+  url: http://www.consumerfinance.gov
   description: >
    A key mission of the Consumer Financial Protection Bureau (CFPB) 
    is to make the financial products and services available to citizens 
@@ -463,7 +463,8 @@
    Consumer Financial Protection Bureau (CFPB), the first U.S. 21st-century 
    consumer agency, allows consumers (and anonymous whistleblowers) to 
    directly submit, view, download and visualize complaints.
-  scope: []
+  scope: 
+   - National
   sector: Government
   crowd: 
   type: Case-Studies
@@ -471,12 +472,14 @@
   highlights: []
   learnings: []
   thumbnail_url: 
-  focus: [] 
+  focus:
+   - Finance & Investment
+   - Transparency & Accountability 
   city:
   state:
-  country: 
+  country: USA
   size:
-  duration:
+  duration: Since 2012
   cost:
   historical_information: >
    The Consumer Complaint Database launched on June 2013, following the 
@@ -844,16 +847,18 @@
    Washington D.C. municipal government and its citizens. It enables constituents 
    to submit comments about certain District of Columbia agencies and view how 
    District residents graded those agencies.
-  scope: []
-  sector:
+  scope:
+   - Local
+  sector: Government 
   crowd:
   thumbnail_url: 
-  focus: [] 
+  focus: 
+   - Civic Participation
   city: Washington DC
   state: DC
   country: USA
   size:
-  duration:
+  duration: Since June 2012 
   type: Case-Studies 
   authors: []
   highlights: []
@@ -880,7 +885,8 @@
      - Opinions
     incentives:
      - Civic Responsibility
-    participation: []
+    participation:
+     - Allow anyone willing to participate to do so
     quality_control: []
     interface:
      - Website
@@ -989,9 +995,9 @@
    - Governance
    - Transparency & Accountability 
    - Urban Development
-  city:
+  city: Internet
   state:
-  country: India
+  country: 
   size: >
    4.5 million visits, 36424 reports
   duration: >
@@ -1336,13 +1342,16 @@
    to a broader adoption of open access to PSI.
   city: 
   state: 
-  country: 
-  scope: []
+  country: Australia 
+  scope:
+   - National
   sector: Government
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Civic Participation
+   - Data/Technology
   size: 
-  duration: 
+  duration: From October 7th to November 13th 2009 
   type:
   authors: []
   highlights: []
@@ -1403,7 +1412,8 @@
      - Financial Incentives 
      - Civic Responsibility 
      - Competition 
-    participation: []
+    participation:
+     - Allow anyone willing to participate to do so
     quality_control:
      - You 
     interface:
@@ -1903,22 +1913,22 @@
    other Quora user with relevant knowledge to share. These answers are then “voted up” 
    or “voted down” by other users. This voting process allows the “best” answers to 
    achieve the widest circulation.
-  scope: []
-  sector:
+  scope:
+   - International 
+  sector: Private
   crowd:
   type:
   authors: []
   highlights: []
   learnings: []
   thumbnail_url: 
-  focus: [] 
-  incentives: 
-  city:
-  state:
-  country: 
-  quality_control:
+  focus: 
+   - Education 
+  city: Mountain View
+  state: CA
+  country: USA
   size:
-  duration:
+  duration: Since June 2009 
   cost:
   platform:
   historical_information: >
@@ -1933,7 +1943,6 @@
    $80 million in funding, spearheaded by private equity firm and hedge fund Tiger 
    Global. Multiple sources have reported that Quora will likely turn to advertising 
    to generate revenue by 2015.
-  participation:
   output:
   impact_today: >
    Quora has become one of the most popular Q&A platforms and has attracted a number 
@@ -1984,7 +1993,8 @@
      - Community Building
      - Public Recognition 
      - Competition 
-    participation: [] 
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - Voting 
     interface:
@@ -2005,19 +2015,22 @@
    sensitive enough to detect trace amounts of radiation, that can then be neatly 
    visualized with an accompanying iOS app. The Smart Radiation Detector sells 
    for US $50.
-  city: 
+  city: Ishinomaki City 
   state: 
-  country:
+  country: Japan 
   type:
   authors: []
   highlights: []
   learnings: [] 
-  scope: []
-  sector:
+  scope: 
+   - International 
+  sector: Non-profit 
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Geospatial/Mapping
+   - Healthcare
   size: 
-  duration: 
+  duration: Since March 2011
   cost:
   crowd: 
   historical_information: >
@@ -2040,7 +2053,8 @@
     incentives:
      - Community Building 
      - Civic Responsibility 
-    participation: []
+    participation: 
+     - Limit participation to a defined community
     quality_control:
      - Group of Experts 
     interface:
@@ -2054,23 +2068,25 @@
    reacting to anything online – an article, a photo, a video, even a specific 
    snippet from a page. This tool uses an annotation plugin which allows people 
    to give feedback in the form of comments and reactions.
-  city: 
-  state: 
-  country: 
-  scope: []
-  sector:
+  city: New York City 
+  state: NY
+  country: USA
+  scope: 
+   - International
+  sector: Private
   type:
   authors: []
   highlights: []
   learnings: []
   thumbnail_url: 
-  focus: []
+  focus:
+   - Research & Consulting
   size: 
-  duration: 
+  duration: Since 2011
   cost:
   crowd: 
   historical_information: >
-   Co-created by Porter Bayne, Tyler Brock and Eric Chaves, ReadrBoard aims to 
+   Co-created by Porter Bayne, Tyler Brock and Eric Chaves, Antenna aims to 
    change the face of online conversation. After a successful beta test on news 
    site Hypervocal and (full disclosure) Latoya Peterson’s site, Racialicious, 
    Bayne, Brock and Chavs decided to revamp the overall design and user interface 
@@ -2086,7 +2102,7 @@
   challenges: >
    The biggest challenge for Antenna (before called ReadrBoard) is distinguishing itself from all the 
    other online user reaction tools. The developers must make the case for how 
-   ReadrBoard provides a higher quality of participation.
+   Antenna provides a higher quality of participation.
   lessons:
   dimensions:
     activity: 
@@ -2094,7 +2110,8 @@
     incentives:
      - Knowledge Building/Information Sharing 
      - Civic Responsibility 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - You 
      - Peer-reviewed 
