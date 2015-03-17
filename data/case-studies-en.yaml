@@ -2144,15 +2144,19 @@
    only valuable in ascertaining an approximation of radiation levels 
    city-wide. Collecting data at the neighborhood-level ensures the data 
    is fine-grained and it provides an accurate profile of threats.
-  city: 
+  city: Tokyo
   state: 
-  country: 
-  scope: []
-  sector:
+  country: Japan
+  scope: 
+   - International
+  sector: Non-profit
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Data/Technology
+   - Geospatial/Mapping
+   - Healthcare
   size: 
-  duration: 
+  duration: Since 2011
   type:
   authors: []
   highlights: []
@@ -2203,7 +2207,8 @@
      - Data 
     incentives:
      - Community Building 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - Group of Experts
     interface:
@@ -2322,20 +2327,23 @@
   city: 
   state: 
   country: United Kingdom 
-  scope: []
+  scope: 
+   - National
   sector:
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Civic Participation
+   - Finance & Investment
   size: 
   type:
   authors: []
   highlights: []
   learnings: []
-  duration: 
+  duration: Since February 2012
   cost:
   crowd: 
   historical_information: >
-   Launched in December 2011, Spacehive was founded by former Sunday Times 
+   Launched in February 2012, Spacehive was founded by former Sunday Times 
    journalist Chris Gourlay in response to a perceived dearth of investment and 
    creativity in public spaces.
   output: >
@@ -2365,7 +2373,8 @@
     incentives:
      - Community Building 
      - Civic Responsibility 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control: 
      - Group of Experts 
     interface:
