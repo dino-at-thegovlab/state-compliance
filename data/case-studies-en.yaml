@@ -2247,16 +2247,19 @@
   city: 
   state: 
   country: 
-  scope: []
-  sector:
+  scope: 
+   - International
+  sector: Non-profit
   thumbnail_url: 
-  focus: []
+  focus:
+   - Civic Participation
+   - Urban Development 
   size: 
   type:
   authors: []
   highlights: []
   learnings: []
-  duration: 
+  duration: Since September 2008
   cost:
   crowd: 
   historical_information: >
@@ -2288,7 +2291,8 @@
     incentives:
      - Community Building 
      - Civic Responsibility 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - You 
      - Voting 
@@ -2922,15 +2926,21 @@
    Scripts, Qualcomm Tricorder XPRIZE and the Nokia Sensing XPRIZE. Already awarded 
    XPRIZEs include the Ansari XPRIZE, Progressive Insurance Automotive XPRIZE, Wendy 
    Schmidt Oil Cleanup XCHALLENGE and the Northrop Grumman Lunar Lander XCHALLENGE.
-  city: 
-  state: 
-  country: 
-  scope: []
-  sector:
+  city: Culver City 
+  state: CA
+  country: USA
+  scope:
+   - International 
+  sector: Non-profit
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Data/Technology
+   - Economic Development
+   - Education
+   - Environment & Weather
+   - Scientific Research 
   size: 
-  duration: 
+  duration: Since 1996
   type:
   authors: []
   highlights: []
@@ -2972,7 +2982,8 @@
      - Skill Development
      - Public Recognition 
      - Competition 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - You 
      - Group of Experts
