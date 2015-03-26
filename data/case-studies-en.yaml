@@ -1819,6 +1819,166 @@
     interface:
      - Website 
   validation:
+
+- title: Patient Opinion 
+  url: https://www.patientopinion.org.uk/
+  description: >
+   Patient Opinion is a national feedback website for the UK National Health Service. 
+   Users can rate their health service experience, view other ratings, and engage 
+   directly with other patients and health providers.
+   <br/>
+   As part of the platform, consumers of health care services share stories from their 
+   experiences with service care providers. These stories are then widely accessible 
+   forms of open data that others may use to make more informed decisions about their health providers.
+   <br/>
+   Patient Opinion is one of the only patient healthcare feedback services for a national healthcare service.
+  city: 
+  state: 
+  country: UK
+  scope: 
+   - National
+  sector: Non-profit
+  thumbnail_url: 
+  focus: 
+   - Healthcare
+  size: 
+  type:
+  authors: []
+  highlights: []
+  learnings: []
+  duration: Since 2005
+  cost:
+  crowd: 
+  historical_information: >
+   Patient Opinion was founded in 2005 by Paul Hodgkin, a GP in Sheffield, who wanted 
+   to make the wisdom of patients available to the NHS. The initial phase of 
+   PatientOpinion was funded by the Department of Health and South Yorkshire Strategic 
+   Health Authority. Since 2006, Patient Opinion has been funded through subscriptions 
+   and sales to trusts, commissioners and others. Over 600 organizations subscribe or 
+   are registered with Patient Opinion.
+   <br/>
+   In 2012 they established Patient Opinion Australia and in 2014, Patient Opinion Ireland. 
+  output: >
+   Over 108,900 stories have been submitted to Patient Opinion, with over 
+   3,900 healthcare staff actively reviewing these submissions. About 59% of stories 
+   received a response, and only 6% responses to concerns led to change.
+  impact_today: 
+  impact_longer_term:
+  challenges: >
+   Despite their extensive work, Patient Opinion is not integrated with government 
+   in any official capacity, diminishing its efficacy. The platform itself should 
+   look to improve its user-interface, including adding search functions and access 
+   to raw data.
+  lessons:
+  dimensions:
+    activity: 
+     - Opinions
+    incentives:
+     - Civic responsibility
+    participation: []
+    quality_control:
+     - Voting
+     - Rating 
+     - Peer-reviewed
+    interface:
+     - Website 
+  validation:  
+
+- title: Peer To Patent 
+  url: http://www.peertopatent.org/
+  description: >
+   The Peer-to-Patent project captured the importance of getting expertise and 
+   information into government to inform policymaking. Peer To Patent is the first
+   social-software project directly linked to decision-making by the federal government. 
+   It is only one approach in the potential evolution toward more open and 
+   collaborative institutions.
+   <br/>
+   Peer To Patent is a historic initiative by the United States Patent and Trademark 
+   Office (USPTO) that opens the patent examination process to public participation for 
+   the first time. Peer to Patent is an online system that aims to improve the quality of 
+   issued patents by enabling the public to supply the USPTO with information relevant to 
+   assessing the claims of pending patent applications.
+   <br/>
+   An initial pilot examined more than 220 patent applications in the fields of software 
+   and business methods. The Peer To Patent project has issued two anniversary reports 
+   from the initial pilot and a final report from the initial pilot is pending.
+   <br/>
+   Other patent offices involved in pilot programs include IP Australia,the Japan Patent 
+   Office, and the Korean Intellectual Property Office.The UK Intellectual Property Office 
+   announced on November 4, 2010, that it would commence a pilot in 2011 and the pilot 
+   commenced on 1 June 2011.
+  city: 
+  state: 
+  country: USA
+  scope: 
+   - National
+  sector: Government
+  thumbnail_url: 
+  focus:
+   - Civic Participation
+   - Data/Technology
+  size: 
+  type:
+  authors: []
+  highlights: []
+  learnings: []
+  duration: Since 2005
+  cost:
+  crowd: 
+  historical_information: >
+   In 2005, before Facebook and Twitter, New York Law School students and the chair
+   of the Research Network, Beth Noveck, designed and later launched Peer to Patent, 
+   the first expert network in government, which connected volunteer scientists 
+   and technologists to national patent offices to better inform how they decide 
+   who gets the twenty year grant of the monopoly right called a patent. They 
+   invented the process, technology and the policy by which a closed bureaucracy could 
+   open its doors and collaborate with knowledgeable people to do its work better. Time 
+   after time, the public was able to dig up quickly the expertise the official could
+   not find, enabling him/her to make the final determination informed by citizen 
+   participation but subject to the independent law and rules of the patent process. 
+   Despite the fact that patent practice had not changed much since Thomas Jefferson 
+   began as the first examiner in 1791, under the new Patent Act, passed with near 
+   unanimity – Peer to Patent citizen engagement, once an experimental pilot undertaken 
+   only with the applying inventor's consent – is now enshrined in law.
+  output: >
+   As of November 24, 2010, there had been 557,560 page views from 114,395 unique viewers 
+   in 173 countries or territories. More than 2, 800 people signed up to be reviewers.
+   * Peer To Patent attracted more than 2,000 peer reviewers.
+   * The first 27 office actions issued during the pilot phase showed use of Peer To 
+   Patent submitted prior art in nine rejections.
+   * On average, citizen-reviewers contributed 6 hours reviewing each patent application in the pilot.
+   * Although USPTO rules permit third-party prior art submissions on pending applications (but only 
+   before the applications have been published, or before a notice of allowance is issued, whichever 
+   comes first), the average number of prior art submissions on Peer To Patent applications was 2,000 
+   times that of standard rule-based submissions.
+   * 92% of patent examiners surveyed said they would welcome examining another application with public
+   participation, while 73% of participating examiners want to see Peer-to-Patent implemented as a regular 
+   office practice.
+   * 21% of participating examiners stated that prior art submitted by the Peer To Patent community was 
+   "inaccessible" directly to USPTO examiners.
+   * Prior art submissions by Peer-to-Patent reviewers were four times as likely to include non-patent 
+   literature (any document that is not a patent, including Web sites, journals, textbooks, and databases) 
+   as compared to prior art submissions by applicant
+  impact_today: 
+  impact_longer_term:
+  challenges: >
+   Criticism of the Peer to Patent project range from its goals to its likelihood of success. 
+   Other criticisms focus on the legal constraints and the implications for third party 
+   participants in the approval process.
+  lessons:
+  dimensions:
+    activity: 
+     - Data
+    incentives:
+     - Civic responsibility 
+     - Public Recognition
+    participation: []
+    quality_control:
+     - You 
+     - Peer-reviewed
+    interface:
+     - Website 
+  validation:  
   
 - title: PulsePoint Respond
   url: http://www.pulsepoint.org/
