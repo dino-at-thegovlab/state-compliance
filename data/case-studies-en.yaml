@@ -214,6 +214,64 @@
     - Social Media
   validation:
   
+- title: Antenna
+  url: http://www.readrboard.com/
+  description: >
+   A web annotation tool that makes it easy for people to express themselves by 
+   reacting to anything online – an article, a photo, a video, even a specific 
+   snippet from a page. This tool uses an annotation plugin which allows people 
+   to give feedback in the form of comments and reactions.
+  city: New York City 
+  state: NY
+  country: USA
+  scope: 
+   - International
+  sector: Private
+  type:
+  authors: []
+  highlights: []
+  learnings: []
+  thumbnail_url: 
+  focus:
+   - Research & Consulting
+  size: 
+  duration: Since 2011
+  cost:
+  crowd: 
+  historical_information: >
+   Co-created by Porter Bayne, Tyler Brock and Eric Chaves, Antenna aims to 
+   change the face of online conversation. After a successful beta test on news 
+   site Hypervocal and (full disclosure) Latoya Peterson’s site, Racialicious, 
+   Bayne, Brock and Chavs decided to revamp the overall design and user interface 
+   in 2012. Created around the idea that all reader engagement is preceded by some 
+   emotion or thought, the widget allows the user to express that emotion in their 
+   reaction to content on a whole page or parts of a page online, encouraging 
+   smarter use of information and participation, from shopping to public policy: 
+   for example, how do we making ratings systems more accurate and more 
+   self-descriptive (what does it mean to say a restaurant has 3 stars?).
+  output:
+  impact_today:
+  impact_longer_term:
+  challenges: >
+   The biggest challenge for Antenna (before called ReadrBoard) is distinguishing itself from all the 
+   other online user reaction tools. The developers must make the case for how 
+   Antenna provides a higher quality of participation.
+  lessons:
+  dimensions:
+    activity: 
+     - Opinions 
+    incentives:
+     - Knowledge Building/Information Sharing 
+     - Civic Responsibility 
+    participation: 
+     - Allow anyone willing to participate to do so
+    quality_control:
+     - You 
+     - Peer-reviewed 
+    interface:
+     - Website 
+  validation:
+  
 - title: BC Ideas
   url: http://www.changemakers.com/bcideas
   description: >
@@ -1978,7 +2036,59 @@
      - Peer-reviewed
     interface:
      - Website 
-  validation:  
+  validation: 
+  
+- title: PlaceSpeak
+  url: https://www.placespeak.com/
+  description: >
+   PlaceSpeak is a public consultation platform, mainly for city governments, 
+   that features a user verification system that ensures everyone taking part in a 
+   consultation project has a connection with the relevant geographic area.
+   <br/>
+   PlaceSpeak features consultation opportunities split into four central topic 
+   categories: government, private sector, community and agency. So while the platform 
+   is likely best known for its use by city governments, any member can create a public 
+   consultation entry for their organization.
+  city: 
+  state: 
+  country: 
+  scope: []
+  sector:
+  thumbnail_url: 
+  focus: []
+  size: 
+  type:
+  authors: []
+  highlights: []
+  learnings: []
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output:     
+  impact_today: 
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks 
+    incentives:
+     - Knowledge Building/Information Sharing 
+     - Skill Development
+     - Community Building 
+     - Competition 
+    participation: []
+    quality_control:
+     - Peer-reviewed
+    interface:
+     - Website 
+  validation:
+  
   
 - title: PulsePoint Respond
   url: http://www.pulsepoint.org/
@@ -2219,64 +2329,6 @@
      - Group of Experts 
     interface:
      - Mobile Application 
-  validation:
-
-- title: Antenna
-  url: http://www.readrboard.com/
-  description: >
-   A web annotation tool that makes it easy for people to express themselves by 
-   reacting to anything online – an article, a photo, a video, even a specific 
-   snippet from a page. This tool uses an annotation plugin which allows people 
-   to give feedback in the form of comments and reactions.
-  city: New York City 
-  state: NY
-  country: USA
-  scope: 
-   - International
-  sector: Private
-  type:
-  authors: []
-  highlights: []
-  learnings: []
-  thumbnail_url: 
-  focus:
-   - Research & Consulting
-  size: 
-  duration: Since 2011
-  cost:
-  crowd: 
-  historical_information: >
-   Co-created by Porter Bayne, Tyler Brock and Eric Chaves, Antenna aims to 
-   change the face of online conversation. After a successful beta test on news 
-   site Hypervocal and (full disclosure) Latoya Peterson’s site, Racialicious, 
-   Bayne, Brock and Chavs decided to revamp the overall design and user interface 
-   in 2012. Created around the idea that all reader engagement is preceded by some 
-   emotion or thought, the widget allows the user to express that emotion in their 
-   reaction to content on a whole page or parts of a page online, encouraging 
-   smarter use of information and participation, from shopping to public policy: 
-   for example, how do we making ratings systems more accurate and more 
-   self-descriptive (what does it mean to say a restaurant has 3 stars?).
-  output:
-  impact_today:
-  impact_longer_term:
-  challenges: >
-   The biggest challenge for Antenna (before called ReadrBoard) is distinguishing itself from all the 
-   other online user reaction tools. The developers must make the case for how 
-   Antenna provides a higher quality of participation.
-  lessons:
-  dimensions:
-    activity: 
-     - Opinions 
-    incentives:
-     - Knowledge Building/Information Sharing 
-     - Civic Responsibility 
-    participation: 
-     - Allow anyone willing to participate to do so
-    quality_control:
-     - You 
-     - Peer-reviewed 
-    interface:
-     - Website 
   validation:
 
 - title: Safecast 
