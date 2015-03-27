@@ -2049,11 +2049,38 @@
    categories: government, private sector, community and agency. So while the platform 
    is likely best known for its use by city governments, any member can create a public 
    consultation entry for their organization.
-  city: 
-  state: 
-  country: 
-  scope: []
-  sector:
+   <br/>
+   PlaceSpeak “advances public consultation to a whole new level by enabling evidence-based 
+   decision-making by allowing citizens to influence the process in an open, safe, secure 
+   and transparent manner.”
+   <br/>
+   PlaceSpeak requires users to create profiles with verified geographic information to ensure 
+   that they only partake in consultation opportunities relevant to them. When signing up, 
+   users have the option to receive a notification every time a new opportunity is created in their area.
+   <br/>
+   On the Explore Topics tab, a Google Map shows currently available consultation projects, which can be
+   filtered by their color-coded by their topic area. The page also has featured topics, popular topics
+   near the users location, recently added topics and a sidebar allowing users to browse by suggested topics, 
+   categories, organizations and popular tags.
+   <br/>
+   Topic pages feature customizable tabs, which can include an overview; a discussion board; resources, 
+   like instructive PDFs or links; notification board; and upcoming events. A “Connect with this topic” 
+   button appears at the top of each page. A sidebar shows the number of times the topic profile has been viewed,
+   the number of connected participants and the organization’s contact information. Since PlaceSpeak is a 
+   customizable platform, topic overviews are not uniform. Some options include links to off-site surveys or 
+   sign-up forms, media coverage of the topic or on-site polls. Each page, however, features a module at the 
+   top with a Google Map showing where the consultation is based and a bulleted list of “How you can help.”
+   <br/>
+   As a customizable platform, PlaceSpeak can, in many ways, become whatever is needed for a particular consultation 
+   project. The geographic verification system ensures that people engaging with a consultation are in fact from the 
+   relevant area.
+  city: Vancouver
+  state: BC
+  country: Canada 
+  scope: 
+   - International 
+   - Regional
+  sector: Private
   thumbnail_url: 
   focus: []
   size: 
@@ -2061,17 +2088,96 @@
   authors: []
   highlights: []
   learnings: []
-  duration: 
+  duration: Since 2010
   cost:
   crowd: 
   historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+   Founder and CEO Colleen Nystedt developed PlaceSpeak in 2010. The platform was 
+   the first location-based community consultation platform in existence.
   output:     
   impact_today: 
   impact_longer_term:
+  challenges: >
+   As of May 2013, each of PlaceSpeak’s limited consultation opportunities are based 
+   in Canada. While the site can be used for single initiatives, as a platform, a 
+   growing network of participating organizations and governments is likely necessary 
+   for the site to be valuable.
+  lessons:
+  dimensions:
+    activity: 
+     - Opinions
+     - Ideas 
+    incentives:
+     - Community Building 
+     - Civic responsibility
+    participation: 
+     - Limit participation to a defined community 
+    quality_control:
+     - You
+    interface:
+     - SMS Texts
+  validation:
+  
+- title: Propeller Health
+  url: http://propellerhealth.com/
+  description: >
+   Propeller Health is a mobile platform for respiratory health management 
+   designed to help patients and their physicians better understand and control 
+   respiratory disease to reduce preventable emergency room visits and hospitalizations.
+   <br/>
+   Propeller applies data to solve one of the most pressing public health concerns 
+   – asthma and chronic obstructive pulmonary disease (COPD) – including sharing data, 
+   putting data in the hands of patients, leveraging aggregated and anonymous data and 
+   linking health data to place. Through sensors, mobile apps and services, Propeller 
+   aims to reduce the cost of care while delivering better quality of life for individuals 
+   with chronic respiratory disease. Asthma and COPD diseases are unique in that patients 
+   carry their inhalers with them and use them at the time and place when they have symptoms. 
+   The sensor is a small device that attaches to the top of the existing inhaler and can
+   be used with both rescue and controller medications for tracking symptoms and adherence 
+   respectively. The objective data it collects, and the personalized feedback patients get
+   as a result, can help them and their physicians to better understand and manage these 
+   conditions by tracking how often they use their medication and by setting up medication 
+   reminders and alerts.
+  city: 
+  state: 
+  country: USA
+  scope: 
+   - National
+  sector: Private
+  thumbnail_url: 
+  focus:
+   - Healthcare
+  size: 
+  type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
+  duration: Since 2010
+  cost:
+  crowd: 
+  historical_information: >
+   Propeller Health was founded in 2010 by David Van Sickel, a former epidemiologist 
+   for the Center for Disease Control & Prevention. One of the first apps with 
+   FDA-clearance, Propeller is backed by The Social+Capital Partnership, California 
+   HealthCare Foundation and others. Propeller Health currently works with organizations 
+   like Dignity Health, Wyckoff Heights Medical Center, Amerigroup Florida and the City 
+   of Louisville.
+  output: >
+   “Early studies found a 50 percent reduction in the number of people with uncontrolled 
+   asthma among users of the device and app. The survey app enables providers to check 
+   in more often with their patients and may help avoid asthma-related emergency 
+   department visits or hospitalizations.”
+  impact_today:
+  impact_longer_term: >
+   People with asthma and COPD are strongly recommended to keep track of their symptoms, 
+   triggers and use of medications. However, evidence shows that remembering to update 
+   this information is tough for patients and it often becomes an inaccurate and incomplete 
+   record of their respiratory health over time. Clinical trials report improved asthma 
+   control and decline in day-to-day asthma symptoms associated with remote monitoring of inhale 
+   and bronchodilator frequency and location. Trials conclude that such system has the potential 
+   to improve the recognition and treatment of poorly controlled asthma and it could also represent 
+   an important improvement in asthma management, epidemiological research, and public health 
+   surveillance.
   challenges:
   lessons:
   dimensions:
@@ -2079,16 +2185,13 @@
      - Tasks 
     incentives:
      - Knowledge Building/Information Sharing 
-     - Skill Development
-     - Community Building 
-     - Competition 
-    participation: []
+    participation: 
+     - Limit participation to a defined community 
     quality_control:
      - Peer-reviewed
     interface:
-     - Website 
+     - Mobile Application
   validation:
-  
   
 - title: PulsePoint Respond
   url: http://www.pulsepoint.org/
