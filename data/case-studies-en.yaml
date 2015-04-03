@@ -2721,13 +2721,17 @@
    previous activity. A user gains more rights as their reputation builds. Rights 
    include deleting, editing, and running for moderator, an elected individual who 
    has increased access to managing a Q&A site.
-  city: 
+  city: Internet
   state: 
   country: 
-  scope: []
-  sector:
+  scope:
+   - International 
+  sector: Private
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Data/Technology
+   - Education
+   - Research & Consulting  
   size: 
   type:
   authors: []
@@ -2784,7 +2788,8 @@
      - Knowledge Building/Information Sharing 
      - Community Building 
      - Competition 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - Group of Experts 
      - Voting 
@@ -2800,13 +2805,15 @@
    The TED Open Translation Project aims to make TED's full video library accessible 
    to the non-English speaking world, by providing access to subtitles and 
    interactive transcripts on every single video.
-  city: 
+  city: Internet 
   state: 
   country: 
-  scope: []
-  sector:
+  scope: 
+   - International 
+  sector: Non-profit
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Education
   size: 
   duration: 
   cost:
@@ -2843,7 +2850,8 @@
      - Knowledge Building/Information Sharing 
      - Community Building 
      - Public Recognition 
-    participation: []
+    participation: 
+     - Limit participation to a defined community
     quality_control:
      - Peer-reviewed
     interface:
@@ -3179,8 +3187,9 @@
   city: 
   state: 
   country: United States 
-  scope: []
-  sector:
+  scope: 
+   - National
+  sector: Government
   thumbnail_url: 
   type:
   authors: []
@@ -3218,7 +3227,8 @@
      - Ideas
     incentives:
      - Civic Responsibility 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - Group of Experts
     interface:
