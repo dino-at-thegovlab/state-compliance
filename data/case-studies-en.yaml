@@ -1751,16 +1751,20 @@
   city: New York City 
   state: NY
   country: USA
-  scope: []
+  scope:
+   - Local
   sector: Government 
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Civic Participation
+   - Finance & Investment
+   - Transparency & Accountability
   size: 
   type:
   authors: []
   highlights: []
   learnings: []
-  duration: 
+  duration: Since 2011
   cost:
   crowd: 
   historical_information: >
@@ -1793,7 +1797,8 @@
      - Skill Development
      - Community Building 
      - Civic Responsibility 
-    participation: []
+    participation: 
+     - Limit participation to a defined community
     quality_control:
      - Voting 
     interface:
