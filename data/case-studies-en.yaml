@@ -2951,19 +2951,22 @@
    having a sense of community, the learning from the process and just for the fun 
    of it. Having people participating with different motivations is important for 
    the resilience of the platform.
-  city: 
+  city: Internet
   state: 
   country: 
-  scope: []
-  sector:
+  scope:
+   - International
+  sector: Private
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Data/Technology
+   - Scientific Research 
   size: 
   type:
   authors: []
   highlights: []
   learnings: []
-  duration: 
+  duration: Since 2001
   cost:
   crowd: 
   historical_information: >
@@ -3002,7 +3005,8 @@
      - Skill Development
      - Community Building 
      - Competition 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - Peer-reviewed
     interface:
@@ -3078,10 +3082,12 @@
    wide variety of data streams to visually present location-based information.
    It was originally developed in response to post-election violence in Kenya in 
    2008 and has since been used for a wide variety of humanitarian and civic ends.
-  scope: []
+  scope: 
+   - International 
   sector: Nonprofit
   thumbnail_url: 
   focus:
+   - Civic Innovation
    - Civic participation
    - Geospatial and Mapping
   city:
@@ -3092,7 +3098,7 @@
   highlights: []
   learnings: []
   size:
-  duration:
+  duration: Since 2008
   cost:
   historical_information: >
    Ushahidi, which means “testimony” in Swahili, was originally developed by an 
@@ -3121,7 +3127,8 @@
      - Knowledge Building/Information Sharing
      - Community Building
      - Civic Responsibility
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - Group of Experts
      - Peer-reviewed
@@ -3140,10 +3147,13 @@
   city: 
   state: 
   country: United States
-  scope: []
-  sector:
+  scope: 
+   - National
+  sector: Government
   thumbnail_url: 
-  focus: []
+  focus: 
+   - Civic Participation
+   - Governance
   size: 
   duration: 
   cost:
@@ -3167,7 +3177,8 @@
      - Ideas
     incentives:
      - Civic Responsibility 
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
     - Group of Experts
     - Voting
