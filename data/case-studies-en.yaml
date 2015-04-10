@@ -466,7 +466,7 @@
   validation:
 
 - title: Code for Philly 
-  url: 
+  url: https://codeforphilly.org/
   description: >
    Code for Philly is an online community in the city of Philadelphia, 
    Pennsylvania that seeks to modernize the city through use of weekly 
@@ -480,12 +480,15 @@
   authors: []
   highlights: []
   learnings: []
-  focus: [] 
+  focus: 
+   - Civic Innovation
+   - Civic Participation
+   - Data/Technology
   city: Philadelphia
   state: Pennsylvania
   country: USA
   size:
-  duration:
+  duration: Since 2012
   cost:
   historical_information: >
   output:
@@ -506,7 +509,8 @@
      - Ideas
     incentives:
      - Civic Responsibility
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control: []
     interface:
      - Website
@@ -847,20 +851,23 @@
   validation:
   
 - title: GovTogetherBC
-  url: 
+  url: http://www2.gov.bc.ca/govtogetherbc/index.page
   description: >
    GovTogetherBC provides citizens with a central location to find government 
    consultation and community volunteering opportunities and get directly 
    involved. Beyond simplicity and ease of use, the site promotes greater government 
    transparency by publishing the full results of completed public consultation projects.
-  scope: []
+  scope: 
+   - Regional
   sector: Government
   thumbnail_url: 
   crowd:
-  focus: [] 
+  focus: 
+   - Civic Participation
+   - Governance
   city:
-  state:
-  country: 
+  state: British Columbia 
+  country: Canada
   size:
   type: Case-Studies 
   authors: []
@@ -891,7 +898,8 @@
      - Skill Development
      - Community Building
      - Civic Responsibility
-    participation: []
+    participation: 
+     - Allow anyone willing to participate to do so
     quality_control:
      - Rating
     interface:
