@@ -3259,16 +3259,24 @@
      - Website 
   validation:  
   
-- title: ICT4Gov
+- title: World Bank ICT4Gov
   url: http://beta.ict4gov.org/
-  description:
+  description: The World Bank’s ICT4Gov initiative is a knowledge base for government 
+  practitioners to share information and resources to encourage use of Information and 
+  Communication Technologies (ICT) for better governance. The World Bank Institute is 
+  facilitating such initiatives in a number of pilot participatory budgeting projects in 
+  the Dominican Republic and the Democratic Republic of Congo. 
   city: 
   state: 
   country: 
-  scope: []
-  sector:
+  scope:
+   - Regional
+  sector: Non-profit
   thumbnail_url: 
-  focus: []
+  focus:
+   - Civic Participation
+   - Governance
+   - Transparency & Accountability 
   size: 
   type: Case-Studies
   authors: []
@@ -3278,28 +3286,61 @@
   cost:
   crowd: 
   historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+   The Dominican Republic is one of the few countries in the world to have 
+   institutionalized through its Constitution participatory budgeting (PB), a 
+   process in which non-elected citizens participate in the decision-making process 
+   of budget allocation. The ICT4Gov program promotes the use of ICT as a means 
+   to reinforce the inclusiveness and transparency of participatory budgeting processes 
+   in the country, starting with two pilots in the Municipality of Bani and Jarabacoa. 
+   Furthermore, working central government agencies and a broad coalition of national 
+   stakeholders, ICT4Gov is currently developing a mobile enabled citizen feedback 
+   mechanism to promote accountability and better delivery of public services. 
   output:     
   impact_today: 
+   In Democratic Republic of Congo, as of 2012, over 250,000 text messages have been sent 
+   throughout the different stages of this project. Since the beginning of the program, the provincial 
+   Kivu government reports an increasing capacity of the local government to better allocate resources, 
+   and communities involved have already seen an increase in the transfer of funds from the provincial 
+   to the local level. The preliminary results of an external evaluation suggest a reduction of tax 
+   evasion at the local level, with citizens more willing to pay taxes as they link government spending 
+   to improvement in the delivery of services. For the first time, communities such as Ibanda have gone 
+   from not having any investment budget to having 40% of their budget devoted to investments. The increase 
+   in the transfer of funds from the provincial to the local level has benefited communities, which now 
+   have more resources to deliver public services to the poor. For instance, the process has enabled 
+   the repair of 54 classrooms and a bridge in Luhindja, the founding of a health center and repair of 
+   a sewage system in Bagira, and the construction of a water fountain, as well as toilets in the local 
+   markets of Ibanda.To enhance these efforts, ICT4Gov is using mobile phones for four purposes. The 
+   first is to invite citizens to the participatory budgeting assemblies through geo-targeted SMS 
+   messages. These messages, reaching all the phones receiving signal from a particular tower, announce 
+   the date, time and location of the assemblies. Mobile phones are also being used for voting, allowing
+   citizens to text a number associates with a particular project to identify which of the priorities they
+   would like to see addressed in their community. When they have reached an agreement the local 
+   government devotes a percentage of the local investment budget to the project selected by the citizens.
+   Additionally, mobile phones are being used to announce the voted decision, making the process more 
+   transparent and inclusive than ever before. Finally, mobile phones are being used to ask citizens 
+   about the projects that had been chosen. Through text messages, citizens are able to offer feedback 
+   and monitor the projects. By instituting a participatory budgeting initiative that uses simple 
+   SMS, rather than more advanced computing technologies, the World Bank and the Republic of Congo 
+   have been able to engage a larger portion of the population—women in particular. 
   impact_longer_term:
   challenges:
   lessons:
   dimensions:
     activity: 
-     - Tasks 
+     - Opinions
     incentives:
      - Knowledge Building/Information Sharing 
-     - Skill Development
      - Community Building 
-     - Competition 
-    participation: []
+     - Civic responsibility 
+    participation: 
+     - Limit participation to a defined community 
     quality_control:
-     - Peer-reviewed
+     - Group of Experts
+     - Voting
     interface:
+     - Mobile Application
      - Website 
+     - SMS Texts
   validation:
 
 - title: XPRIZE
