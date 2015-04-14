@@ -3259,6 +3259,49 @@
      - Website 
   validation:  
   
+- title: ICT4Gov
+  url: http://beta.ict4gov.org/
+  description:
+  city: 
+  state: 
+  country: 
+  scope: []
+  sector:
+  thumbnail_url: 
+  focus: []
+  size: 
+  type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output:     
+  impact_today: 
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks 
+    incentives:
+     - Knowledge Building/Information Sharing 
+     - Skill Development
+     - Community Building 
+     - Competition 
+    participation: []
+    quality_control:
+     - Peer-reviewed
+    interface:
+     - Website 
+  validation:
+
 - title: XPRIZE
   url: http://www.xprize.org/
   description: >
