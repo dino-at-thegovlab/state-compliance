@@ -1686,49 +1686,72 @@
 - title: OpenIDEO  
   url: https://openideo.com/
   description: >
-   OpenIDEO is an online platform developed by the design and innovation firm, 
-   IDEO, to cultivate creative solutions to pressing social problems. 
+   OpenIDEO is an online platform for open innovation that enables people everywhere
+   to use IDEO's human-centered design methodology to address pressing social and 
+   environmental issues. Through sponsored challenges, OpenIDEO enlists a diverse 
+   global community in a structured, collaborative process to generate and develop 
+   innovative solutions to the world’s toughest problems. Since 2010, OpenIDEO has 
+   run 30 online challenges that have engaged over 80,000 people from more than 170 
+   countries in designing solutions to issues like youth employment, renewable energy, 
+   and women’s safety in urban slums.
    <br/>
-   OpenIDEO hosts specific challenges by joining with a partner organization 
-   to pose a “big question” to the greater OpenIDEO community. The community 
-   then works together to research potential solutions to the problem, 
-   collaborate on ideas, and evaluate the solution to the problem that has 
-   been developed through this community process.
-  city: 
-  state: 
-  country: 
+   OpenIDEO challenges typically last three months. The process starts with a 
+   Research phase, which is an opportunity for the community to share stories, 
+   insights and success stories in order to build empathy and more deeply understand 
+   the challenge topic before diving into ideas submission. Based on insights gathered
+   in the Research phase, the challenge moves into the Ideas phase, where the OpenIDEO 
+   community shares ideas representing new approaches and solutions to the issue, and 
+   participants work together to build and improve these ideas. At the end of the Ideas 
+   phase, a shortlist of 20-25 ideas that have shown the most potential for impact is 
+   selected to move to the Refinement phase, where participants focus on prototyping 
+   and testing ideas with end users, getting feedback, and refining their ideas. 
+   Ultimately, approximately five Top Ideas from the Challenge are announced and 
+   featured on the platform. These ideas may be taken forward by anyone in the OpenIDEO 
+   community, or may receive various types of implementation support from OpenIDEO and 
+   the challenge sponsor.
+  city: San Francisco 
+  state: CA
+  country: USA
   scope:
    - International 
   sector: Private 
   thumbnail_url: 
   focus:
-   - Knowledge Building/Information Sharing
-   - Community Building 
-   - Civic responsibility 
-   - Altruistic incentive
-   - Personal satisfaction
-  size: 80,000 community members 
+   - Civic Innovation
+   - Civic Participation
+  size: More than 80,000 community members 
   duration: Since August 2010
   type: Case-Studies 
   authors: []
   highlights: []
   learnings: []
-  cost:
-  crowd: 
+  cost: $1,000 USD/year +
+  crowd: >
+   OpenIDEO represents an open and ever-expanding global community of collaborators, 
+   now comprised of more than 80,000 individuals from 170 countries, including 
+   designers, social entrepreneurs, students, researchers, and business professionals. 
+   Many OpenIDEO users participate regularly in multiple challenges, but each challenge 
+   also attracts new users and represents a distinct collection of community members who 
+   work together to collectively design solutions. 
   historical_information: >
    Launched in August 2010, OpenIDEO is an open innovation platform that allows 
    IDEO to gain a broader perspective and reach by relying on community 
    participation. 
+   <br/>
+   OpenIDEO’s approach to social innovation is modeled on IDEO’s well-known 
+   human-centered design methodology, a problem-solving approach that places 
+   the end user at the center of the design process and encourages a deep 
+   understanding of context, multidisciplinary perspectives, and multiple iterations
+   and prototypes. Consistently ranked as one of the most innovative companies in
+   the world, IDEO has used this design thinking approach to tackle thousands of 
+   complex issues for clients across all industries and sectors, leading to the 
+   innovative design of new products, services and systems. Modeling its collaborative 
+   online process on the stages of design thinking, OpenIDEO has been able to leverage
+   the vast experience, perspectives and talent of thousands of people all over the 
+   world in solving pressing social issues by equipping participants with this powerful tool.
   output: >
-   OpenIDEO claims their website has proud
-   OpenIDEO claims their application results in a number of different types of 
-   output that aid in social change. Through feedback they have received from 
-   their community, they argue that their product results in mindset change, or 
-   an increased awareness about a topic or idea, individual action, such as 
-   registering to donate bone marrow, community action, such as the creation of a 
-   group or project from the creation of an idea, and institutional action, wherein 
-   ideas are implemented through coordinating with institutions, such as Amnesty 
-   International.
+   30 challenges, 80,000+ people engaged representing 170 countries, 6,600 ideas submitted, 
+   300 projects in development, 900 global teams formed.
   impact_today:
   impact_longer_term:
   challenges:
@@ -1738,12 +1761,19 @@
      - Tasks 
      - Ideas 
     incentives:
+     - Financial Incentives
+     - Knowledge Building/Information Sharing
+     - Skill Development
      - Community Building 
-     - Civic Responsibility 
-     - Competition 
+     - Altruistic incentive
+     - Recreational incentive
+     - Network Building 
+     - Identity and Portfolio building
+     - Personal satisfaction
     participation: 
      - Allow anyone willing to participate to do so
     quality_control:
+     - You
      - Rating 
      - Peer-reviewed 
     interface:
