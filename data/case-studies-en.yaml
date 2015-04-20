@@ -3186,7 +3186,7 @@
   description: >
    We the People is an online forum through Whitehouse.gov that allows citizens to 
    start an online petition, gather signatures, and send their petition to the federal 
-   government for review and an official response.
+   government for review and issue an official response.
   city: 
   state: 
   country: United States
@@ -3198,7 +3198,7 @@
    - Civic Participation
    - Governance
   size: 
-  duration: 
+  duration: Since September 22, 2011
   cost:
   type:
   authors: []
@@ -3206,12 +3206,20 @@
   learnings: []
   crowd: 
   historical_information: >
+   We the People was launched on Sepetember 22, 2011 by the Obama administration. 
+   The platform was designed to fulfil the 
    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
    in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
    in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
    In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  output:
-  impact_today:
+  output: >
+   As of September 2011, the platform had more that 15 million users. More than 360,000
+   petitions have been created which have gather more thatn 21 million signatures. 
+   The petition with most signatures gathered 367,180 backers. 
+  impact_today: >
+   The Unlocking Consumer Choice and Wireless Act was the result of a petition posted on the
+   We the People platform. This act makes legal to unlock a phone in order to decide which carier 
+   best suits the consumers needs. 
   impact_longer_term:
   challenges:
   lessons:
