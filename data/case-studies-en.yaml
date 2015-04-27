@@ -2369,6 +2369,77 @@
      - Mobile Application
   validation:
   
+- title: Public Lab 
+  url: http://publiclab.org/
+  description: >
+   The Public Lab for Open Technology and Science (Public Lab) is an organization 
+   that is focused on “civic science” through shared methods, hardware, and software 
+   for use in experiments in different communities. 
+   <br/>
+   Public lab is an online community where members participate in “civic science” 
+   experiments through the creation of different scientific tools, as well as the 
+   reporting back of the scientific data collected using those tools. The tools 
+   include both hardware and software. The Public Lab organization also provides 
+   support for community members through the website.
+   <br/>
+   There are various Public Lab projects being conducted at any given time. Current 
+   tools include: indoor air quality mapping, balloon and kite mapping, home testing 
+   for endocrine disruptors, balloon telemetry, and spectrometry.
+   <br/>
+   Public Lab has used Kickstarter extensively to fund the organization as well as 
+   specific projects. If donors contribute a specific amount to one of Public Lab’s 
+   Kickstarter campaigns, they receive a kit providing them with all the materials 
+   to build a specific piece of equipment to participate in the project. The kits are 
+   designed to include materials that are readily available and easy to assemble, so 
+   that participants who do not wish to contribute and receive the kit can still 
+   build the tools to participate in the project. Additionally, Public Lab is a 501c3 
+   non-profit, meaning that it can receive tax-deductible donations. 
+  city: 
+  state: 
+  country: 
+  scope: []
+  sector:
+  thumbnail_url: 
+  focus: []
+  size: 
+  type: Case-Studies
+  authors: []
+  highlights: []
+  learnings: []
+  duration: 
+  cost:
+  crowd: 
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  output: >
+   In addition to the creation of both hardware and software, Public Lab allows 
+   members to submit their data collection back to Public Lab creating a source 
+   of research for scientists and scholars. 
+  impact_today: >
+   Public Lab has been at the forefront of promoting the idea of civic science. 
+   They currently have four local chapters and are conducting six experiments 
+   where participants are conducting open-source research.
+  impact_longer_term:
+  challenges:
+  lessons:
+  dimensions:
+    activity: 
+     - Tasks 
+    incentives:
+     - Knowledge Building/Information Sharing 
+     - Skill Development
+     - Community Building 
+     - Competition 
+    participation: []
+    quality_control:
+     - Peer-reviewed
+    interface:
+     - Website 
+  validation:
+
 - title: PulsePoint Respond
   url: http://www.pulsepoint.org/
   description: >
