@@ -64,9 +64,7 @@ def Main():
 	with open('site/js/main.js', 'w') as f:
 		f.write(js.encode('utf8'))
 		f.close()
-	create_csv()
-
-
+	#create_csv()
 
 def dimensions_validated():
 	categories = []
